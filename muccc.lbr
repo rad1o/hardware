@@ -2177,6 +2177,31 @@
 <rectangle x1="-5.635" y1="7" x2="-5.365" y2="8" layer="51"/>
 <rectangle x1="-6.135" y1="7" x2="-5.865" y2="8" layer="51"/>
 </package>
+<package name="LP0603">
+<smd name="2" x="0.625" y="-0.35" dx="0.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="0.625" y="0.35" dx="0.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="-0.625" y="0.35" dx="0.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-0.625" y="-0.35" dx="0.4" dy="0.5" layer="1" rot="R90"/>
+<wire x1="-0.8" y1="0.45" x2="0.8" y2="0.45" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.45" x2="0.8" y2="-0.45" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.45" x2="-0.8" y2="-0.45" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.45" x2="-0.8" y2="0.45" width="0.127" layer="21"/>
+<text x="-1.5" y="0.9" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.65" y="-1.55" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="HT800">
+<smd name="G" x="0" y="0" dx="1.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="IN" x="-0.85" y="0" dx="0.5" dy="0.8" layer="1" rot="R180"/>
+<smd name="OUT" x="0.85" y="0" dx="0.5" dy="0.8" layer="1" rot="R180"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
+<text x="-1.55" y="1.05" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.55" y="-1.7" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="HOCHPASS">
+</package>
 </packages>
 <symbols>
 <symbol name="MAX5864ETM+">
@@ -2458,6 +2483,36 @@
 <wire x1="-43.18" y1="-43.18" x2="-43.18" y2="43.18" width="0.254" layer="94"/>
 <text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LOWPASS">
+<pin name="IN" x="-15.24" y="0" length="middle"/>
+<pin name="OUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="G" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="G2" x="0" y="12.7" length="middle" rot="R270"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="4.064" x2="-5.08" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="4.064" x2="-4.064" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="4.064" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="HIGHPASS">
+<pin name="IN" x="-15.24" y="0" length="middle"/>
+<pin name="OUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="G" x="0" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2778,6 +2833,43 @@
 <connect gate="G$1" pin="VCCI01A" pad="51"/>
 <connect gate="G$1" pin="VCCI02" pad="88"/>
 <connect gate="G$1" pin="VCCI02A" pad="98"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP0603LOWPASS" prefix="FL" uservalue="yes">
+<description>AVX LP0603 LGA lowpass Filter</description>
+<gates>
+<gate name="G$1" symbol="LOWPASS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LP0603">
+<connects>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="G2" pad="4"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HT800HIGHPASS" prefix="FL" uservalue="yes">
+<description>TDK DEA162400 Highpass HT800 Case</description>
+<gates>
+<gate name="G$1" symbol="HIGHPASS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HT800">
+<connects>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
 </connects>
 <technologies>
 <technology name=""/>
