@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2250,18 +2250,6 @@
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
-<package name="CMC0603">
-<smd name="2" x="-0.655" y="0.275" dx="0.58" dy="0.3" layer="1"/>
-<smd name="3" x="-0.655" y="-0.275" dx="0.58" dy="0.3" layer="1"/>
-<smd name="4" x="0.655" y="-0.275" dx="0.58" dy="0.3" layer="1" rot="R180"/>
-<smd name="1" x="0.655" y="0.275" dx="0.58" dy="0.3" layer="1" rot="R180"/>
-<wire x1="-0.76" y1="0.38" x2="-0.76" y2="-0.38" width="0.127" layer="21"/>
-<wire x1="-0.76" y1="-0.38" x2="0.76" y2="-0.38" width="0.127" layer="21"/>
-<wire x1="0.76" y1="-0.38" x2="0.76" y2="0.38" width="0.127" layer="21"/>
-<wire x1="0.76" y1="0.38" x2="-0.76" y2="0.38" width="0.127" layer="21"/>
-<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-2" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="MAX5864ETM+">
@@ -2420,17 +2408,21 @@
 <text x="-5.6642" y="-39.1414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="MAX2616ETA+T">
-<pin name="RFIN" x="-20.32" y="5.08" direction="in"/>
-<pin name="EN/RBIAS" x="20.32" y="0" direction="pas" rot="R180"/>
-<pin name="VCC" x="-20.32" y="0" direction="pwr"/>
-<pin name="RFOUT" x="20.32" y="5.08" direction="out" rot="R180"/>
-<pin name="GND" x="-20.32" y="-2.54" direction="pwr"/>
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.1524" layer="94"/>
-<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-5.6642" y="-8.6614" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<pin name="GND_2" x="-20.32" y="5.08" direction="pwr"/>
+<pin name="RFIN" x="-20.32" y="2.54" direction="in"/>
+<pin name="GND_3" x="-20.32" y="0" direction="pwr"/>
+<pin name="EN/RBIAS" x="-20.32" y="-2.54" direction="pas"/>
+<pin name="VCC" x="20.32" y="-5.08" direction="pwr" rot="R180"/>
+<pin name="GND_4" x="20.32" y="-2.54" direction="pwr" rot="R180"/>
+<pin name="RFOUT" x="20.32" y="0" direction="out" rot="R180"/>
+<pin name="GND" x="20.32" y="2.54" direction="pwr" rot="R180"/>
+<pin name="9" x="20.32" y="5.08" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<text x="-4.7244" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-5.6642" y="-13.7414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="XC2C64A-100">
 <pin name="B2F1M12" x="-48.26" y="30.48" length="middle"/>
@@ -2589,16 +2581,16 @@
 <symbol name="LTC5510">
 <pin name="TEMP" x="-2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="IN+" x="-20.32" y="5.08" length="middle"/>
-<pin name="IN-" x="-20.32" y="0" length="middle"/>
+<pin name="IN-" x="-20.32" y="2.54" length="middle"/>
 <pin name="LGND" x="7.62" y="-15.24" length="middle" rot="R90"/>
 <pin name="VCC1" x="-12.7" y="-15.24" length="middle" rot="R90"/>
 <pin name="VCC2" x="-10.16" y="-15.24" length="middle" rot="R90"/>
 <pin name="I_ADJ" x="2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="EN" x="-5.08" y="-15.24" length="middle" rot="R90"/>
 <pin name="GND" x="10.16" y="-15.24" length="middle" rot="R90"/>
-<pin name="OUT-" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="OUT-" x="20.32" y="2.54" length="middle" rot="R180"/>
 <pin name="OUT+" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="LO-" x="2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="LO-" x="0" y="12.7" length="middle" rot="R270"/>
 <pin name="LO+" x="-2.54" y="12.7" length="middle" rot="R270"/>
 <pin name="TP" x="12.7" y="-15.24" length="middle" rot="R90"/>
 <wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
@@ -2614,20 +2606,6 @@
 <rectangle x1="-1.016" y1="-3.556" x2="1.016" y2="3.556" layer="94"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-<symbol name="CMC">
-<text x="-4.0386" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<rectangle x1="-3.556" y1="-3.556" x2="-1.524" y2="3.556" layer="94"/>
-<pin name="2" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="1" x="-2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<text x="5.842" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<rectangle x1="1.524" y1="-3.556" x2="3.556" y2="3.556" layer="94"/>
-<pin name="3" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="4" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<circle x="5.08" y="-2.54" radius="0.254" width="0.508" layer="94"/>
-<circle x="-5.08" y="-2.54" radius="0.254" width="0.508" layer="94"/>
-<wire x1="0.254" y1="-2.54" x2="0.254" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.254" y1="2.54" x2="-0.254" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2824,8 +2802,12 @@
 <devices>
 <device name="" package="21-0174B">
 <connects>
+<connect gate="A" pin="9" pad="EP"/>
 <connect gate="A" pin="EN/RBIAS" pad="4"/>
-<connect gate="A" pin="GND" pad="1 3 6 8 EP"/>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="GND_2" pad="3"/>
+<connect gate="A" pin="GND_3" pad="6"/>
+<connect gate="A" pin="GND_4" pad="8"/>
 <connect gate="A" pin="RFIN" pad="2"/>
 <connect gate="A" pin="RFOUT" pad="7"/>
 <connect gate="A" pin="VCC" pad="5"/>
@@ -3048,25 +3030,6 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CMCHOKE" prefix="L" uservalue="yes">
-<description>Common Mode Choke 0603</description>
-<gates>
-<gate name="G$1" symbol="CMC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CMC0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
