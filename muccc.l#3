@@ -2259,6 +2259,8 @@
 <wire x1="-0.76" y1="-0.38" x2="0.76" y2="-0.38" width="0.127" layer="21"/>
 <wire x1="0.76" y1="-0.38" x2="0.76" y2="0.38" width="0.127" layer="21"/>
 <wire x1="0.76" y1="0.38" x2="-0.76" y2="0.38" width="0.127" layer="21"/>
+<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

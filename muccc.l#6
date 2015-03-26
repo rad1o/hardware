@@ -2603,6 +2603,8 @@
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
+<symbol name="CMC">
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX5864ETM+" prefix="IC" uservalue="yes">
