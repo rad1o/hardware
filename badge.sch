@@ -7659,6 +7659,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="VCC">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AGND" prefix="AGND">
@@ -7678,6 +7684,19 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VDD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -12614,6 +12633,21 @@ type RDH, grid 15 mm</description>
 <part name="U$10" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="VDD17" library="supply1" deviceset="VDD" device=""/>
 <part name="AGND34" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND36" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND37" library="supply1" deviceset="AGND" device=""/>
+<part name="P+1" library="supply1" deviceset="VCC" device=""/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="AGND38" library="supply1" deviceset="AGND" device=""/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="R16" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="AGND39" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND40" library="supply1" deviceset="AGND" device=""/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="AGND41" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12949,6 +12983,26 @@ type RDH, grid 15 mm</description>
 </sheet>
 <sheet>
 <plain>
+<wire x1="27.94" y1="170.18" x2="27.94" y2="121.92" width="1.016" layer="97" style="shortdash"/>
+<wire x1="27.94" y1="121.92" x2="106.68" y2="121.92" width="1.016" layer="97" style="shortdash"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="170.18" width="1.016" layer="97" style="shortdash"/>
+<wire x1="106.68" y1="170.18" x2="27.94" y2="170.18" width="1.016" layer="97" style="shortdash"/>
+<wire x1="127" y1="170.18" x2="127" y2="119.38" width="1.016" layer="97" style="shortdash"/>
+<wire x1="127" y1="119.38" x2="200.66" y2="119.38" width="1.016" layer="97" style="shortdash"/>
+<wire x1="200.66" y1="119.38" x2="200.66" y2="170.18" width="1.016" layer="97" style="shortdash"/>
+<wire x1="200.66" y1="170.18" x2="127" y2="170.18" width="1.016" layer="97" style="shortdash"/>
+<wire x1="27.94" y1="99.06" x2="27.94" y2="48.26" width="1.016" layer="97" style="shortdash"/>
+<wire x1="27.94" y1="48.26" x2="111.76" y2="48.26" width="1.016" layer="97" style="shortdash"/>
+<wire x1="111.76" y1="48.26" x2="111.76" y2="99.06" width="1.016" layer="97" style="shortdash"/>
+<wire x1="111.76" y1="99.06" x2="27.94" y2="99.06" width="1.016" layer="97" style="shortdash"/>
+<wire x1="129.54" y1="99.06" x2="129.54" y2="45.72" width="1.016" layer="97" style="shortdash"/>
+<wire x1="129.54" y1="45.72" x2="205.74" y2="45.72" width="1.016" layer="97" style="shortdash"/>
+<wire x1="205.74" y1="45.72" x2="205.74" y2="99.06" width="1.016" layer="97" style="shortdash"/>
+<wire x1="205.74" y1="99.06" x2="129.54" y2="99.06" width="1.016" layer="97" style="shortdash"/>
+<text x="45.72" y="157.48" size="2.54" layer="97">RF-switches</text>
+<text x="137.16" y="165.1" size="2.54" layer="97">mixer</text>
+<text x="40.64" y="91.44" size="2.54" layer="97">synthesizer</text>
+<text x="144.78" y="91.44" size="2.54" layer="97">amplifiers</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -12957,28 +13011,28 @@ type RDH, grid 15 mm</description>
 <busses>
 </busses>
 <nets>
-<net name="SPI_CLK" class="0">
+<net name="SYNT_SPI_CLK" class="0">
 <segment>
-<wire x1="55.88" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
-<label x="50.8" y="114.3" size="1.778" layer="95" rot="MR0"/>
+<wire x1="66.04" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
+<label x="60.96" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_DATA" class="0">
+<net name="SYNT_SPI_DATA" class="0">
 <segment>
-<wire x1="55.88" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<label x="50.8" y="111.76" size="1.778" layer="95" rot="MR0"/>
+<wire x1="66.04" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="60.96" y="81.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_LE" class="0">
+<net name="SYNT_SPI_LE" class="0">
 <segment>
-<wire x1="55.88" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
-<label x="50.8" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<wire x1="66.04" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="60.96" y="78.74" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SYNT_CE" class="0">
+<net name="SYNT_SYNT_CE" class="0">
 <segment>
-<wire x1="55.88" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
-<label x="50.8" y="106.68" size="1.778" layer="95" rot="MR0"/>
+<wire x1="66.04" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<label x="60.96" y="76.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="TX_RX" class="0">
@@ -13003,6 +13057,24 @@ type RDH, grid 15 mm</description>
 <segment>
 <wire x1="76.2" y1="137.16" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
 <label x="76.2" y="137.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="TX_AMP" class="0">
+<segment>
+<wire x1="182.88" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="170.18" y="76.2" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="RX_LNA" class="0">
+<segment>
+<wire x1="182.88" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
+<label x="170.18" y="83.82" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="MIXER_EN" class="0">
+<segment>
+<wire x1="152.4" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
+<label x="147.32" y="154.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
@@ -13573,6 +13645,7 @@ type RDH, grid 15 mm</description>
 <text x="101.6" y="66.04" size="3.81" layer="91">Mixer</text>
 <text x="149.86" y="162.56" size="1.778" layer="91">MAX2871 has the same functions and layout as MAX2870</text>
 <text x="271.78" y="170.18" size="1.778" layer="91">do not simply switch rf1 and rf2 because the control lines are common used</text>
+<text x="271.78" y="152.4" size="2.54" layer="91">read fast-lock-mode</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -13653,6 +13726,21 @@ type RDH, grid 15 mm</description>
 <instance part="U$10" gate="G$1" x="25.4" y="17.78"/>
 <instance part="VDD17" gate="G$1" x="12.7" y="30.48"/>
 <instance part="AGND34" gate="VR1" x="12.7" y="7.62"/>
+<instance part="AGND36" gate="VR1" x="134.62" y="106.68"/>
+<instance part="AGND37" gate="VR1" x="220.98" y="104.14"/>
+<instance part="P+1" gate="VCC" x="228.6" y="157.48"/>
+<instance part="R12" gate="G$1" x="66.04" y="142.24" rot="R90"/>
+<instance part="AGND38" gate="VR1" x="66.04" y="134.62"/>
+<instance part="R14" gate="G$1" x="106.68" y="111.76" rot="R90"/>
+<instance part="R15" gate="G$1" x="106.68" y="121.92" rot="R90"/>
+<instance part="C6" gate="G$1" x="106.68" y="132.08"/>
+<instance part="C7" gate="G$1" x="114.3" y="132.08"/>
+<instance part="R16" gate="G$1" x="101.6" y="134.62" rot="R180"/>
+<instance part="C8" gate="G$1" x="93.98" y="132.08"/>
+<instance part="AGND39" gate="VR1" x="114.3" y="124.46"/>
+<instance part="AGND40" gate="VR1" x="93.98" y="124.46"/>
+<instance part="C9" gate="G$1" x="127" y="160.02"/>
+<instance part="AGND41" gate="VR1" x="127" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -13735,6 +13823,52 @@ type RDH, grid 15 mm</description>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <pinref part="AGND34" gate="VR1" pin="AGND"/>
 <wire x1="12.7" y1="12.7" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="A" pin="GND_CP"/>
+<wire x1="137.16" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="AGND36" gate="VR1" pin="AGND"/>
+<wire x1="134.62" y1="132.08" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="GND_PLL"/>
+<wire x1="134.62" y1="129.54" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="124.46" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="GND_RF"/>
+<wire x1="137.16" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="A" pin="GND_VCO"/>
+<wire x1="218.44" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="111.76" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="AGND37" gate="VR1" pin="AGND"/>
+<pinref part="IC7" gate="A" pin="GND_TUNE"/>
+<wire x1="218.44" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="119.38" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="EPAD"/>
+<wire x1="218.44" y1="149.86" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="149.86" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="GND_SD"/>
+<wire x1="220.98" y1="144.78" x2="220.98" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="134.62" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="144.78" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="GND_DIG"/>
+<wire x1="218.44" y1="134.62" x2="220.98" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="AGND38" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="AGND39" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="AGND40" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="AGND41" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -13877,10 +14011,11 @@ type RDH, grid 15 mm</description>
 <wire x1="127" y1="22.86" x2="127" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$113" class="0">
+<net name="MIXER_EN" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="EN"/>
 <wire x1="119.38" y1="27.94" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<label x="119.38" y="22.86" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="N$114" class="0">
@@ -14004,32 +14139,36 @@ type RDH, grid 15 mm</description>
 <label x="17.78" y="127" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SPI_CLK" class="0">
+<net name="SYNT_SPI_CLK" class="0">
 <segment>
 <pinref part="IC7" gate="A" pin="CLK"/>
-<wire x1="137.16" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
-<label x="132.08" y="149.86" size="1.778" layer="95" rot="MR0"/>
+<wire x1="137.16" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
+<label x="119.38" y="149.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_DATA" class="0">
+<net name="SYNT_SPI_DATA" class="0">
 <segment>
 <pinref part="IC7" gate="A" pin="DATA"/>
-<wire x1="137.16" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
-<label x="132.08" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<wire x1="137.16" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
+<label x="119.38" y="147.32" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_LE" class="0">
+<net name="SYNT_SPI_LE" class="0">
 <segment>
 <pinref part="IC7" gate="A" pin="LE"/>
-<wire x1="137.16" y1="144.78" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
-<label x="132.08" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<wire x1="137.16" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
+<label x="119.38" y="144.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SYNT_CE" class="0">
+<net name="SYNT_SYNT_CE" class="0">
 <segment>
 <pinref part="IC7" gate="A" pin="CE"/>
-<wire x1="137.16" y1="142.24" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
-<label x="132.08" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<wire x1="137.16" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
+<label x="119.38" y="142.24" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="147.32" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<label x="66.04" y="152.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14092,6 +14231,48 @@ type RDH, grid 15 mm</description>
 <wire x1="68.58" y1="35.56" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="CTRL"/>
 <wire x1="68.58" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="SW"/>
+<wire x1="119.38" y1="116.84" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="A" pin="CP_OUT"/>
+<wire x1="114.3" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="134.62" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="IC7" gate="A" pin="VCC_CP"/>
+<wire x1="137.16" y1="137.16" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="137.16" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="127" y1="162.56" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
