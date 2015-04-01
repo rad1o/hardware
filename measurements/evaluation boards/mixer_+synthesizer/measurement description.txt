@@ -1,0 +1,29 @@
+Check if the mixing will get the frequency between 2.4-2.7GHz and look for interferer
+-give the synthesizer the Frequency 2.4GHz
+-signal generator level:-40dBm
+-vari the signal generator frequency 100MHz; 200MHz; 400MHz; 800MHz; 1,2GHz
+
+Spurious research
+-give the synthesizer the Frequency 2.4GHz
+-signal generator level:-10dBm
+-vari the signal generator frequency 100MHz; 200MHz; 400MHz; 800MHz; 1,2GHz
+
+Check if the mixing is right by higher input frequencies
+-give the synthesizer the Frequency 1.2GHz
+-signal generator level:-10dBm
+-vari the signal generator frequency 1.2GHz; 1.3GHz
+
+Check the function of the reverse frequency position (second possibility to mix)
+-give the synthesizer the Frequency 3.6GHz
+-signal generator level:-10dBm
+-vari the signal generator frequency 1.2GHz; 1.3GHz
+
+See the bad effect of the synthesizer harmonics when mixing
+-give the synthesizer the Frequency 100MHz
+-signal generator level:-10dBm
+-vari the signal generator frequency 1.2GHz; 1.3GHz
+
+See the bad effect of the synthesizer harmonics when mixing
+-give the synthesizer the Frequency 200MHz
+-signal generator level:-10dBm
+-vari the signal generator frequency 1.2GHz; 1.3GHz
