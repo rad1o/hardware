@@ -13658,8 +13658,8 @@ type RDH, grid 15 mm</description>
 <text x="165.1" y="170.18" size="3.81" layer="91">Synthesizer</text>
 <text x="101.6" y="66.04" size="3.81" layer="91">Mixer</text>
 <text x="149.86" y="162.56" size="1.778" layer="91">MAX2871 has the same functions and layout as MAX2870</text>
-<text x="271.78" y="170.18" size="1.778" layer="91">do not simply switch rf1 and rf2 because the control lines are common used</text>
-<text x="271.78" y="152.4" size="2.54" layer="91">read fast-lock-mode</text>
+<text x="182.88" y="175.26" size="1.778" layer="91">do not simply switch rf1 and rf2 because the control lines are common used</text>
+<text x="231.14" y="162.56" size="2.54" layer="91">read fast-lock-mode</text>
 <text x="127" y="165.1" size="1.778" layer="91" rot="R90">VCC chargepump</text>
 <text x="134.62" y="165.1" size="1.778" layer="91" rot="R90">VCC_PLL</text>
 <text x="226.06" y="160.02" size="1.778" layer="91" rot="R90">VCC_VCO</text>
@@ -14458,13 +14458,13 @@ type RDH, grid 15 mm</description>
 <sheet>
 <plain>
 <text x="177.8" y="157.48" size="3.81" layer="91">Receiver</text>
-<text x="83.82" y="139.7" size="3.81" layer="91">ADC/DAC</text>
+<text x="45.72" y="137.16" size="3.81" layer="91">ADC/DAC</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="FRAME4" gate="G$2" x="162.56" y="0"/>
 <instance part="IC6" gate="A" x="190.5" y="111.76"/>
-<instance part="IC4" gate="A" x="93.98" y="96.52"/>
+<instance part="IC4" gate="A" x="58.42" y="91.44"/>
 </instances>
 <busses>
 </busses>
