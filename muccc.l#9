@@ -2604,6 +2604,18 @@
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
 <symbol name="CMC">
+<text x="-4.0386" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<rectangle x1="-3.556" y1="-3.556" x2="-1.524" y2="3.556" layer="94"/>
+<pin name="2" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="-2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<text x="5.842" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<rectangle x1="1.524" y1="-3.556" x2="3.556" y2="3.556" layer="94"/>
+<pin name="3" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="4" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<circle x="5.08" y="-2.54" radius="0.254" width="0.508" layer="94"/>
+<circle x="-5.08" y="-2.54" radius="0.254" width="0.508" layer="94"/>
+<wire x1="0.254" y1="-2.54" x2="0.254" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="2.54" x2="-0.254" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
