@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2589,16 +2589,16 @@
 <symbol name="LTC5510">
 <pin name="TEMP" x="-2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="IN+" x="-20.32" y="5.08" length="middle"/>
-<pin name="IN-" x="-20.32" y="2.54" length="middle"/>
+<pin name="IN-" x="-20.32" y="0" length="middle"/>
 <pin name="LGND" x="7.62" y="-15.24" length="middle" rot="R90"/>
 <pin name="VCC1" x="-12.7" y="-15.24" length="middle" rot="R90"/>
 <pin name="VCC2" x="-10.16" y="-15.24" length="middle" rot="R90"/>
 <pin name="I_ADJ" x="2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="EN" x="-5.08" y="-15.24" length="middle" rot="R90"/>
 <pin name="GND" x="10.16" y="-15.24" length="middle" rot="R90"/>
-<pin name="OUT-" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT-" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="OUT+" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="LO-" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="LO-" x="2.54" y="12.7" length="middle" rot="R270"/>
 <pin name="LO+" x="-2.54" y="12.7" length="middle" rot="R270"/>
 <pin name="TP" x="12.7" y="-15.24" length="middle" rot="R90"/>
 <wire x1="-15.24" y1="7.62" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
@@ -3056,7 +3056,9 @@
 </devices>
 </deviceset>
 <deviceset name="CMCHOKE" prefix="L" uservalue="yes">
-<description>Common Mode Choke 0603</description>
+<description>Common Mode Choke 0603
+Von Coilcraft
+0603USB-951ML_</description>
 <gates>
 <gate name="G$1" symbol="CMC" x="0" y="0"/>
 </gates>
