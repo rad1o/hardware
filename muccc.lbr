@@ -2221,18 +2221,18 @@
 <smd name="4" x="-1.81" y="-0.975" dx="0.72" dy="0.3" layer="1"/>
 <smd name="2" x="-1.81" y="0.325" dx="0.72" dy="0.3" layer="1"/>
 <smd name="1" x="-1.81" y="0.975" dx="0.72" dy="0.3" layer="1"/>
-<smd name="5" x="0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="1.81" y="0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="10" x="1.81" y="0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="11" x="1.81" y="-0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="12" x="1.81" y="-0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="13" x="-0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
-<smd name="14" x="-0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
-<smd name="15" x="0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
-<smd name="16" x="0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="7" x="0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.81" y="0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="12" x="1.81" y="0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="1.81" y="-0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="9" x="1.81" y="-0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="15" x="-0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="16" x="-0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="14" x="0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="13" x="0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
 <wire x1="-2" y1="2" x2="-2" y2="-2" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="21"/>
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="21"/>
