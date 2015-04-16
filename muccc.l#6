@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2221,18 +2221,18 @@
 <smd name="4" x="-1.81" y="-0.975" dx="0.72" dy="0.3" layer="1"/>
 <smd name="2" x="-1.81" y="0.325" dx="0.72" dy="0.3" layer="1"/>
 <smd name="1" x="-1.81" y="0.975" dx="0.72" dy="0.3" layer="1"/>
-<smd name="5" x="0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="1.81" y="0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="10" x="1.81" y="0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="11" x="1.81" y="-0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="12" x="1.81" y="-0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
-<smd name="13" x="-0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
-<smd name="14" x="-0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
-<smd name="15" x="0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
-<smd name="16" x="0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="7" x="0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.325" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-0.975" y="-1.81" dx="0.72" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.81" y="0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="12" x="1.81" y="0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="1.81" y="-0.325" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="9" x="1.81" y="-0.975" dx="0.72" dy="0.3" layer="1" rot="R180"/>
+<smd name="15" x="-0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="16" x="-0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="14" x="0.325" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
+<smd name="13" x="0.975" y="1.81" dx="0.72" dy="0.3" layer="1" rot="R270"/>
 <wire x1="-2" y1="2" x2="-2" y2="-2" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="21"/>
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="21"/>
@@ -2278,6 +2278,23 @@
 <text x="-1.166" y="1.034" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
 <text x="-1.166" y="-3.755" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 <wire x1="-0.35" y1="-0.55" x2="-0.35" y2="0.55" width="0.05" layer="48"/>
+</package>
+<package name="U.FL">
+<wire x1="-1.3" y1="1.5" x2="1.3" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1.5" x2="1.3" y2="0.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="0.3" x2="1.55" y2="0.3" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0.3" x2="1.55" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-0.3" x2="1.3" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-0.3" x2="1.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-1.5" x2="-1.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.5" x2="-1.3" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-0.25" x2="-1.55" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-0.25" x2="-1.55" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="0.3" x2="-1.3" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.3" x2="-1.3" y2="1.5" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="1.5" dx="2.2" dy="1.05" layer="1"/>
+<smd name="P$2" x="0" y="-1.5" dx="2.2" dy="1.05" layer="1"/>
+<smd name="P$3" x="1.5" y="0" dx="1" dy="1" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2659,6 +2676,24 @@
 <text x="0" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 <text x="0" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <pin name="GND" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="CONNECTOR">
+<wire x1="-2.54" y1="-2.54" x2="-3.302" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-3.048" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-5.08" y1="-0.254" x2="-2.794" y2="0.254" layer="94"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ESD_DIODE">
+<pin name="P$1" x="-20.32" y="0" length="middle"/>
+<pin name="P$2" x="17.78" y="0" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3122,6 +3157,34 @@ Von Coilcraft
 <connect gate="G$1" pin="RFIN" pad="5"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="U.FL">
+<gates>
+<gate name="G$1" symbol="CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U.FL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$3"/>
+<connect gate="G$1" pin="2" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LXES15AAA1-100">
+<gates>
+<gate name="G$1" symbol="ESD_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
