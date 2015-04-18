@@ -3184,7 +3184,7 @@ Von Coilcraft
 <gate name="G$1" symbol="ESD_DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="0603K">
 <technologies>
 <technology name=""/>
 </technologies>

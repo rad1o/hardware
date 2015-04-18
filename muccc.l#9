@@ -3163,8 +3163,8 @@ Von Coilcraft
 <devices>
 <device name="" package="U.FL">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1 P$2"/>
-<connect gate="G$1" pin="2" pad="P$3"/>
+<connect gate="G$1" pin="1" pad="P$3"/>
+<connect gate="G$1" pin="2" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

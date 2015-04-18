@@ -2303,6 +2303,8 @@
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+<text x="-0.8" y="0.7" size="0.254" layer="25">&gt;NAME</text>
+<text x="-0.8" y="0.4" size="0.254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
