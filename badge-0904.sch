@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14737,85 +14737,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C25" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C30" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C31" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C33" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C34" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C35" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C36" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C37" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C38" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C39" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C40" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C41" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C42" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C43" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C44" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C45" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C46" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C47" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C48" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C49" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C50" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C51" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C52" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C53" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C54" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C55" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C56" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C57" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C58" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C59" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C60" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C61" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C62" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C63" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C64" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C65" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C66" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C67" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C68" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C69" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C70" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C71" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C72" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C73" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C74" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C75" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C76" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C77" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C78" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C79" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C80" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C81" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C82" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C83" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C84" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C85" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C86" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C87" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C88" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C89" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C90" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C91" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C92" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C93" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C94" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C95" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C96" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C97" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C98" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C99" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C100" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C101" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C102" library="rcl" deviceset="C-EU" device="C0402"/>
@@ -14834,108 +14756,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C115" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C116" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C117" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C118" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C119" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C120" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C121" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C122" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C123" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C124" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C125" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C126" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C127" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C128" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C129" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C130" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C131" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C132" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C133" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C134" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C135" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C136" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C137" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C138" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C139" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C140" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C141" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C142" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C143" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C144" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C145" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C146" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C147" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C148" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C149" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C150" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C151" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C152" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C153" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C154" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C155" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C156" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C157" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C158" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C159" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C160" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C161" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C162" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C163" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C164" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C165" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C166" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C167" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C168" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C169" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C170" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C171" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C172" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C173" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C174" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C175" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C176" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C177" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C178" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C179" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C180" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C181" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C182" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C183" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C184" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C185" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C186" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C187" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C188" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C189" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C190" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C191" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C192" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C193" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C194" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C195" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C196" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C197" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C198" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C199" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C200" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C201" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C202" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C203" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C204" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C205" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C206" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C207" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C208" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C209" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C210" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C211" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C212" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C213" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C214" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C215" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C216" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C217" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C218" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C219" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="IC17" library="MAX15101EWL" deviceset="MAX15101EWL" device=""/>
 <part name="BTN2" library="badge" deviceset="MCMT5-F-V" device=""/>
 <part name="IC14" library="SparkFun" deviceset="AT45DB041B" device="" value="AT45DB041D"/>
@@ -15065,7 +14885,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R210" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R211" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R212" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
-<part name="R213" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R214" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R215" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R216" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
@@ -15268,184 +15087,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0"/>
-<instance part="C21" gate="G$1" x="302.26" y="66.04"/>
-<instance part="C22" gate="G$1" x="307.34" y="66.04"/>
-<instance part="C23" gate="G$1" x="312.42" y="66.04"/>
-<instance part="C24" gate="G$1" x="317.5" y="66.04"/>
-<instance part="C25" gate="G$1" x="322.58" y="66.04"/>
-<instance part="C26" gate="G$1" x="327.66" y="66.04"/>
-<instance part="C27" gate="G$1" x="332.74" y="66.04"/>
-<instance part="C28" gate="G$1" x="337.82" y="66.04"/>
-<instance part="C29" gate="G$1" x="342.9" y="66.04"/>
-<instance part="C30" gate="G$1" x="297.18" y="55.88"/>
-<instance part="C31" gate="G$1" x="302.26" y="55.88"/>
-<instance part="C32" gate="G$1" x="307.34" y="55.88"/>
-<instance part="C33" gate="G$1" x="312.42" y="55.88"/>
-<instance part="C34" gate="G$1" x="317.5" y="55.88"/>
-<instance part="C35" gate="G$1" x="322.58" y="55.88"/>
-<instance part="C36" gate="G$1" x="327.66" y="55.88"/>
-<instance part="C37" gate="G$1" x="332.74" y="55.88"/>
-<instance part="C38" gate="G$1" x="337.82" y="55.88"/>
-<instance part="C39" gate="G$1" x="342.9" y="55.88"/>
-<instance part="C40" gate="G$1" x="297.18" y="45.72"/>
-<instance part="C41" gate="G$1" x="302.26" y="45.72"/>
-<instance part="C42" gate="G$1" x="307.34" y="45.72"/>
-<instance part="C43" gate="G$1" x="312.42" y="45.72"/>
-<instance part="C44" gate="G$1" x="317.5" y="45.72"/>
-<instance part="C45" gate="G$1" x="322.58" y="45.72"/>
-<instance part="C46" gate="G$1" x="327.66" y="45.72"/>
-<instance part="C47" gate="G$1" x="332.74" y="45.72"/>
-<instance part="C48" gate="G$1" x="337.82" y="45.72"/>
-<instance part="C49" gate="G$1" x="342.9" y="45.72"/>
-<instance part="C50" gate="G$1" x="297.18" y="35.56"/>
-<instance part="C51" gate="G$1" x="302.26" y="35.56"/>
-<instance part="C52" gate="G$1" x="307.34" y="35.56"/>
-<instance part="C53" gate="G$1" x="312.42" y="35.56"/>
-<instance part="C54" gate="G$1" x="317.5" y="35.56"/>
-<instance part="C55" gate="G$1" x="322.58" y="35.56"/>
-<instance part="C56" gate="G$1" x="327.66" y="35.56"/>
-<instance part="C57" gate="G$1" x="332.74" y="35.56"/>
-<instance part="C58" gate="G$1" x="337.82" y="35.56"/>
-<instance part="C59" gate="G$1" x="342.9" y="35.56"/>
-<instance part="C60" gate="G$1" x="297.18" y="25.4"/>
-<instance part="C61" gate="G$1" x="302.26" y="25.4"/>
-<instance part="C62" gate="G$1" x="307.34" y="25.4"/>
-<instance part="C63" gate="G$1" x="312.42" y="25.4"/>
-<instance part="C64" gate="G$1" x="317.5" y="25.4"/>
-<instance part="C65" gate="G$1" x="322.58" y="25.4"/>
-<instance part="C66" gate="G$1" x="327.66" y="25.4"/>
-<instance part="C67" gate="G$1" x="332.74" y="25.4"/>
-<instance part="C68" gate="G$1" x="337.82" y="25.4"/>
-<instance part="C69" gate="G$1" x="342.9" y="25.4"/>
-<instance part="C70" gate="G$1" x="297.18" y="15.24"/>
-<instance part="C71" gate="G$1" x="302.26" y="15.24"/>
-<instance part="C72" gate="G$1" x="307.34" y="15.24"/>
-<instance part="C73" gate="G$1" x="312.42" y="15.24"/>
-<instance part="C74" gate="G$1" x="317.5" y="15.24"/>
-<instance part="C75" gate="G$1" x="322.58" y="15.24"/>
-<instance part="C76" gate="G$1" x="327.66" y="15.24"/>
-<instance part="C77" gate="G$1" x="332.74" y="15.24"/>
-<instance part="C78" gate="G$1" x="337.82" y="15.24"/>
-<instance part="C79" gate="G$1" x="342.9" y="15.24"/>
-<instance part="C80" gate="G$1" x="297.18" y="5.08"/>
-<instance part="C81" gate="G$1" x="302.26" y="5.08"/>
-<instance part="C82" gate="G$1" x="307.34" y="5.08"/>
-<instance part="C83" gate="G$1" x="312.42" y="5.08"/>
-<instance part="C84" gate="G$1" x="317.5" y="5.08"/>
-<instance part="C85" gate="G$1" x="322.58" y="5.08"/>
-<instance part="C86" gate="G$1" x="327.66" y="5.08"/>
-<instance part="C87" gate="G$1" x="332.74" y="5.08"/>
-<instance part="C88" gate="G$1" x="337.82" y="5.08"/>
-<instance part="C89" gate="G$1" x="342.9" y="5.08"/>
-<instance part="C91" gate="G$1" x="302.26" y="-5.08"/>
-<instance part="C92" gate="G$1" x="307.34" y="-5.08"/>
-<instance part="C93" gate="G$1" x="312.42" y="-5.08"/>
-<instance part="C94" gate="G$1" x="317.5" y="-5.08"/>
-<instance part="C95" gate="G$1" x="322.58" y="-5.08"/>
-<instance part="C96" gate="G$1" x="327.66" y="-5.08"/>
-<instance part="C97" gate="G$1" x="332.74" y="-5.08"/>
-<instance part="C98" gate="G$1" x="337.82" y="-5.08"/>
-<instance part="C99" gate="G$1" x="342.9" y="-5.08"/>
-<instance part="C120" gate="G$1" x="355.6" y="66.04"/>
-<instance part="C121" gate="G$1" x="360.68" y="66.04"/>
-<instance part="C122" gate="G$1" x="365.76" y="66.04"/>
-<instance part="C123" gate="G$1" x="370.84" y="66.04"/>
-<instance part="C124" gate="G$1" x="375.92" y="66.04"/>
-<instance part="C125" gate="G$1" x="381" y="66.04"/>
-<instance part="C126" gate="G$1" x="386.08" y="66.04"/>
-<instance part="C127" gate="G$1" x="391.16" y="66.04"/>
-<instance part="C128" gate="G$1" x="396.24" y="66.04"/>
-<instance part="C129" gate="G$1" x="401.32" y="66.04"/>
-<instance part="C130" gate="G$1" x="355.6" y="55.88"/>
-<instance part="C131" gate="G$1" x="360.68" y="55.88"/>
-<instance part="C132" gate="G$1" x="365.76" y="55.88"/>
-<instance part="C133" gate="G$1" x="370.84" y="55.88"/>
-<instance part="C134" gate="G$1" x="375.92" y="55.88"/>
-<instance part="C135" gate="G$1" x="381" y="55.88"/>
-<instance part="C136" gate="G$1" x="386.08" y="55.88"/>
-<instance part="C137" gate="G$1" x="391.16" y="55.88"/>
-<instance part="C138" gate="G$1" x="396.24" y="55.88"/>
-<instance part="C139" gate="G$1" x="401.32" y="55.88"/>
-<instance part="C140" gate="G$1" x="355.6" y="45.72"/>
-<instance part="C141" gate="G$1" x="360.68" y="45.72"/>
-<instance part="C142" gate="G$1" x="365.76" y="45.72"/>
-<instance part="C143" gate="G$1" x="370.84" y="45.72"/>
-<instance part="C144" gate="G$1" x="375.92" y="45.72"/>
-<instance part="C145" gate="G$1" x="381" y="45.72"/>
-<instance part="C146" gate="G$1" x="386.08" y="45.72"/>
-<instance part="C147" gate="G$1" x="391.16" y="45.72"/>
-<instance part="C148" gate="G$1" x="396.24" y="45.72"/>
-<instance part="C149" gate="G$1" x="401.32" y="45.72"/>
-<instance part="C150" gate="G$1" x="355.6" y="35.56"/>
-<instance part="C151" gate="G$1" x="360.68" y="35.56"/>
-<instance part="C152" gate="G$1" x="365.76" y="35.56"/>
-<instance part="C153" gate="G$1" x="370.84" y="35.56"/>
-<instance part="C154" gate="G$1" x="375.92" y="35.56"/>
-<instance part="C155" gate="G$1" x="381" y="35.56"/>
-<instance part="C156" gate="G$1" x="386.08" y="35.56"/>
-<instance part="C157" gate="G$1" x="391.16" y="35.56"/>
-<instance part="C158" gate="G$1" x="396.24" y="35.56"/>
-<instance part="C159" gate="G$1" x="401.32" y="35.56"/>
-<instance part="C160" gate="G$1" x="355.6" y="25.4"/>
-<instance part="C161" gate="G$1" x="360.68" y="25.4"/>
-<instance part="C162" gate="G$1" x="365.76" y="25.4"/>
-<instance part="C163" gate="G$1" x="370.84" y="25.4"/>
-<instance part="C164" gate="G$1" x="375.92" y="25.4"/>
-<instance part="C165" gate="G$1" x="381" y="25.4"/>
-<instance part="C166" gate="G$1" x="386.08" y="25.4"/>
-<instance part="C167" gate="G$1" x="391.16" y="25.4"/>
-<instance part="C168" gate="G$1" x="396.24" y="25.4"/>
-<instance part="C169" gate="G$1" x="401.32" y="25.4"/>
-<instance part="C170" gate="G$1" x="355.6" y="15.24"/>
-<instance part="C171" gate="G$1" x="360.68" y="15.24"/>
-<instance part="C172" gate="G$1" x="365.76" y="15.24"/>
-<instance part="C173" gate="G$1" x="370.84" y="15.24"/>
-<instance part="C174" gate="G$1" x="375.92" y="15.24"/>
-<instance part="C175" gate="G$1" x="381" y="15.24"/>
-<instance part="C176" gate="G$1" x="386.08" y="15.24"/>
-<instance part="C177" gate="G$1" x="391.16" y="15.24"/>
-<instance part="C178" gate="G$1" x="396.24" y="15.24"/>
-<instance part="C179" gate="G$1" x="401.32" y="15.24"/>
-<instance part="C180" gate="G$1" x="355.6" y="5.08"/>
-<instance part="C181" gate="G$1" x="360.68" y="5.08"/>
-<instance part="C182" gate="G$1" x="365.76" y="5.08"/>
-<instance part="C183" gate="G$1" x="370.84" y="5.08"/>
-<instance part="C184" gate="G$1" x="375.92" y="5.08"/>
-<instance part="C185" gate="G$1" x="381" y="5.08"/>
-<instance part="C186" gate="G$1" x="386.08" y="5.08"/>
-<instance part="C187" gate="G$1" x="391.16" y="5.08"/>
-<instance part="C188" gate="G$1" x="396.24" y="5.08"/>
-<instance part="C189" gate="G$1" x="401.32" y="5.08"/>
-<instance part="C190" gate="G$1" x="355.6" y="-5.08"/>
-<instance part="C191" gate="G$1" x="360.68" y="-5.08"/>
-<instance part="C192" gate="G$1" x="365.76" y="-5.08"/>
-<instance part="C193" gate="G$1" x="370.84" y="-5.08"/>
-<instance part="C194" gate="G$1" x="375.92" y="-5.08"/>
-<instance part="C195" gate="G$1" x="381" y="-5.08"/>
-<instance part="C196" gate="G$1" x="386.08" y="-5.08"/>
-<instance part="C197" gate="G$1" x="391.16" y="-5.08"/>
-<instance part="C198" gate="G$1" x="396.24" y="-5.08"/>
-<instance part="C199" gate="G$1" x="401.32" y="-5.08"/>
-<instance part="C200" gate="G$1" x="355.6" y="-15.24"/>
-<instance part="C201" gate="G$1" x="360.68" y="-15.24"/>
-<instance part="C202" gate="G$1" x="365.76" y="-15.24"/>
-<instance part="C203" gate="G$1" x="370.84" y="-15.24"/>
-<instance part="C204" gate="G$1" x="375.92" y="-15.24"/>
-<instance part="C205" gate="G$1" x="381" y="-15.24"/>
-<instance part="C206" gate="G$1" x="386.08" y="-15.24"/>
-<instance part="C207" gate="G$1" x="391.16" y="-15.24"/>
-<instance part="C208" gate="G$1" x="396.24" y="-15.24"/>
-<instance part="C209" gate="G$1" x="401.32" y="-15.24"/>
-<instance part="C210" gate="G$1" x="355.6" y="-25.4"/>
-<instance part="C211" gate="G$1" x="360.68" y="-25.4"/>
-<instance part="C212" gate="G$1" x="365.76" y="-25.4"/>
-<instance part="C213" gate="G$1" x="370.84" y="-25.4"/>
-<instance part="C214" gate="G$1" x="375.92" y="-25.4"/>
-<instance part="C215" gate="G$1" x="381" y="-25.4"/>
-<instance part="C216" gate="G$1" x="386.08" y="-25.4"/>
-<instance part="C217" gate="G$1" x="391.16" y="-25.4"/>
-<instance part="C218" gate="G$1" x="396.24" y="-25.4"/>
-<instance part="C219" gate="G$1" x="401.32" y="-25.4"/>
 <instance part="IC14" gate="G$1" x="220.98" y="144.78" smashed="yes">
 <attribute name="NAME" x="216.154" y="153.162" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="137.16" size="1.778" layer="96"/>
@@ -15474,8 +15115,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="255.524" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.524" y="137.541" size="1.778" layer="96"/>
 </instance>
-<instance part="C118" gate="G$1" x="383.54" y="88.9"/>
-<instance part="C119" gate="G$1" x="388.62" y="88.9"/>
 <instance part="JTAG" gate="G$1" x="220.98" y="114.3"/>
 <instance part="R43" gate="G$1" x="210.82" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.725" y="127.8636" size="1.778" layer="95"/>
@@ -15527,11 +15166,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="43.18" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="P1_0" class="0">
+<net name="P1_1" class="0">
 <segment>
-<pinref part="IC1" gate="G$2" pin="P1_0"/>
-<wire x1="40.64" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
-<label x="43.18" y="149.86" size="1.016" layer="95" xref="yes"/>
+<label x="43.18" y="147.32" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$2" pin="P1_1"/>
+<wire x1="43.18" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P1_2" class="0">
@@ -16210,9 +15849,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="SPGI07" class="0">
 <segment>
-<pinref part="IC1" gate="G$2" pin="P1_1"/>
-<wire x1="40.64" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
-<label x="43.18" y="147.32" size="1.016" layer="95" xref="yes"/>
+<label x="43.18" y="149.86" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$2" pin="P1_0"/>
+<wire x1="43.18" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_RX" class="0">
@@ -16498,10 +16137,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R212" gate="G$1" x="137.16" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="127.889" y="94.2086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.335" y="94.488" size="1.778" layer="96"/>
-</instance>
-<instance part="R213" gate="G$1" x="137.16" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="128.016" y="86.5886" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.335" y="86.868" size="1.778" layer="96"/>
 </instance>
 <instance part="R214" gate="G$1" x="137.16" y="86.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="128.016" y="84.3026" size="1.778" layer="95"/>
@@ -16900,13 +16535,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="132.08" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$146" class="0">
-<segment>
-<pinref part="IC20" gate="G$1" pin="B2F3M13"/>
-<pinref part="R213" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$147" class="0">
 <segment>
 <pinref part="IC20" gate="G$1" pin="B2F3M14"/>
@@ -16926,13 +16554,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC20" gate="G$1" pin="B2F3M16"/>
 <pinref part="R216" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$154" class="0">
-<segment>
-<pinref part="R213" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
-<label x="147.32" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPGI07" class="0">
