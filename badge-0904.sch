@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19127,11 +19127,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C229" gate="G$1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="RXRF+"/>
-<wire x1="127" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="109.22" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="106.68" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <junction x="93.98" y="129.54"/>
+<pinref part="IC6" gate="A" pin="RXRF-"/>
+<wire x1="99.06" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$153" class="0">
@@ -19140,10 +19140,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="91.44" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <junction x="93.98" y="119.38"/>
-<pinref part="IC6" gate="A" pin="RXRF-"/>
-<wire x1="93.98" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="119.38" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="RXRF+"/>
+<wire x1="127" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="109.22" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$155" class="0">
@@ -19223,17 +19223,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="236.22" y="91.44"/>
 </segment>
 </net>
-<net name="N$151" class="0">
-<segment>
-<pinref part="C231" gate="G$1" pin="1"/>
-<pinref part="L5" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="127" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="93.98" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
-<junction x="86.36" y="88.9"/>
-<pinref part="IC6" gate="A" pin="TXRF+"/>
-</segment>
-</net>
 <net name="N$152" class="0">
 <segment>
 <pinref part="C232" gate="G$1" pin="1"/>
@@ -19241,9 +19230,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="L5" gate="G$1" pin="2"/>
 <junction x="86.36" y="78.74"/>
 <wire x1="86.36" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="TXRF-"/>
+<wire x1="91.44" y1="78.74" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="TXRF+"/>
+<wire x1="91.44" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$157" class="0">
@@ -19626,6 +19615,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC6" gate="A" pin="CLOCKOUT"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
 <wire x1="127" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="TXRF-"/>
+<wire x1="127" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C231" gate="G$1" pin="1"/>
+<pinref part="L5" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
+<junction x="86.36" y="88.9"/>
 </segment>
 </net>
 </nets>
