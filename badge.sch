@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16487,7 +16487,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C411" library="rcl" deviceset="C-EU" device="C0402" value="10p"/>
 <part name="L407" library="muccc" deviceset="L_0603" device="" value="3u3"/>
 <part name="L406" library="muccc" deviceset="L_0603" device="" value="3u3"/>
-<part name="C266" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C427" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND43" library="supply1" deviceset="AGND" device=""/>
 <part name="C420" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND75" library="supply1" deviceset="AGND" device=""/>
@@ -16672,7 +16672,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="P+63" library="supply1" deviceset="VCC" device=""/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="L709" library="muccc" deviceset="L_0603" device="" value="FB"/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0402" value="c716"/>
+<part name="C716" library="rcl" deviceset="C-EU" device="C0402" value="c716"/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="AGND87" library="supply1" deviceset="AGND" device=""/>
@@ -20216,7 +20216,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="NAME" x="127.5334" y="163.576" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.508" y="157.734" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C266" gate="G$1" x="137.16" y="170.18" smashed="yes" rot="R90">
+<instance part="C427" gate="G$1" x="137.16" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="139.954" y="175.895" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="139.954" y="171.323" size="1.778" layer="96"/>
 </instance>
@@ -20463,7 +20463,7 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="116.84" y="127"/>
 </segment>
 <segment>
-<pinref part="C266" gate="G$1" pin="2"/>
+<pinref part="C427" gate="G$1" pin="2"/>
 <pinref part="AGND43" gate="VR1" pin="AGND"/>
 <wire x1="142.24" y1="170.18" x2="142.24" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -21075,7 +21075,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="134.62" y1="170.18" x2="129.54" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="L406" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="170.18" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="C266" gate="G$1" pin="1"/>
+<pinref part="C427" gate="G$1" pin="1"/>
 <junction x="134.62" y="170.18"/>
 <wire x1="134.62" y1="170.18" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
@@ -22776,7 +22776,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="NAME" x="137.4394" y="84.074" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.668" y="77.978" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C29" gate="G$1" x="132.08" y="83.82" smashed="yes">
+<instance part="C716" gate="G$1" x="132.08" y="83.82" smashed="yes">
 <attribute name="NAME" x="128.651" y="84.836" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="128.651" y="76.454" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -23103,7 +23103,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND69" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C716" gate="G$1" pin="2"/>
 <pinref part="GND70" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -23426,7 +23426,7 @@ Source: http://www.osram.convergy.de/</description>
 <net name="N$71" class="0">
 <segment>
 <pinref part="USB1" gate="G$1" pin="GND4"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C716" gate="G$1" pin="1"/>
 <wire x1="130.81" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="96.52" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="USB1" gate="G$1" pin="GND3"/>
