@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1220,6 +1220,32 @@ DIN A4, landscape with extra doc field</description>
 <text x="-2.05" y="2.25" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2.3" y="-3.1" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="BMI-S-106">
+<smd name="P$1" x="2.07" y="0.5" dx="4.14" dy="1" layer="1"/>
+<smd name="P$2" x="8.28" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$3" x="14.24" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$4" x="20.24" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$5" x="26.34" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$6" x="32.41" y="0.5" dx="4.14" dy="1" layer="1"/>
+<smd name="P$7" x="2.07" y="37.13" dx="4.14" dy="1" layer="1"/>
+<smd name="P$8" x="8.28" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$9" x="14.24" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$10" x="20.24" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$11" x="26.34" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$12" x="32.41" y="37.13" dx="4.14" dy="1" layer="1"/>
+<smd name="P$13" x="0.5" y="9.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$14" x="0.5" y="15.82" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$15" x="0.5" y="21.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$16" x="0.5" y="27.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$17" x="0.5" y="34.275" dx="4.71" dy="1" layer="1" rot="R90"/>
+<smd name="P$18" x="0.5" y="3.36" dx="4.72" dy="1" layer="1" rot="R90"/>
+<smd name="P$19" x="33.98" y="9.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$20" x="33.98" y="15.82" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$21" x="33.98" y="21.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$22" x="33.98" y="27.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$23" x="33.98" y="34.275" dx="4.71" dy="1" layer="1" rot="R90"/>
+<smd name="P$24" x="33.98" y="3.36" dx="4.72" dy="1" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX2616ETA+T">
@@ -1664,6 +1690,13 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-6.858" y="10.414" size="2.54" layer="95">&gt;NAME</text>
 <text x="-6.858" y="6.35" size="2.54" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SHIELD">
+<wire x1="-5.08" y1="5.08" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="SHIELD" x="7.62" y="0" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2211,6 +2244,22 @@ On NCP699</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMI-S-106">
+<description>Shielding BMI-S-106</description>
+<gates>
+<gate name="G$1" symbol="SHIELD" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMI-S-106">
+<connects>
+<connect gate="G$1" pin="SHIELD" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6413,16 +6462,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-2.85" y="3.65" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.95" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C2824">
-<wire x1="-3.637" y1="-2.983" x2="-3.637" y2="2.983" width="0.2032" layer="51"/>
-<wire x1="3.637" y1="2.983" x2="-3.637" y2="2.983" width="0.2032" layer="51"/>
-<wire x1="3.637" y1="-2.983" x2="-3.637" y2="-2.983" width="0.2032" layer="51"/>
-<wire x1="3.637" y1="-2.983" x2="3.637" y2="2.983" width="0.2032" layer="51"/>
-<text x="-2.64" y="3.805" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.24" y="-4.875" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-3.82" y="0" dx="1.2" dy="4" layer="1"/>
-<smd name="2" x="3.75" y="0" dx="1.2" dy="4" layer="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -7156,15 +7195,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="C3640" package="C3640">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C2824" package="C2824">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -16308,13 +16338,13 @@ Source: http://www.osram.convergy.de/</description>
 <part name="R411" library="resistor" deviceset="R-EU_" device="R0402" value="50"/>
 <part name="R410" library="resistor" deviceset="R-EU_" device="R0402" value="50"/>
 <part name="C417" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C422" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
+<part name="C422" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="AGND44" library="supply1" deviceset="AGND" device=""/>
 <part name="R417" library="resistor" deviceset="R-EU_" device="R0402" value="5.1k"/>
 <part name="AGND45" library="supply1" deviceset="AGND" device=""/>
-<part name="C423" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
+<part name="C423" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="AGND46" library="supply1" deviceset="AGND" device=""/>
-<part name="C424" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
+<part name="C424" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="AGND47" library="supply1" deviceset="AGND" device=""/>
 <part name="R200" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R201" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
@@ -16489,8 +16519,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="L406" library="muccc" deviceset="L_0603" device="" value="3u3"/>
 <part name="C427" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND43" library="supply1" deviceset="AGND" device=""/>
-<part name="C420" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="AGND75" library="supply1" deviceset="AGND" device=""/>
 <part name="C421" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND76" library="supply1" deviceset="AGND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -16681,6 +16709,10 @@ Source: http://www.osram.convergy.de/</description>
 <part name="R810" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R811" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
+<part name="U$1" library="muccc" deviceset="BMI-S-106" device=""/>
+<part name="AGND25" library="supply1" deviceset="AGND" device=""/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="GND72" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20223,13 +20255,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="AGND43" gate="VR1" x="142.24" y="165.1" smashed="yes">
 <attribute name="VALUE" x="138.938" y="161.544" size="1.778" layer="96"/>
 </instance>
-<instance part="C420" gate="G$1" x="104.14" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.362" y="101.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.87" y="99.695" size="1.778" layer="96"/>
-</instance>
-<instance part="AGND75" gate="VR1" x="101.6" y="91.44" smashed="yes">
-<attribute name="VALUE" x="99.06" y="86.36" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C421" gate="G$1" x="213.36" y="96.52" smashed="yes">
 <attribute name="NAME" x="214.884" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.884" y="91.821" size="1.778" layer="96"/>
@@ -20302,6 +20327,15 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="AGND87" gate="VR1" x="137.16" y="7.62" smashed="yes">
 <attribute name="VALUE" x="133.858" y="4.064" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="27.94" y="144.78"/>
+<instance part="AGND25" gate="VR1" x="35.56" y="142.24"/>
+<instance part="C1" gate="G$1" x="231.14" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="224.79" y="149.479" size="1.778" layer="95"/>
+<attribute name="VALUE" x="234.188" y="151.257" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="GND72" gate="1" x="236.22" y="147.32" smashed="yes">
+<attribute name="VALUE" x="237.871" y="148.463" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20468,11 +20502,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="142.24" y1="170.18" x2="142.24" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C420" gate="G$1" pin="1"/>
-<pinref part="AGND75" gate="VR1" pin="AGND"/>
-<wire x1="101.6" y1="96.52" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R412" gate="G$1" pin="1"/>
 <pinref part="AGND33" gate="VR1" pin="AGND"/>
 <wire x1="254" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
@@ -20498,6 +20527,10 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="C410" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="147.32" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <junction x="106.68" y="142.24"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SHIELD"/>
+<pinref part="AGND25" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="C402" class="0">
@@ -20802,6 +20835,9 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="223.52" y1="147.32" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="147.32" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
 <junction x="223.52" y="147.32"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
+<junction x="223.52" y="152.4"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -20820,7 +20856,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="109.22" y1="88.9" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="111.76" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C420" gate="G$1" pin="2"/>
 <junction x="109.22" y="96.52"/>
 <wire x1="218.44" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 <junction x="134.62" y="99.06"/>
@@ -21016,6 +21051,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="IC408" gate="A" pin="GND_DIG"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="218.44" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND72" gate="1" pin="GND"/>
+<wire x1="236.22" y1="149.86" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLK_VCO" class="0">

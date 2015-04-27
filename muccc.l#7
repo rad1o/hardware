@@ -2296,6 +2296,16 @@
 <smd name="P$2" x="0" y="-1.5" dx="2.2" dy="1.05" layer="1"/>
 <smd name="P$3" x="1.5" y="0" dx="1" dy="1" layer="1"/>
 </package>
+<package name="ESD_DIODE">
+<smd name="P$1" x="-0.4" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="P$2" x="0.4" y="0" dx="0.4" dy="0.5" layer="1"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+<text x="-0.8" y="0.7" size="0.254" layer="25">&gt;NAME</text>
+<text x="-0.8" y="0.4" size="0.254" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX5864ETM+">
@@ -3184,7 +3194,11 @@ Von Coilcraft
 <gate name="G$1" symbol="ESD_DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="ESD_DIODE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

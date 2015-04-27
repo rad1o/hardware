@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2336,6 +2336,32 @@
 <text x="-2.05" y="2.25" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2.3" y="-3.1" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="BMI-S-106">
+<smd name="P$1" x="2.07" y="0.5" dx="4.14" dy="1" layer="1"/>
+<smd name="P$2" x="8.28" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$3" x="14.24" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$4" x="20.24" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$5" x="26.34" y="0.5" dx="3.8" dy="1" layer="1"/>
+<smd name="P$6" x="32.41" y="0.5" dx="4.14" dy="1" layer="1"/>
+<smd name="P$7" x="2.07" y="37.13" dx="4.14" dy="1" layer="1"/>
+<smd name="P$8" x="8.28" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$9" x="14.24" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$10" x="20.24" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$11" x="26.34" y="37.13" dx="3.8" dy="1" layer="1"/>
+<smd name="P$12" x="32.41" y="37.13" dx="4.14" dy="1" layer="1"/>
+<smd name="P$13" x="0.5" y="9.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$14" x="0.5" y="15.82" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$15" x="0.5" y="21.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$16" x="0.5" y="27.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$17" x="0.5" y="34.275" dx="4.71" dy="1" layer="1" rot="R90"/>
+<smd name="P$18" x="0.5" y="3.36" dx="4.72" dy="1" layer="1" rot="R90"/>
+<smd name="P$19" x="33.98" y="9.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$20" x="33.98" y="15.82" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$21" x="33.98" y="21.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$22" x="33.98" y="27.81" dx="3.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$23" x="33.98" y="34.275" dx="4.71" dy="1" layer="1" rot="R90"/>
+<smd name="P$24" x="33.98" y="3.36" dx="4.72" dy="1" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX5864ETM+">
@@ -2767,6 +2793,13 @@
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-6.858" y="10.414" size="2.54" layer="95">&gt;NAME</text>
 <text x="-6.858" y="6.35" size="2.54" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SHIELD">
+<wire x1="-5.08" y1="5.08" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="SHIELD" x="7.62" y="0" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3302,6 +3335,22 @@ On NCP699</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMI-S-106">
+<description>Shielding BMI-S-106</description>
+<gates>
+<gate name="G$1" symbol="SHIELD" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMI-S-106">
+<connects>
+<connect gate="G$1" pin="SHIELD" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24"/>
 </connects>
 <technologies>
 <technology name=""/>
