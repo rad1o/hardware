@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -265,6 +265,7 @@ height 300µm per layer
 <vertex x="106.172" y="62.992"/>
 <vertex x="106.172" y="61.722"/>
 </polygon>
+<rectangle x1="122.936" y1="44.958" x2="124.46" y2="46.99" layer="41"/>
 </plain>
 <libraries>
 <library name="muccc">
@@ -8856,6 +8857,16 @@ design rules under a new name.</description>
 <contactref element="R9" pad="1"/>
 <contactref element="IC1" pad="16"/>
 <wire x1="27.432" y1="46.594" x2="26.8351" y2="50.7492" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$84">
+<wire x1="123.19" y1="46.736" x2="123.698" y2="46.736" width="0.254" layer="1"/>
+<wire x1="123.19" y1="46.736" x2="123.19" y2="46.228" width="0.254" layer="1"/>
+<wire x1="123.19" y1="46.228" x2="123.698" y2="46.228" width="0.254" layer="1"/>
+<wire x1="123.698" y1="46.228" x2="124.206" y2="46.228" width="0.254" layer="1"/>
+<wire x1="123.19" y1="46.228" x2="123.19" y2="45.72" width="0.254" layer="1"/>
+<wire x1="123.19" y1="45.72" x2="123.698" y2="45.72" width="0.254" layer="1"/>
+<wire x1="123.698" y1="45.72" x2="123.698" y2="46.228" width="0.254" layer="1"/>
+<wire x1="123.698" y1="45.72" x2="123.698" y2="45.212" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
