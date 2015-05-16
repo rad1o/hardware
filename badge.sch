@@ -17499,7 +17499,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND77" library="supply1" deviceset="GND" device=""/>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
 <part name="GND79" library="supply1" deviceset="GND" device=""/>
-<part name="GPIO" library="con-lstb" deviceset="MA11-2" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="ISP" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="GND81" library="supply1" deviceset="GND" device=""/>
@@ -17593,6 +17592,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="AGND100" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND103" library="supply1" deviceset="AGND" device=""/>
+<part name="GPIO" library="con-lstb" deviceset="MA11-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19330,7 +19330,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND79" gate="1" x="226.06" y="43.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="224.536" y="43.942" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GPIO" gate="G$1" x="187.96" y="91.44"/>
 <instance part="GND80" gate="1" x="198.12" y="101.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="199.39" y="100.838" size="1.778" layer="96"/>
 </instance>
@@ -19423,6 +19422,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND97" gate="1" x="391.16" y="25.4" smashed="yes">
 <attribute name="VALUE" x="388.493" y="22.733" size="1.778" layer="96"/>
 </instance>
+<instance part="GPIO" gate="G$1" x="187.96" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -20182,18 +20182,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND79" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GPIO" gate="G$1" pin="13"/>
-<pinref part="GND73" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GPIO" gate="G$1" pin="15"/>
-<pinref part="GND74" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GPIO" gate="G$1" pin="19"/>
-<pinref part="GND80" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C215" gate="G$1" pin="2"/>
 <pinref part="GND90" gate="1" pin="GND"/>
 <wire x1="355.6" y1="144.78" x2="360.68" y2="144.78" width="0.1524" layer="91"/>
@@ -20239,6 +20227,18 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="C229" gate="G$1" pin="2"/>
 <pinref part="GND97" gate="1" pin="GND"/>
 <wire x1="391.16" y1="27.94" x2="391.16" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND73" gate="1" pin="GND"/>
+<pinref part="GPIO" gate="G$1" pin="13"/>
+</segment>
+<segment>
+<pinref part="GND74" gate="1" pin="GND"/>
+<pinref part="GPIO" gate="G$1" pin="15"/>
+</segment>
+<segment>
+<pinref part="GND80" gate="1" pin="GND"/>
+<pinref part="GPIO" gate="G$1" pin="19"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -20353,10 +20353,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="P+64" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="GPIO" gate="G$1" pin="3"/>
-<pinref part="P+56" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="R227" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="142.24" x2="314.96" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="144.78" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
@@ -20399,6 +20395,10 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="370.84" y1="58.42" x2="370.84" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="78.74" x2="340.36" y2="78.74" width="0.1524" layer="91"/>
 <junction x="340.36" y="78.74"/>
+</segment>
+<segment>
+<pinref part="P+56" gate="VCC" pin="VCC"/>
+<pinref part="GPIO" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="B2AUX13" class="0">
@@ -20975,30 +20975,30 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="RTC_ALARM" class="0">
 <segment>
-<pinref part="GPIO" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <label x="177.8" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="GPIO" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="WAKEUP" class="0">
 <segment>
-<pinref part="GPIO" gate="G$1" pin="4"/>
 <wire x1="180.34" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <label x="177.8" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="GPIO" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="GPIO" gate="G$1" pin="22"/>
 <wire x1="180.34" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="177.8" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="GPIO" gate="G$1" pin="22"/>
 </segment>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="GPIO" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="198.12" y="78.74" size="1.016" layer="95" xref="yes"/>
+<pinref part="GPIO" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$88" class="0">
