@@ -8320,57 +8320,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8235.pdf</desc
 </library>
 <library name="SparkFun">
 <packages>
-<package name="SO08">
-<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
-<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
-<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
-<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<text x="-1.27" y="-0.635" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-1.27" y="0" size="0.4064" layer="25">&gt;NAME</text>
-<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
-<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
-<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
-<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
-<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
-<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
-<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
-<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
-</package>
-<package name="SO08WIDE">
-<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
-<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.9906" radius="0.3556" width="0.0508" layer="21"/>
-<smd name="1" x="-1.905" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3" x="0.635" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-3.5687" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="3.8862" dx="0.6096" dy="2.2098" layer="1"/>
-<text x="4.0005" y="-2.032" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-2.7305" y="-2.032" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
-<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
-<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
-<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
-<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
-<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
-<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
-<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
-</package>
 <package name="FIDUCIAL-1.5X3">
 <circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
 <smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
@@ -8385,22 +8334,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8235.pdf</desc
 </package>
 </packages>
 <symbols>
-<symbol name="AT45DB041B">
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-4.826" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SI" x="-10.16" y="5.08" visible="pin" length="middle"/>
-<pin name="SCK" x="-10.16" y="2.54" visible="pin" length="middle"/>
-<pin name="RST" x="-10.16" y="0" visible="pin" length="middle" function="dot"/>
-<pin name="CS" x="-10.16" y="-2.54" visible="pin" length="middle" function="dot"/>
-<pin name="WP" x="15.24" y="-2.54" visible="pin" length="middle" function="dot" rot="R180"/>
-<pin name="VCC" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="SO" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-</symbol>
 <symbol name="FIDUCIAL">
 <wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
@@ -8408,43 +8341,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8235.pdf</desc
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AT45DB041B">
-<gates>
-<gate name="G$1" symbol="AT45DB041B" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO08">
-<connects>
-<connect gate="G$1" pin="CS" pad="4"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="RST" pad="3"/>
-<connect gate="G$1" pin="SCK" pad="2"/>
-<connect gate="G$1" pin="SI" pad="1"/>
-<connect gate="G$1" pin="SO" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
-<connect gate="G$1" pin="WP" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WIDE" package="SO08WIDE">
-<connects>
-<connect gate="G$1" pin="CS" pad="4"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="RST" pad="3"/>
-<connect gate="G$1" pin="SCK" pad="2"/>
-<connect gate="G$1" pin="SI" pad="1"/>
-<connect gate="G$1" pin="SO" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="6"/>
-<connect gate="G$1" pin="WP" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FIDUCIAL">
 <description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
 Various fiducial points for machine vision alignment.</description>
@@ -17086,6 +16982,51 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="3.75" y1="4.3" x2="3.75" y2="-0.7" width="0.1" layer="21"/>
 <wire x1="3.75" y1="-0.7" x2="-3.75" y2="-0.7" width="0.1" layer="21"/>
 </package>
+<package name="SOIC127P600X175-8N">
+<description>SOIC, 1.27 mm pitch; 8 pin, 3.90 mm W x 4.90 mm L x 1.75 mm H body&lt;br&gt;
+JEDEC MS-012AA&lt;p&gt;
+LP Viewer 10.5</description>
+<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<text x="0" y="0" size="0.6" layer="25" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.01" layer="39"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.01" layer="39"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.01" layer="39"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.01" layer="39"/>
+<text x="-3.6" y="1.9" size="0.6" layer="51" rot="SR90" align="center">*</text>
+<wire x1="0.2" y1="2.45" x2="-0.2" y2="2.45" width="0.1" layer="21" curve="-180"/>
+<wire x1="1.95" y1="2.45" x2="0.2" y2="2.45" width="0.1" layer="21"/>
+<wire x1="0.2" y1="2.45" x2="-0.2" y2="2.45" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="2.45" x2="-1.95" y2="2.45" width="0.1" layer="21"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="21"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.05" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.05" layer="51"/>
+</package>
+<package name="USON50P300X200X55-8N">
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.1" layer="21"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.1" layer="21"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.1" layer="21"/>
+<circle x="-1.2" y="0.7" radius="0.14141875" width="0.1" layer="21"/>
+<smd name="1" x="-1.2" y="0.75" dx="0.7" dy="0.25" layer="1"/>
+<smd name="2" x="-1.2" y="0.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="3" x="-1.2" y="-0.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="4" x="-1.2" y="-0.75" dx="0.7" dy="0.25" layer="1"/>
+<smd name="5" x="1.2" y="-0.75" dx="0.7" dy="0.25" layer="1"/>
+<smd name="6" x="1.2" y="-0.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="7" x="1.2" y="0.25" dx="0.7" dy="0.25" layer="1"/>
+<smd name="8" x="1.2" y="0.75" dx="0.7" dy="0.25" layer="1"/>
+<text x="-1.4" y="1.1" size="0.6096" layer="25">&gt;NAME</text>
+<smd name="EPAD" x="0" y="0" dx="0.2" dy="1.6" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB_MINI/MICRO">
@@ -17126,6 +17067,22 @@ Source: http://www.osram.convergy.de/</description>
 <text x="7.62" y="0" size="1.524" layer="97" align="center-left">3.D+</text>
 <text x="7.62" y="-2.54" size="1.524" layer="97" align="center-left">4</text>
 <text x="7.62" y="-5.08" size="1.524" layer="97" align="center-left">5.GND</text>
+</symbol>
+<symbol name="FLASHSPI">
+<pin name="~CS" x="-10.16" y="7.62" length="short"/>
+<pin name="SO" x="-10.16" y="5.08" length="short"/>
+<pin name="~WP" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-10.16" y="0" length="short"/>
+<pin name="SI" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SCK" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="~HOLD" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="7.62" length="short" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-3.556" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17228,6 +17185,114 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="IC_FLASH?" prefix="IC" uservalue="yes">
+<description>IC FLASH 4MBIT 85MHZ 8SO</description>
+<gates>
+<gate name="G$1" symbol="FLASHSPI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOIC" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="~CS" pad="1"/>
+<connect gate="G$1" pin="~HOLD" pad="7"/>
+<connect gate="G$1" pin="~WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="_LE25U40CMC-AH">
+<attribute name="PARTNO" value="LE25U40CMC-AH"/>
+<attribute name="VALUE" value="LE25U40CMC-AH"/>
+</technology>
+<technology name="_S25FL204K0TMFI043">
+<attribute name="PARTNO" value="S25FL204K0TMFI043"/>
+<attribute name="VALUE" value="S25FL204K0TMFI043"/>
+</technology>
+<technology name="_W25X40CLSNIG">
+<attribute name="PARTNO" value="W25X40CLSNIG"/>
+<attribute name="VALUE" value="W25X40CLSNIG"/>
+</technology>
+</technologies>
+</device>
+<device name="_W25" package="USON50P300X200X55-8N">
+<connects>
+<connect gate="G$1" pin="GND" pad="4 EPAD"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="~CS" pad="1"/>
+<connect gate="G$1" pin="~HOLD" pad="7"/>
+<connect gate="G$1" pin="~WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="Q40CL">
+<attribute name="PARTNO" value="W25Q40CLUXIG  "/>
+<attribute name="SIZE" value="4MBIT"/>
+<attribute name="VALUE" value="4MBIT"/>
+</technology>
+<technology name="X40CL">
+<attribute name="PARTNO" value="W25X40CLUXIG"/>
+<attribute name="SIZE" value="4MBIT"/>
+<attribute name="VALUE" value="4MBIT"/>
+</technology>
+</technologies>
+</device>
+<device name="_MX25" package="USON50P300X200X55-8N">
+<connects>
+<connect gate="G$1" pin="GND" pad="4 EPAD"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="~CS" pad="1"/>
+<connect gate="G$1" pin="~HOLD" pad="7"/>
+<connect gate="G$1" pin="~WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="L4006E">
+<attribute name="PARTNO" value="MX25L4006EZUI-12G"/>
+<attribute name="SIZE" value="4MBIT"/>
+<attribute name="V-MAX" value="3.6V"/>
+<attribute name="V-MIN" value="2.7V"/>
+<attribute name="VALUE" value="4MBIT"/>
+</technology>
+<technology name="V4006E">
+<attribute name="PARTNO" value="MX25V4006EZUI-13G"/>
+<attribute name="SIZE" value="4MBIT"/>
+<attribute name="V-MAX" value="3.6V"/>
+<attribute name="V-MIN" value="2.35V"/>
+<attribute name="VALUE" value="4MBIT"/>
+</technology>
+</technologies>
+</device>
+<device name="_M25P" package="USON50P300X200X55-8N">
+<connects>
+<connect gate="G$1" pin="GND" pad="4 EPAD"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="~CS" pad="1"/>
+<connect gate="G$1" pin="~HOLD" pad="7"/>
+<connect gate="G$1" pin="~WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="40-VMB3">
+<attribute name="PARTNO" value="M25P40-VMB3TPB"/>
+<attribute name="VALUE" value="4MBIT"/>
+</technology>
+<technology name="40-VMB6">
+<attribute name="PARTNO" value="M25P40-VMB6TPB"/>
+<attribute name="VALUE" value="4MBIT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -17293,7 +17358,6 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <part name="C107" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="IC702" library="MAX15101EWL" deviceset="MAX15101EWL" device=""/>
 <part name="BTN2" library="badge" deviceset="MCMT5-F-V" device=""/>
-<part name="IC102" library="SparkFun" deviceset="AT45DB041B" device="" value="AT45DB041D"/>
 <part name="X3" library="badge" deviceset="NOKIA" device=""/>
 <part name="SW2" library="badge" deviceset="JS102011SAQN" device=""/>
 <part name="IC701" library="MAX15101EWL" deviceset="MAX15101EWL" device=""/>
@@ -17836,12 +17900,13 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <part name="GPIO" library="con-lstb" deviceset="MA11-2" device=""/>
 <part name="X1_" library="badge" deviceset="JST-PH3" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="CON1" library="Tado-Rev0301-Lib" deviceset="CONNECTOR_USB_MINI/MICRO" device="_GUIDED" technology="_TYPE-B_FCI_10118192-0001LF" value="10118192-0001LF"/>
-<part name="CON2" library="Tado-Rev0301-Lib" deviceset="CONNECTOR_USB_MINI/MICRO" device="_GUIDED" technology="_TYPE-B_FCI_10118192-0001LF" value="10118192-0001LF"/>
+<part name="USB0" library="Tado-Rev0301-Lib" deviceset="CONNECTOR_USB_MINI/MICRO" device="_GUIDED" technology="_TYPE-B_FCI_10118192-0001LF" value="10118192-0001LF"/>
+<part name="USB1" library="Tado-Rev0301-Lib" deviceset="CONNECTOR_USB_MINI/MICRO" device="_GUIDED" technology="_TYPE-B_FCI_10118192-0001LF" value="10118192-0001LF"/>
 <part name="FID1" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID2" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID3" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID4" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
+<part name="IC2" library="Tado-Rev0301-Lib" deviceset="IC_FLASH?" device="_SOIC" technology="_S25FL204K0TMFI043" value="S25FL204K0TMFI043"/>
 </parts>
 <sheets>
 <sheet>
@@ -17851,10 +17916,6 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0"/>
-<instance part="IC102" gate="G$1" x="220.98" y="144.78" smashed="yes">
-<attribute name="NAME" x="220.472" y="157.734" size="1.778" layer="95"/>
-<attribute name="VALUE" x="216.154" y="153.924" size="1.778" layer="96"/>
-</instance>
 <instance part="IC101" gate="G$1" x="22.86" y="165.1"/>
 <instance part="IC101" gate="G$2" x="22.86" y="149.86"/>
 <instance part="IC101" gate="G$3" x="22.86" y="86.36"/>
@@ -17906,8 +17967,8 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <instance part="P+11" gate="VCC" x="132.08" y="48.26" smashed="yes" rot="R270">
 <attribute name="VALUE" x="132.715" y="51.435" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND22" gate="1" x="238.76" y="147.32" smashed="yes" rot="R90">
-<attribute name="VALUE" x="239.395" y="146.05" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="195.58" y="144.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="194.945" y="146.05" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+12" gate="VCC" x="254" y="154.94" smashed="yes">
 <attribute name="VALUE" x="251.46" y="155.575" size="1.778" layer="96"/>
@@ -17976,10 +18037,11 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 </instance>
 <instance part="ISP" gate="1" x="101.6" y="15.24"/>
 <instance part="GND81" gate="1" x="109.22" y="5.08"/>
-<instance part="FID1" gate="G$1" x="200.66" y="172.72"/>
-<instance part="FID2" gate="G$1" x="210.82" y="172.72"/>
-<instance part="FID3" gate="G$1" x="223.52" y="172.72"/>
-<instance part="FID4" gate="G$1" x="236.22" y="172.72"/>
+<instance part="FID1" gate="G$1" x="233.68" y="175.26"/>
+<instance part="FID2" gate="G$1" x="238.76" y="175.26"/>
+<instance part="FID3" gate="G$1" x="243.84" y="175.26"/>
+<instance part="FID4" gate="G$1" x="248.92" y="175.26"/>
+<instance part="IC2" gate="G$1" x="208.28" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -18247,9 +18309,9 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <label x="43.18" y="33.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC102" gate="G$1" pin="SCK"/>
-<wire x1="210.82" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
-<label x="208.28" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="223.52" y="147.32" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="SCK"/>
+<wire x1="223.52" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPIFL_SI03" class="0">
@@ -18259,9 +18321,9 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <label x="43.18" y="30.48" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC102" gate="G$1" pin="RST"/>
-<wire x1="210.82" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
-<label x="208.28" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="223.52" y="149.86" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="~HOLD"/>
+<wire x1="223.52" y1="149.86" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPIFL_MISO" class="0">
@@ -18271,9 +18333,9 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <label x="43.18" y="25.4" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC102" gate="G$1" pin="SO"/>
-<wire x1="236.22" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
-<label x="238.76" y="149.86" size="1.016" layer="95" xref="yes"/>
+<label x="195.58" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="SO"/>
+<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPIFL_MOSI" class="0">
@@ -18290,9 +18352,9 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <label x="43.18" y="20.32" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC102" gate="G$1" pin="CS"/>
-<wire x1="210.82" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
-<label x="208.28" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="195.58" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="~CS"/>
+<wire x1="195.58" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P4_0" class="0">
@@ -18786,10 +18848,6 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <junction x="246.38" y="114.3"/>
 </segment>
 <segment>
-<pinref part="IC102" gate="G$1" pin="GND"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C107" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
@@ -18835,6 +18893,10 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <pinref part="ISP" gate="1" pin="1"/>
 <pinref part="GND81" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -18855,12 +18917,14 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="IC102" gate="G$1" pin="VCC"/>
 <pinref part="C107" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="144.78" x2="254" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="144.78" x2="254" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
 <wire x1="254" y1="152.4" x2="254" y2="144.78" width="0.1524" layer="91"/>
 <junction x="254" y="144.78"/>
+<wire x1="243.84" y1="144.78" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<wire x1="243.84" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+58" gate="VCC" pin="VCC"/>
@@ -18965,16 +19029,16 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 </net>
 <net name="SPOFL_MOSI" class="0">
 <segment>
-<pinref part="IC102" gate="G$1" pin="SI"/>
-<wire x1="210.82" y1="149.86" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
-<label x="208.28" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="223.52" y="144.78" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="SI"/>
+<wire x1="223.52" y1="144.78" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPIFL_SI02" class="0">
 <segment>
-<pinref part="IC102" gate="G$1" pin="WP"/>
-<wire x1="236.22" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
-<label x="238.76" y="142.24" size="1.016" layer="95" xref="yes"/>
+<label x="195.58" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="~WP"/>
+<wire x1="195.58" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC101" gate="G$4" pin="P3_5"/>
@@ -24648,8 +24712,8 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <instance part="GND70" gate="1" x="132.08" y="76.2" smashed="yes">
 <attribute name="VALUE" x="129.54" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="CON1" gate="G$1" x="127" y="144.78"/>
-<instance part="CON2" gate="G$1" x="127" y="109.22"/>
+<instance part="USB0" gate="G$1" x="127" y="144.78"/>
+<instance part="USB1" gate="G$1" x="127" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -24819,7 +24883,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <label x="111.76" y="152.4" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="111.76" y1="149.86" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 <junction x="111.76" y="149.86"/>
-<pinref part="CON1" gate="G$1" pin="1.V+USB"/>
+<pinref part="USB0" gate="G$1" pin="1.V+USB"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -24981,7 +25045,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <wire x1="104.14" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="147.32" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
 <junction x="104.14" y="147.32"/>
-<pinref part="CON1" gate="G$1" pin="2.D-"/>
+<pinref part="USB0" gate="G$1" pin="2.D-"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -24994,7 +25058,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <wire x1="106.68" y1="142.24" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
 <junction x="106.68" y="144.78"/>
-<pinref part="CON1" gate="G$1" pin="3.D+"/>
+<pinref part="USB0" gate="G$1" pin="3.D+"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -25007,7 +25071,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <wire x1="109.22" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <junction x="109.22" y="142.24"/>
-<pinref part="CON1" gate="G$1" pin="4"/>
+<pinref part="USB0" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -25028,7 +25092,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <label x="111.76" y="132.08" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
 <junction x="111.76" y="129.54"/>
-<pinref part="CON2" gate="G$1" pin="1.V+USB"/>
+<pinref part="USB1" gate="G$1" pin="1.V+USB"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -25041,7 +25105,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <pinref part="D702" gate="G$1" pin="ES1"/>
 <wire x1="101.6" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <junction x="109.22" y="121.92"/>
-<pinref part="CON2" gate="G$1" pin="2.D-"/>
+<pinref part="USB1" gate="G$1" pin="2.D-"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -25054,7 +25118,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <pinref part="D702" gate="G$1" pin="ES2"/>
 <wire x1="101.6" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <junction x="106.68" y="119.38"/>
-<pinref part="CON2" gate="G$1" pin="3.D+"/>
+<pinref part="USB1" gate="G$1" pin="3.D+"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -25065,7 +25129,7 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <wire x1="101.6" y1="106.68" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
 <junction x="101.6" y="106.68"/>
-<pinref part="CON2" gate="G$1" pin="4"/>
+<pinref part="USB1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -25227,14 +25291,14 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <wire x1="132.08" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 <junction x="132.08" y="93.98"/>
 <junction x="139.7" y="93.98"/>
-<pinref part="CON1" gate="G$1" pin="GND2"/>
+<pinref part="USB0" gate="G$1" pin="GND2"/>
 <junction x="124.46" y="132.08"/>
-<pinref part="CON2" gate="G$1" pin="GND2"/>
+<pinref part="USB1" gate="G$1" pin="GND2"/>
 <junction x="124.46" y="96.52"/>
-<pinref part="CON2" gate="G$1" pin="GND1"/>
+<pinref part="USB1" gate="G$1" pin="GND1"/>
 <wire x1="124.46" y1="121.92" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
 <junction x="139.7" y="121.92"/>
-<pinref part="CON1" gate="G$1" pin="GND1"/>
+<pinref part="USB0" gate="G$1" pin="GND1"/>
 <wire x1="124.46" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="157.48" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
 <junction x="139.7" y="132.08"/>
@@ -25305,13 +25369,13 @@ JAE USB Micro Type AB Receptacle&lt;br&gt;
 <pinref part="L707" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="139.7" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="139.7" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="5.GND"/>
+<pinref part="USB0" gate="G$1" pin="5.GND"/>
 </segment>
 <segment>
 <pinref part="L708" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="104.14" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="CON2" gate="G$1" pin="5.GND"/>
+<pinref part="USB1" gate="G$1" pin="5.GND"/>
 </segment>
 </net>
 </nets>
