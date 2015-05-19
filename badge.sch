@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17553,6 +17553,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="40.64" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="43.18" y="22.86" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="223.52" y="144.78" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="SI"/>
+<wire x1="223.52" y1="144.78" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SPIFL_CS" class="0">
 <segment>
@@ -18234,13 +18239,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="205.74" y1="121.92" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
 <junction x="205.74" y="114.3"/>
 <label x="200.66" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPOFL_MOSI" class="0">
-<segment>
-<label x="223.52" y="144.78" size="1.016" layer="95" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="SI"/>
-<wire x1="223.52" y1="144.78" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPIFL_SI02" class="0">
@@ -21283,7 +21281,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="VDD14" gate="G$1" x="10.16" y="60.96"/>
 <instance part="VDD15" gate="G$1" x="10.16" y="25.4"/>
 <instance part="VDD16" gate="G$1" x="12.7" y="114.3"/>
-<instance part="VDD17" gate="G$1" x="63.5" y="66.04"/>
+<instance part="VDD17" gate="G$1" x="68.58" y="68.58"/>
 <instance part="VDD18" gate="G$1" x="104.14" y="30.48"/>
 <instance part="VDD19" gate="G$1" x="193.04" y="66.04"/>
 <instance part="VDD20" gate="G$1" x="251.46" y="66.04"/>
@@ -22192,12 +22190,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="218.44" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$97" class="0">
-<segment>
-<pinref part="IC404" gate="G$1" pin="VDD"/>
-<wire x1="68.58" y1="66.04" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VDD" class="0">
 <segment>
 <pinref part="IC401" gate="G$1" pin="VDD"/>
@@ -22258,6 +22250,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <junction x="152.4" y="25.4"/>
 <wire x1="104.14" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
 <junction x="111.76" y="25.4"/>
+</segment>
+<segment>
+<pinref part="IC404" gate="G$1" pin="VDD"/>
+<wire x1="68.58" y1="66.04" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="VDD17" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$95" class="0">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7991,6 +7991,8 @@ design rules under a new name.</description>
 <wire x1="53.8" y1="49.5" x2="53.4" y2="49.9" width="0.15" layer="1"/>
 <via x="53.4" y="49.9" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="53.4" y1="49.9" x2="51.1" y2="49.9" width="0.15" layer="16"/>
+<contactref element="IC2" pad="5"/>
+<wire x1="53.4" y1="49.9" x2="66.3" y2="64.495" width="0" layer="19" extent="1-1"/>
 <wire x1="68.216" y1="5.552" x2="53.8" y2="49.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPIFL_CS">
@@ -10202,9 +10204,6 @@ design rules under a new name.</description>
 <wire x1="38.628" y1="58.976" x2="52.94" y2="67.174" width="0" layer="19" extent="1-1"/>
 <wire x1="58.6" y1="45.5" x2="52.94" y2="67.174" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SPOFL_MOSI">
-<contactref element="IC2" pad="5"/>
-</signal>
 <signal name="SPIFL_SI02">
 <contactref element="IC101" pad="C11"/>
 <wire x1="53.8" y1="50.3" x2="53.4" y2="50.7" width="0.15" layer="1"/>
@@ -11150,9 +11149,12 @@ design rules under a new name.</description>
 <wire x1="98.68" y1="50.72" x2="99.8" y2="51.84" width="0.2" layer="16"/>
 <wire x1="99.8" y1="51.84" x2="99.8" y2="52" width="0.2" layer="16"/>
 <wire x1="100.9" y1="51.1" x2="101.1" y2="51.1" width="0.2" layer="16"/>
+<contactref element="IC404" pad="4"/>
+<contactref element="IC404" pad="4"/>
 <wire x1="121.266" y1="57.966" x2="121.393" y2="57.966" width="0" layer="19" extent="1-1"/>
 <wire x1="120.4" y1="50.6" x2="120.4" y2="50.4" width="0" layer="19" extent="1-3"/>
 <wire x1="117.294" y1="55.734" x2="117.294" y2="55.606" width="0" layer="19" extent="1-1"/>
+<wire x1="116.513" y1="55.137" x2="116.513" y2="55.487" width="0" layer="19" extent="1-1"/>
 <wire x1="116.1" y1="53.9" x2="117.4" y2="53.8" width="0" layer="19" extent="1-1"/>
 <wire x1="129.98" y1="15.746" x2="117" y2="46.4" width="0" layer="19" extent="1-1"/>
 <wire x1="130.456" y1="12.368" x2="129.98" y2="15.746" width="0" layer="19" extent="1-1"/>
@@ -11634,10 +11636,6 @@ design rules under a new name.</description>
 <contactref element="IC204" pad="6"/>
 <contactref element="R232" pad="2"/>
 <wire x1="128.132" y1="34.402" x2="132.916" y2="37.702" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$97">
-<contactref element="IC404" pad="4"/>
-<contactref element="IC404" pad="4"/>
 </signal>
 <signal name="N$95">
 <contactref element="IC408" pad="32"/>
