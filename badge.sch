@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17122,6 +17122,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="AGND102" library="supply1" deviceset="AGND" device=""/>
 <part name="X2" library="con-coax" deviceset="SMA-WAG" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="L1" library="muccc" deviceset="L_0603" device="" value="FB"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
+<part name="GND27" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18848,6 +18853,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="GPIO" gate="G$1" x="187.96" y="91.44"/>
 <instance part="Q2" gate="G$1" x="317.5" y="119.38" rot="R90"/>
 <instance part="U$2" gate="G$1" x="132.08" y="154.94"/>
+<instance part="GND25" gate="1" x="139.7" y="152.4" smashed="yes">
+<attribute name="VALUE" x="136.525" y="149.225" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19601,6 +19609,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <segment>
 <pinref part="GND80" gate="1" pin="GND"/>
 <pinref part="GPIO" gate="G$1" pin="19"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SHIELD"/>
+<pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -20518,6 +20530,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <segment>
 <pinref part="ANT1" gate="G$1" pin="GND"/>
 <pinref part="AGND102" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<pinref part="X2" gate="G$1" pin="GND"/>
+<wire x1="7.62" y1="116.84" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="1">
@@ -23929,6 +23946,20 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </instance>
 <instance part="USB0" gate="G$1" x="127" y="144.78"/>
 <instance part="USB1" gate="G$1" x="127" y="109.22"/>
+<instance part="L1" gate="G$1" x="152.4" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="150.1394" y="122.174" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.368" y="116.078" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C1" gate="G$1" x="144.78" y="121.92" smashed="yes">
+<attribute name="NAME" x="141.351" y="122.936" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="141.351" y="114.554" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND26" gate="1" x="152.4" y="114.3" smashed="yes">
+<attribute name="VALUE" x="149.86" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="GND27" gate="1" x="144.78" y="114.3" smashed="yes">
+<attribute name="VALUE" x="142.24" y="111.76" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24249,6 +24280,14 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="C707" gate="G$1" pin="2"/>
 <pinref part="GND70" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$54" class="0">
 <segment>
@@ -24495,28 +24534,16 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="C707" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="96.52" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="93.98" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="123.19" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="L709" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="123.19" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="132.08" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="121.92" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="93.98" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 <junction x="132.08" y="93.98"/>
 <junction x="139.7" y="93.98"/>
-<pinref part="USB0" gate="G$1" pin="GND2"/>
-<junction x="124.46" y="132.08"/>
 <pinref part="USB1" gate="G$1" pin="GND2"/>
-<junction x="124.46" y="96.52"/>
 <pinref part="USB1" gate="G$1" pin="GND1"/>
 <wire x1="124.46" y1="121.92" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
-<junction x="139.7" y="121.92"/>
-<pinref part="USB0" gate="G$1" pin="GND1"/>
-<wire x1="124.46" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="157.48" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
-<junction x="139.7" y="132.08"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -24586,11 +24613,30 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="116.84" y1="139.7" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="USB0" gate="G$1" pin="5.GND"/>
 </segment>
+</net>
+<net name="6.GND" class="0">
 <segment>
 <pinref part="L708" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="104.14" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="USB1" gate="G$1" pin="5.GND"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="USB0" gate="G$1" pin="GND1"/>
+<wire x1="124.46" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="157.48" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="USB0" gate="G$1" pin="GND2"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="132.08" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
+<junction x="139.7" y="132.08"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="132.08" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="132.08" x2="152.4" y2="127" width="0.1524" layer="91"/>
+<junction x="144.78" y="132.08"/>
 </segment>
 </net>
 </nets>
@@ -25208,13 +25254,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="162.56" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="BC_THMEN" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="THMEN"/>
-<wire x1="127" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="X1_" gate="1" pin="1"/>
-</segment>
-</net>
 <net name="BC_DONE" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="*DONE"/>
@@ -25250,9 +25289,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="127" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="63.5" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <junction x="132.08" y="66.04"/>
-<wire x1="152.4" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <junction x="152.4" y="66.04"/>
-<label x="154.94" y="66.04" size="1.016" layer="95" xref="yes"/>
+<label x="152.4" y="66.04" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -25342,6 +25380,13 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="33.02" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
 <junction x="33.02" y="88.9"/>
 <label x="30.48" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BC_THMEN" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="THMEN"/>
+<wire x1="127" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="142.24" y="55.88" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
