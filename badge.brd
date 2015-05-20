@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5459,7 +5459,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="34.442" y="43.898" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="34.442" y="43.898" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC1" library="muccc" package="21-0139I_T2844-1" value="" x="34.008" y="22.438" rot="R180">
+<element name="IC1" library="muccc" package="21-0139I_T2844-1" value="MAX8394" x="34.008" y="22.438" rot="R180">
 <attribute name="VENDOR" value="MAXIM" x="34.008" y="22.438" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="max8934deti+" x="34.008" y="22.438" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5478,8 +5478,7 @@ design rules under a new name.</description>
 <element name="R819" library="rcl" package="R0402" value="3k" x="33.538" y="27.556" rot="R90"/>
 <element name="C808" library="rcl" package="C0402" value="100n" x="36.078" y="27.556" rot="R270"/>
 <element name="C807" library="rcl" package="C0402" value="68n" x="34.808" y="27.556" rot="R270"/>
-<element name="R820" library="rcl" package="R0402" value="3k" x="32.268" y="27.556" rot="R270"/>
-<element name="R821" library="rcl" package="R0402" value="3k" x="30.998" y="27.556" rot="R90"/>
+<element name="R820" library="rcl" package="R0402" value="100k" x="32.268" y="27.556" rot="R270"/>
 <element name="IC203" library="Si5351B" package="MSOP-10" value="SI5351-A-B-GT" x="129.916" y="28.736" rot="R90"/>
 <element name="IC204" library="Si5351B" package="MSOP-10" value="SI5351-A-B-GT" x="131.916" y="35.502" rot="R90"/>
 <element name="C215" library="rcl" package="C0402" value="100n" x="132.71" y="26.006" rot="R270"/>
@@ -5534,6 +5533,8 @@ design rules under a new name.</description>
 <element name="X2" library="con-coax" package="J502-ND-142-0711-821/826" value="" x="132" y="81" rot="R270"/>
 <element name="L1" library="muccc" package="0603K" value="FB" x="27.2" y="5" rot="R270"/>
 <element name="C1" library="rcl" package="C0402" value="" x="25.8" y="5" rot="R90"/>
+<element name="LD1" library="adafruit" package="CHIPLED_0603" value="" x="32.8" y="34.4" rot="R90"/>
+<element name="R3" library="rcl" package="R0402" value="1k" x="35.8" y="34.4"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5634,7 +5635,6 @@ design rules under a new name.</description>
 <contactref element="C808" pad="1"/>
 <contactref element="C807" pad="1"/>
 <contactref element="C802" pad="2"/>
-<contactref element="R821" pad="2"/>
 <contactref element="C215" pad="2"/>
 <contactref element="C226" pad="2"/>
 <contactref element="IC204" pad="8"/>
@@ -5937,8 +5937,7 @@ design rules under a new name.</description>
 <wire x1="36.078" y1="28.206" x2="37.638" y2="25.03" width="0" layer="19" extent="1-1"/>
 <wire x1="34.808" y1="28.206" x2="36.078" y2="28.206" width="0" layer="19" extent="1-1"/>
 <wire x1="33.538" y1="28.206" x2="34.808" y2="28.206" width="0" layer="19" extent="1-1"/>
-<wire x1="30.998" y1="28.206" x2="33.538" y2="28.206" width="0" layer="19" extent="1-1"/>
-<wire x1="25.078" y1="24.746" x2="30.998" y2="28.206" width="0" layer="19" extent="1-1"/>
+<wire x1="25.078" y1="24.746" x2="33" y2="23.4" width="0" layer="19" extent="1-1"/>
 <wire x1="24.62" y1="22.26" x2="25.078" y2="24.746" width="0" layer="19" extent="1-1"/>
 <wire x1="25.212" y1="19.38" x2="24.62" y2="22.26" width="0" layer="19" extent="1-1"/>
 <wire x1="19.4" y1="22.4" x2="24.62" y2="22.26" width="0" layer="19" extent="1-1"/>
@@ -7958,9 +7957,6 @@ design rules under a new name.</description>
 <wire x1="62.7" y1="40.3" x2="62.7" y2="39.766" width="0.15" layer="1"/>
 <wire x1="62.7" y1="39.766" x2="62.846" y2="39.62" width="0.15" layer="1"/>
 </signal>
-<signal name="SSP_MISO">
-<contactref element="IC101" pad="M2"/>
-</signal>
 <signal name="SSP1_MOSI">
 <contactref element="IC101" pad="P2"/>
 <contactref element="IC601" pad="34"/>
@@ -8356,9 +8352,6 @@ design rules under a new name.</description>
 <signal name="P4_1">
 <contactref element="IC101" pad="D3"/>
 </signal>
-<signal name="LED2">
-<contactref element="IC101" pad="A2"/>
-</signal>
 <signal name="SPGI09">
 <contactref element="IC101" pad="B2"/>
 <contactref element="R200" pad="2"/>
@@ -8493,9 +8486,6 @@ design rules under a new name.</description>
 <via x="60.6" y="34" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="60.6" y1="34" x2="60.6" y2="40.4" width="0.15" layer="16"/>
 <wire x1="60.6" y1="40.4" x2="60.6" y2="41.5" width="0.15" layer="16"/>
-</signal>
-<signal name="VAA_ENABLE">
-<contactref element="IC101" pad="L2"/>
 </signal>
 <signal name="LE_VCO">
 <contactref element="IC101" pad="N8"/>
@@ -8692,9 +8682,6 @@ design rules under a new name.</description>
 <wire x1="59.6" y1="54.2" x2="59.6" y2="55.4" width="0.15" layer="16"/>
 <wire x1="59.6" y1="55.4" x2="59.9" y2="55.7" width="0.15" layer="16"/>
 </signal>
-<signal name="EN1V8">
-<contactref element="IC101" pad="G13"/>
-</signal>
 <signal name="VREGMODE">
 <contactref element="IC101" pad="F11"/>
 </signal>
@@ -8750,21 +8737,6 @@ design rules under a new name.</description>
 <wire x1="53.8" y1="44.7" x2="53.8" y2="41.2" width="0.15" layer="16"/>
 <contactref element="GPIO" pad="12"/>
 <wire x1="54.6" y1="45.5" x2="36.2" y2="78.07" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GPIO4_4">
-<contactref element="IC101" pad="H2"/>
-</signal>
-<signal name="GPIO4_5">
-<contactref element="IC101" pad="H1"/>
-</signal>
-<signal name="GPIO4_6">
-<contactref element="IC101" pad="J3"/>
-</signal>
-<signal name="GPIO4_7">
-<contactref element="IC101" pad="J1"/>
-</signal>
-<signal name="P8_8">
-<contactref element="IC101" pad="K1"/>
 </signal>
 <signal name="LCD_MISO">
 <contactref element="IC101" pad="P4"/>
@@ -10434,6 +10406,8 @@ design rules under a new name.</description>
 <wire x1="57" y1="37" x2="55.4" y2="37" width="0.15" layer="16"/>
 <wire x1="55.4" y1="37" x2="54.6" y2="37.8" width="0.15" layer="16"/>
 <wire x1="54.6" y1="37.8" x2="54.6" y2="43.9" width="0.15" layer="16"/>
+<contactref element="IC101" pad="M2"/>
+<wire x1="55.4" y1="44.7" x2="61" y2="43.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$161">
 <contactref element="IC501" pad="27"/>
@@ -11649,11 +11623,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="EN_VDD">
 <contactref element="IC702" pad="A1"/>
-<contactref element="IC101" pad="M7"/>
-<wire x1="61" y1="47.1" x2="61.4" y2="46.7" width="0.15" layer="1"/>
-<via x="61.4" y="46.7" extent="1-16" drill="0.2" diameter="0.45"/>
-<wire x1="61.4" y1="46.7" x2="63.7" y2="46.7" width="0.15" layer="16"/>
-<wire x1="63.7" y1="46.7" x2="129.456" y2="10.368" width="0" layer="19" extent="1-16"/>
+<contactref element="IC101" pad="L2"/>
+<wire x1="60.2" y1="43.1" x2="129.456" y2="10.368" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PG_VDD">
 <contactref element="IC702" pad="A2"/>
@@ -11849,15 +11820,6 @@ design rules under a new name.</description>
 <signal name="U2_RXD">
 <contactref element="IC101" pad="J13"/>
 </signal>
-<signal name="GPIO4_10">
-<contactref element="IC101" pad="E10"/>
-</signal>
-<signal name="GPIO5_19">
-<contactref element="IC101" pad="E12"/>
-</signal>
-<signal name="GPIO6_30">
-<contactref element="IC101" pad="P12"/>
-</signal>
 <signal name="GP_CLKIN">
 <contactref element="IC101" pad="L8"/>
 </signal>
@@ -11884,9 +11846,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="EN_1V8">
 <contactref element="IC703" pad="3"/>
-<contactref element="IC101" pad="P9"/>
-<wire x1="62.6" y1="48.7" x2="63.7" y2="48.7" width="0.15" layer="1"/>
-<wire x1="63.118" y1="22.09" x2="62.6" y2="48.7" width="0" layer="19" extent="1-1"/>
+<contactref element="IC101" pad="G13"/>
+<wire x1="63.118" y1="22.09" x2="57" y2="51.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$71">
 <contactref element="C707" pad="1"/>
@@ -11969,6 +11930,11 @@ design rules under a new name.</description>
 <signal name="BC_IND">
 <contactref element="IC1" pad="22"/>
 <contactref element="R812" pad="1"/>
+<contactref element="IC101" pad="M7"/>
+<wire x1="61" y1="47.1" x2="61.4" y2="46.7" width="0.15" layer="1"/>
+<via x="61.4" y="46.7" extent="1-16" drill="0.2" diameter="0.45"/>
+<wire x1="61.4" y1="46.7" x2="63.7" y2="46.7" width="0.15" layer="16"/>
+<wire x1="32.7888" y1="20.4949" x2="61" y2="47.1" width="0" layer="19" extent="1-1"/>
 <wire x1="31.056" y1="17.23" x2="32.7888" y2="20.4949" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
@@ -12028,33 +11994,47 @@ design rules under a new name.</description>
 <signal name="BC_OT">
 <contactref element="IC1" pad="25"/>
 <contactref element="R813" pad="1"/>
+<contactref element="IC101" pad="J1"/>
+<wire x1="34.008" y1="20.4949" x2="58.6" y2="42.3" width="0" layer="19" extent="1-1"/>
 <wire x1="32.326" y1="17.23" x2="34.008" y2="20.4949" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_DOK">
 <contactref element="IC1" pad="26"/>
 <contactref element="R814" pad="1"/>
+<contactref element="IC101" pad="J3"/>
+<wire x1="34.4144" y1="20.4949" x2="58.6" y2="43.9" width="0" layer="19" extent="1-1"/>
 <wire x1="33.596" y1="17.23" x2="34.4144" y2="20.4949" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_UOK">
 <contactref element="IC1" pad="27"/>
 <contactref element="R815" pad="1"/>
+<contactref element="IC101" pad="H1"/>
+<wire x1="34.8208" y1="20.4949" x2="57.8" y2="42.3" width="0" layer="19" extent="1-1"/>
 <wire x1="34.866" y1="17.23" x2="34.8208" y2="20.4949" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_FLT">
 <contactref element="IC1" pad="28"/>
 <contactref element="R816" pad="1"/>
+<contactref element="IC101" pad="H2"/>
+<wire x1="35.2272" y1="20.4949" x2="57.8" y2="43.1" width="0" layer="19" extent="1-1"/>
 <wire x1="36.136" y1="17.23" x2="35.2272" y2="20.4949" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_DONE">
 <contactref element="IC1" pad="1"/>
 <contactref element="R817" pad="1"/>
+<contactref element="IC101" pad="P12"/>
+<wire x1="35.9511" y1="21.2188" x2="62.6" y2="51.1" width="0" layer="19" extent="1-1"/>
 <wire x1="37.388" y1="17.23" x2="35.9511" y2="21.2188" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_CEN">
 <contactref element="IC1" pad="4"/>
+<contactref element="IC101" pad="E10"/>
+<wire x1="35.9511" y1="22.438" x2="55.4" y2="49.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_PEN2">
 <contactref element="IC1" pad="6"/>
+<contactref element="IC101" pad="E12"/>
+<wire x1="35.9511" y1="23.2508" x2="55.4" y2="51.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$81">
 <contactref element="IC1" pad="7"/>
@@ -12068,6 +12048,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="BC_USUS">
 <contactref element="IC1" pad="12"/>
+<contactref element="IC101" pad="P9"/>
+<wire x1="62.6" y1="48.7" x2="63.7" y2="48.7" width="0.15" layer="1"/>
+<wire x1="33.6016" y1="24.3811" x2="62.6" y2="48.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$85">
 <contactref element="IC1" pad="8"/>
@@ -12080,11 +12063,11 @@ design rules under a new name.</description>
 <wire x1="34.4144" y1="24.3811" x2="34.808" y2="26.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$83">
-<contactref element="R821" pad="1"/>
 <contactref element="IC1" pad="14"/>
 <contactref element="R820" pad="2"/>
-<wire x1="32.268" y1="26.906" x2="30.998" y2="26.906" width="0" layer="19" extent="1-1"/>
+<contactref element="X1_" pad="1"/>
 <wire x1="32.7888" y1="24.3811" x2="32.268" y2="26.906" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4" y1="24.4" x2="32.268" y2="26.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$87">
 <contactref element="R820" pad="1"/>
@@ -12252,6 +12235,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="BC_THMEN">
 <contactref element="IC1" pad="15"/>
+<contactref element="IC101" pad="K1"/>
+<wire x1="32.0649" y1="23.6572" x2="59.4" y2="42.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND1">
+<contactref element="LD1" pad="C"/>
+</signal>
+<signal name="N$64">
+<contactref element="LD1" pad="A"/>
+<contactref element="R3" pad="1"/>
+<wire x1="35.15" y1="34.4" x2="33.55" y2="34.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_2">
+<contactref element="R3" pad="2"/>
+<contactref element="IC101" pad="A2"/>
+<wire x1="36.45" y1="34.4" x2="52.2" y2="43.1" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
