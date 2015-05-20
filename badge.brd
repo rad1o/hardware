@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5535,6 +5535,8 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" package="C0402" value="" x="25.8" y="5" rot="R90"/>
 <element name="LD1" library="adafruit" package="CHIPLED_0603" value="" x="32.8" y="34.4" rot="R90"/>
 <element name="R3" library="rcl" package="R0402" value="1k" x="35.8" y="34.4"/>
+<element name="R4" library="rcl" package="R0402" value="1M" x="40.2" y="23.6"/>
+<element name="R5" library="rcl" package="R0402" value="1M" x="40.2" y="25.2"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5894,6 +5896,7 @@ design rules under a new name.</description>
 <via x="25.8" y="6.4" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="25.8" y1="6.4" x2="25.8" y2="6.6" width="0.3048" layer="2"/>
 <wire x1="25.8" y1="6.6" x2="25.6" y2="6.8" width="0.3048" layer="2"/>
+<contactref element="R5" pad="1"/>
 <wire x1="100.84" y1="75.27" x2="101.91" y2="75.24" width="0" layer="19" extent="1-1"/>
 <wire x1="90.82" y1="49.53" x2="90" y2="54.6" width="0" layer="19" extent="1-3"/>
 <wire x1="90.483" y1="41.661" x2="90.82" y2="49.53" width="0" layer="19" extent="1-1"/>
@@ -5982,6 +5985,7 @@ design rules under a new name.</description>
 <wire x1="36.088" y1="61.516" x2="36.088" y2="58.976" width="0" layer="19" extent="1-1"/>
 <wire x1="66.934" y1="77.832" x2="54.234" y2="77.832" width="0" layer="19" extent="1-1"/>
 <wire x1="96.476" y1="8.136" x2="92.826" y2="21.104" width="0" layer="19" extent="1-1"/>
+<wire x1="39.55" y1="25.2" x2="16" y2="6.6" width="0" layer="19" extent="1-1"/>
 <wire x1="120.798" y1="47.475" x2="103.502003125" y2="52.9844" width="0" layer="19" extent="1-1"/>
 <wire x1="122.185" y1="40.11" x2="120.798" y2="47.475" width="0" layer="19" extent="1-1"/>
 <wire x1="124.284" y1="38.296" x2="122.185" y2="40.11" width="0" layer="19" extent="1-1"/>
@@ -11919,6 +11923,7 @@ design rules under a new name.</description>
 <contactref element="R815" pad="2"/>
 <contactref element="R816" pad="2"/>
 <contactref element="R817" pad="2"/>
+<contactref element="R4" pad="2"/>
 <wire x1="26.778" y1="24.746" x2="32.0649" y2="22.8444" width="0" layer="19" extent="1-1"/>
 <wire x1="32.326" y1="15.93" x2="32.0649" y2="22.8444" width="0" layer="19" extent="1-1"/>
 <wire x1="33.596" y1="15.93" x2="32.326" y2="15.93" width="0" layer="19" extent="1-1"/>
@@ -11926,6 +11931,7 @@ design rules under a new name.</description>
 <wire x1="36.136" y1="15.93" x2="34.866" y2="15.93" width="0" layer="19" extent="1-1"/>
 <wire x1="37.388" y1="15.93" x2="36.136" y2="15.93" width="0" layer="19" extent="1-1"/>
 <wire x1="31.056" y1="15.93" x2="32.326" y2="15.93" width="0" layer="19" extent="1-1"/>
+<wire x1="40.85" y1="23.6" x2="31.056" y2="15.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BC_IND">
 <contactref element="IC1" pad="22"/>
@@ -12034,7 +12040,11 @@ design rules under a new name.</description>
 <signal name="BC_PEN2">
 <contactref element="IC1" pad="6"/>
 <contactref element="IC101" pad="E12"/>
+<contactref element="R5" pad="2"/>
+<contactref element="R4" pad="1"/>
 <wire x1="35.9511" y1="23.2508" x2="55.4" y2="51.1" width="0" layer="19" extent="1-1"/>
+<wire x1="39.55" y1="23.6" x2="35.9511" y2="23.2508" width="0" layer="19" extent="1-1"/>
+<wire x1="40.85" y1="25.2" x2="39.55" y2="23.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$81">
 <contactref element="IC1" pad="7"/>

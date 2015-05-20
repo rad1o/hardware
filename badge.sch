@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17127,6 +17127,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="LD1" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
+<part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
 </parts>
 <sheets>
 <sheet>
@@ -24833,6 +24836,17 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <attribute name="NAME" x="231.902" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="231.902" y="136.144" size="1.778" layer="96"/>
 </instance>
+<instance part="R4" gate="G$1" x="15.24" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.2334" y="86.106" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="13.208" y="81.026" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND28" gate="1" x="15.24" y="60.96" smashed="yes">
+<attribute name="VALUE" x="12.7" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="15.24" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.2334" y="70.866" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="13.208" y="65.786" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24995,6 +25009,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="SW1" gate="&gt;NAME" pin="MOUNT"/>
 <wire x1="215.9" y1="63.5" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="63.5" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -25167,6 +25186,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="58.42" y1="101.6" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="58.42" y="104.14" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="91.44" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+<label x="15.24" y="93.98" size="1.016" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="BC_IND" class="0">
 <segment>
@@ -25269,8 +25293,14 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <net name="BC_PEN2" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="PEN2"/>
-<wire x1="60.96" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<label x="53.34" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
+<label x="12.7" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="78.74" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="76.2" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
+<junction x="15.24" y="78.74"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="78.74" x2="15.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB1" class="0">
