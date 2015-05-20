@@ -16512,6 +16512,196 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="microbuilder">
+<packages>
+<package name="CHIPLED_1206">
+<description>&lt;b&gt;CHIPLED 1206&lt;/b&gt;</description>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.1016" layer="51" curve="172.619069"/>
+<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>
+<wire x1="-0.6" y1="0.446" x2="0" y2="0.446" width="0.127" layer="21"/>
+<wire x1="0" y1="0.446" x2="0.6" y2="0.446" width="0.127" layer="21"/>
+<wire x1="0" y1="0.446" x2="-0.6" y2="-0.154" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.154" x2="0.6" y2="-0.154" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-0.154" x2="0" y2="0.446" width="0.127" layer="21"/>
+<wire x1="0.6875" y1="2.3985" x2="0.646" y2="2.3985" width="0.127" layer="21"/>
+<wire x1="0.646" y1="2.3985" x2="-1" y2="2.3985" width="0.127" layer="21"/>
+<wire x1="-1" y1="2.3985" x2="-1" y2="-2.3985" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.3985" x2="0.392" y2="-2.3985" width="0.127" layer="21"/>
+<wire x1="0.392" y1="-2.3985" x2="0.5605" y2="-2.3985" width="0.127" layer="21"/>
+<wire x1="0.392" y1="-2.3985" x2="1" y2="-2.3985" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.3985" x2="1" y2="2.3985" width="0.127" layer="21"/>
+<wire x1="1" y1="2.3985" x2="0.646" y2="2.3985" width="0.127" layer="21"/>
+<circle x="-0.55" y="1.425" radius="0.1" width="0.0762" layer="51"/>
+<smd name="C" x="0" y="1.496" dx="1.5" dy="1.5" layer="1"/>
+<smd name="A" x="0" y="-1.496" dx="1.5" dy="1.5" layer="1"/>
+<text x="-1.016" y="-2.54" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.524" y="-2.54" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-0.1" y="-2.23" size="0.4064" layer="51">A</text>
+<text x="-0.1" y="1.86" size="0.4064" layer="51">C</text>
+<rectangle x1="-0.85" y1="1.525" x2="-0.35" y2="1.65" layer="51"/>
+<rectangle x1="-0.85" y1="1.225" x2="-0.625" y2="1.55" layer="51"/>
+<rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
+<rectangle x1="-0.65" y1="1.225" x2="-0.225" y2="1.35" layer="51"/>
+<rectangle x1="0.35" y1="1.3" x2="0.85" y2="1.65" layer="51"/>
+<rectangle x1="0.25" y1="1.225" x2="0.85" y2="1.35" layer="51"/>
+<rectangle x1="-0.85" y1="0.95" x2="0.85" y2="1.25" layer="51"/>
+<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="-0.95" layer="51"/>
+</package>
+<package name="CHIPLED_0805">
+<description>&lt;b&gt;CHIPLED 0805&lt;/b&gt;</description>
+<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
+<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
+<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
+<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
+<wire x1="-0.4" y1="0.2" x2="0" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="0.4" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="-0.4" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-0.2" x2="0.4" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.2" x2="0" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0.697" y1="-1.7985" x2="0.573" y2="-1.7985" width="0.127" layer="21"/>
+<wire x1="0.573" y1="-1.7985" x2="-0.8" y2="-1.7985" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.7985" x2="-0.8" y2="1.7985" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.7985" x2="0.697" y2="1.7985" width="0.127" layer="21"/>
+<wire x1="0.7" y1="1.7985" x2="0.8" y2="1.7985" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.7985" x2="0.8" y2="-1.7985" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1.7985" x2="0.573" y2="-1.7985" width="0.127" layer="21"/>
+<circle x="-0.45" y="0.85" radius="0.103" width="0.0762" layer="51"/>
+<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<text x="-0.762" y="-1.27" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-0.1" y="-1.4" size="0.254" layer="51">A</text>
+<text x="-0.1" y="1.2" size="0.254" layer="51">C</text>
+<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
+<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
+<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
+<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
+<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
+<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
+<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
+<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
+<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
+<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.762" layer="51"/>
+<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
+</package>
+<package name="CHIPLED_0603">
+<description>&lt;b&gt;CHIPLED 0603&lt;/b&gt;</description>
+<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="51" curve="170.055574"/>
+<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180"/>
+<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.635" y1="-1.27" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0.2" x2="0" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="0.4" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="-0.4" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-0.2" x2="0.4" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.2" x2="0" y2="0.2" width="0.127" layer="21"/>
+<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.762" y="-1.27" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.143" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
+<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
+<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
+<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
+<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
+<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
+<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
+<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
+<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
+<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="2.8575" x2="-0.3175" y2="2.2225" width="0.254" layer="94"/>
+<wire x1="-0.3175" y1="2.2225" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="3.175" x2="-0.9525" y2="2.8575" width="0.254" layer="94"/>
+<wire x1="0.3175" y1="2.8575" x2="0.9525" y2="2.2225" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.175" x2="0.3175" y2="2.8575" width="0.254" layer="94"/>
+<wire x1="0.9525" y1="2.2225" x2="1.27" y2="3.175" width="0.254" layer="94"/>
+<text x="-5.08" y="3.175" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.794" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED" prefix="LED" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;LED&lt;/b&gt;&lt;/p&gt;
+&lt;b&gt;0603&lt;/b&gt; - 0603 Surface Mount Package
+&lt;ul&gt;
+&lt;li&gt;Green LED - Low Power (3.9mcd, 2ma, 1.7Vf)&lt;/li&gt;
+&lt;li&gt;Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf)&lt;/li&gt;
+&lt;li&gt;Red LED - Low Power (5mcd, 2ma, 1.8Vf)&lt;/li&gt;
+&lt;li&gt;Yellow LED - Low Power (7mcd, 2ma, 1.8Vf)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;0805&lt;/b&gt; - 0805 Surface Mount Package
+&lt;p&gt;&lt;b&gt;&lt;u&gt;20mA:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]&lt;/li&gt;
+&lt;li&gt;Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]&lt;/li&gt;
+&lt;li&gt;Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]&lt;/li&gt;
+&lt;li&gt;Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;&lt;u&gt;2mA:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]&lt;/li&gt;
+&lt;li&gt;Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]&lt;/li&gt;
+&lt;li&gt;Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;b&gt;1206&lt;/b&gt; - 1206 Surface Mount Package
+&lt;ul&gt;
+&lt;li&gt;Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]&lt;/li&gt;
+&lt;li&gt;Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1206" package="CHIPLED_1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="CHIPLED_0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17125,16 +17315,26 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="LD1" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="LD803" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="R821" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
+<part name="LD804" library="microbuilder" deviceset="LED" device="0805" value="APT2012SGC"/>
+<part name="R822" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R824" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
+<part name="R823" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
+<part name="GND29" library="supply1" deviceset="GND" device=""/>
+<part name="R825" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="R826" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
+<part name="GND61" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="22.86" y="185.42" size="3.81" layer="91">VCC CPU Spannung 3v3, VDD HF versorgung, gnd Dig Ground, AGND, RF Ground</text>
+<text x="137.16" y="81.28" size="1.016" layer="97">ADC0_6 is
+used by LED4!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -17579,20 +17779,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="81.28" y="165.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="P4_1" class="0">
-<segment>
-<pinref part="IC101" gate="G$5" pin="P4_1"/>
-<wire x1="78.74" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<label x="81.28" y="162.56" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LED_2" class="0">
-<segment>
-<pinref part="IC101" gate="G$5" pin="P4_2"/>
-<wire x1="78.74" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
-<label x="81.28" y="160.02" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SPGI09" class="0">
 <segment>
 <pinref part="IC101" gate="G$5" pin="P4_3"/>
@@ -17927,14 +18113,14 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="124.46" y="93.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADC0_3" class="0">
+<net name="ADC_BAT+" class="0">
 <segment>
 <pinref part="IC101" gate="G$16" pin="ADC3"/>
 <wire x1="121.92" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
 <label x="124.46" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AD0_4" class="0">
+<net name="ADC_VIN" class="0">
 <segment>
 <pinref part="IC101" gate="G$16" pin="ADC4"/>
 <wire x1="121.92" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
@@ -17948,7 +18134,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="124.46" y="86.36" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADC0_6" class="0">
+<net name="ADC1_6" class="0">
 <segment>
 <pinref part="IC101" gate="G$16" pin="ADC6"/>
 <wire x1="121.92" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
@@ -18289,9 +18475,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </net>
 <net name="MUX_VCO" class="0">
 <segment>
-<pinref part="IC101" gate="G$7" pin="P6_12"/>
-<wire x1="78.74" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<label x="81.28" y="66.04" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC101" gate="G$12" pin="PB_5"/>
+<wire x1="167.64" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<label x="170.18" y="129.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BT_DOWN" class="0">
@@ -18329,18 +18515,18 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="170.18" y="132.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED_0" class="0">
-<segment>
-<pinref part="IC101" gate="G$12" pin="PB_5"/>
-<wire x1="167.64" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
-<label x="170.18" y="129.54" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="LED_1" class="0">
 <segment>
-<pinref part="IC101" gate="G$12" pin="PB_6"/>
-<wire x1="167.64" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
-<label x="170.18" y="127" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC101" gate="G$5" pin="P4_1"/>
+<wire x1="78.74" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<label x="81.28" y="162.56" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED_2" class="0">
+<segment>
+<pinref part="IC101" gate="G$5" pin="P4_2"/>
+<wire x1="78.74" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+<label x="81.28" y="160.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -18570,6 +18756,20 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="IC101" gate="G$13" pin="PD_11"/>
 <wire x1="167.64" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
 <label x="170.18" y="114.3" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED_3" class="0">
+<segment>
+<pinref part="IC101" gate="G$7" pin="P6_12"/>
+<wire x1="78.74" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<label x="81.28" y="66.04" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED_4" class="0">
+<segment>
+<pinref part="IC101" gate="G$12" pin="PB_6"/>
+<wire x1="167.64" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<label x="170.18" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -19888,7 +20088,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="GPIO" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="ADC0_6" class="0">
+<net name="ADC1_6" class="0">
 <segment>
 <wire x1="180.34" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="177.8" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -24828,11 +25028,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="GND24" gate="1" x="215.9" y="60.96" smashed="yes">
 <attribute name="VALUE" x="213.36" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="LD1" gate="G$1" x="241.3" y="142.24" smashed="yes" rot="R90">
+<instance part="LD803" gate="G$1" x="241.3" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="250.952" y="141.732" size="1.778" layer="95"/>
 <attribute name="VALUE" x="245.872" y="147.955" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R3" gate="G$1" x="233.68" y="142.24" smashed="yes" rot="R180">
+<instance part="R821" gate="G$1" x="233.68" y="142.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="231.902" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="231.902" y="136.144" size="1.778" layer="96"/>
 </instance>
@@ -24846,6 +25046,33 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="R5" gate="G$1" x="15.24" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.2334" y="70.866" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="13.208" y="65.786" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LD804" gate="G$1" x="243.84" y="132.08"/>
+<instance part="R822" gate="G$1" x="233.68" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="231.902" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="231.902" y="125.984" size="1.778" layer="96"/>
+</instance>
+<instance part="R824" gate="G$1" x="200.66" y="104.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="204.2414" y="102.362" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="206.756" y="102.362" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R823" gate="G$1" x="200.66" y="119.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="204.2414" y="117.602" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="206.756" y="117.602" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND29" gate="1" x="200.66" y="93.98" smashed="yes">
+<attribute name="VALUE" x="198.12" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="R825" gate="G$1" x="228.6" y="119.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="232.1814" y="117.602" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="234.696" y="117.602" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R826" gate="G$1" x="228.6" y="104.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="232.1814" y="102.362" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="234.696" y="102.362" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND61" gate="1" x="228.6" y="93.98" smashed="yes">
+<attribute name="VALUE" x="226.06" y="91.44" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24944,9 +25171,13 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="246.38" y1="157.48" x2="248.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="157.48" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LD802" gate="G$1" pin="C"/>
-<wire x1="248.92" y1="149.86" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="149.86" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="132.08" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 <junction x="248.92" y="149.86"/>
+<pinref part="LD804" gate="G$1" pin="C"/>
+<wire x1="246.38" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<junction x="248.92" y="132.08"/>
 </segment>
 <segment>
 <pinref part="GND82" gate="1" pin="GND"/>
@@ -25014,6 +25245,16 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="GND28" gate="1" pin="GND"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="63.5" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R824" gate="G$1" pin="2"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<wire x1="200.66" y1="96.52" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R826" gate="G$1" pin="2"/>
+<pinref part="GND61" gate="1" pin="GND"/>
+<wire x1="228.6" y1="96.52" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -25140,14 +25381,14 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="R811" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LED_0" class="0">
+<net name="LED_1" class="0">
 <segment>
 <pinref part="R810" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="157.48" x2="226.06" y2="157.48" width="0.1524" layer="91"/>
 <label x="226.06" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED_1" class="0">
+<net name="LED_2" class="0">
 <segment>
 <pinref part="R811" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="149.86" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
@@ -25209,6 +25450,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="238.76" y="73.66" size="1.778" layer="95" xref="yes"/>
 <pinref part="SW1" gate="&gt;NAME" pin="S"/>
 </segment>
+<segment>
+<pinref part="R825" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<label x="218.44" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BAT+" class="0">
 <segment>
@@ -25227,6 +25473,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="203.2" y1="71.12" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="X1_" gate="3" pin="1"/>
 <wire x1="203.2" y1="45.72" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R823" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="195.58" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BC_OT" class="0">
@@ -25420,21 +25671,56 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </net>
 <net name="GND1" class="0">
 <segment>
-<pinref part="LD1" gate="G$1" pin="C"/>
+<pinref part="LD803" gate="G$1" pin="C"/>
 <wire x1="246.38" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
-<pinref part="LD1" gate="G$1" pin="A"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="LD803" gate="G$1" pin="A"/>
+<pinref part="R821" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LED_2" class="0">
+<net name="LED_3" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R821" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="142.24" x2="226.06" y2="142.24" width="0.1524" layer="91"/>
 <label x="226.06" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="LD804" gate="G$1" pin="A"/>
+<pinref part="R822" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="LED_4" class="0">
+<segment>
+<pinref part="R822" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
+<label x="226.06" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC_BAT+" class="0">
+<segment>
+<pinref part="R823" gate="G$1" pin="2"/>
+<pinref part="R824" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="114.3" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="111.76" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
+<junction x="200.66" y="111.76"/>
+<label x="208.28" y="111.76" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC_VIN" class="0">
+<segment>
+<pinref part="R826" gate="G$1" pin="1"/>
+<pinref part="R825" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="109.22" x2="228.6" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="111.76" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="111.76" x2="241.3" y2="111.76" width="0.1524" layer="91"/>
+<junction x="228.6" y="111.76"/>
+<label x="241.3" y="111.76" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -25442,4 +25728,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
