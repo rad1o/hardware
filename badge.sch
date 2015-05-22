@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18967,6 +18967,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="GND102" library="supply1" deviceset="GND" device=""/>
+<part name="GND103" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24944,8 +24948,8 @@ used by LED4!</text>
 <attribute name="NAME" x="202.565" y="132.9436" size="1.778" layer="95"/>
 <attribute name="VALUE" x="202.565" y="130.048" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="VCC" x="83.82" y="86.36" smashed="yes" rot="R90">
-<attribute name="VALUE" x="81.407" y="82.423" size="1.778" layer="96"/>
+<instance part="P+2" gate="VCC" x="63.5" y="86.36" smashed="yes" rot="R90">
+<attribute name="VALUE" x="61.087" y="82.423" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="81.28" y="88.9" smashed="yes" rot="R270">
 <attribute name="VALUE" x="74.93" y="88.265" size="1.778" layer="96"/>
@@ -25033,6 +25037,20 @@ used by LED4!</text>
 </instance>
 <instance part="P+43" gate="VCC" x="162.56" y="104.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="164.211" y="103.759" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="71.12" y="78.74" smashed="yes">
+<attribute name="NAME" x="73.914" y="78.486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.422" y="76.073" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="76.2" y="78.74" smashed="yes">
+<attribute name="NAME" x="78.994" y="78.486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="79.502" y="76.073" size="1.778" layer="96"/>
+</instance>
+<instance part="GND102" gate="1" x="71.12" y="71.12" smashed="yes">
+<attribute name="VALUE" x="71.755" y="64.77" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND103" gate="1" x="76.2" y="71.12" smashed="yes">
+<attribute name="VALUE" x="76.835" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -25196,7 +25214,15 @@ used by LED4!</text>
 <segment>
 <pinref part="IC601" gate="A" pin="OVDD"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="86.36" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="81.28" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<junction x="71.12" y="86.36"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="81.28" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<junction x="76.2" y="86.36"/>
 </segment>
 <segment>
 <pinref part="IC601" gate="A" pin="VDD_4"/>
@@ -25238,6 +25264,14 @@ used by LED4!</text>
 <pinref part="IC601" gate="A" pin="OGND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="83.82" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="GND102" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="GND103" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="AGND" class="0">
