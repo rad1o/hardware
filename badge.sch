@@ -19453,6 +19453,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="C904" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="2.2u"/>
+<part name="R830" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
+<part name="R829" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -20114,11 +20116,6 @@ used by LED4!</text>
 </net>
 <net name="SSP1_MISO" class="0">
 <segment>
-<pinref part="IC101" gate="G$9" pin="P8_0"/>
-<wire x1="121.92" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<label x="124.46" y="165.1" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC101" gate="G$2" pin="P1_3"/>
 <wire x1="40.64" y1="142.24" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
 <label x="43.18" y="142.24" size="1.016" layer="95" xref="yes"/>
@@ -20185,13 +20182,6 @@ used by LED4!</text>
 <pinref part="IC101" gate="G$10" pin="P9_0"/>
 <wire x1="121.92" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
 <label x="124.46" y="132.08" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_MISO" class="0">
-<segment>
-<pinref part="IC101" gate="G$10" pin="P9_1"/>
-<wire x1="121.92" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
-<label x="124.46" y="129.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_MOSI" class="0">
@@ -20912,6 +20902,20 @@ used by LED4!</text>
 <pinref part="IC101" gate="G$12" pin="PB_6"/>
 <wire x1="167.64" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
 <label x="170.18" y="127" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="P8_0" class="0">
+<segment>
+<pinref part="IC101" gate="G$9" pin="P8_0"/>
+<wire x1="121.92" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
+<label x="124.46" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="P9_1" class="0">
+<segment>
+<pinref part="IC101" gate="G$10" pin="P9_1"/>
+<wire x1="121.92" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
+<label x="124.46" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -27263,6 +27267,14 @@ used by LED4!</text>
 <instance part="GND57" gate="1" x="246.38" y="58.42" smashed="yes">
 <attribute name="VALUE" x="243.84" y="55.88" size="1.778" layer="96"/>
 </instance>
+<instance part="R830" gate="G$1" x="73.66" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.516" y="170.6626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="78.232" y="170.688" size="1.778" layer="96"/>
+</instance>
+<instance part="R829" gate="G$1" x="73.66" y="172.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.516" y="173.2026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="78.232" y="173.228" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27270,15 +27282,25 @@ used by LED4!</text>
 <net name="LCD_SCK" class="0">
 <segment>
 <pinref part="X802" gate="G$1" pin="CLK"/>
-<wire x1="88.9" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
 <label x="76.2" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R830" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="170.18" x2="81.28" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="170.18" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<junction x="81.28" y="162.56"/>
 </segment>
 </net>
 <net name="LCD_MOSI" class="0">
 <segment>
 <pinref part="X802" gate="G$1" pin="SDA"/>
-<wire x1="88.9" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
 <label x="76.2" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R829" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="172.72" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="172.72" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
+<junction x="83.82" y="160.02"/>
 </segment>
 </net>
 <net name="LCD_SEL" class="0">
@@ -27919,6 +27941,20 @@ used by LED4!</text>
 <pinref part="L1" gate="G$1" pin="DIN"/>
 <wire x1="223.52" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
 <label x="213.36" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SSP1_SCK" class="0">
+<segment>
+<pinref part="R830" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="170.18" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
+<label x="55.88" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SSP1_MOSI" class="0">
+<segment>
+<pinref part="R829" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="172.72" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
+<label x="55.88" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

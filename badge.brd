@@ -5848,6 +5848,8 @@ design rules under a new name.</description>
 <element name="R903" library="rcl" package="R0402" value="100k" x="63.1" y="67.3" rot="R90"/>
 <element name="C904" library="rcl" package="C0402" value="1u" x="61.5" y="67.3" rot="R90"/>
 <element name="C1" library="rcl" package="C0402" value="2.2u" x="50.6" y="66.5" rot="R270"/>
+<element name="R830" library="rcl" package="R0402" value="0" x="68.5" y="42.2"/>
+<element name="R829" library="rcl" package="R0402" value="0" x="65.9" y="42.1"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -8695,8 +8697,7 @@ design rules under a new name.</description>
 <wire x1="115.3" y1="49.2" x2="123.1" y2="41.4" width="0.15" layer="16"/>
 <wire x1="123.1" y1="41.4" x2="123.1" y2="34" width="0.15" layer="16"/>
 <wire x1="123.1" y1="34" x2="117.2" y2="28.1" width="0.15" layer="16"/>
-<wire x1="107.23" y1="23.49" x2="106.85" y2="23.49" width="0.15" layer="16"/>
-<wire x1="106.85" y1="23.49" x2="106.46" y2="23.49" width="0.15" layer="16"/>
+<wire x1="107.23" y1="23.49" x2="106.46" y2="23.49" width="0.15" layer="16"/>
 <via x="106.46" y="23.49" extent="1-16" drill="0.2"/>
 <wire x1="106.46" y1="23.49" x2="106.16" y2="23.78" width="0.2" layer="1"/>
 <wire x1="106.16" y1="23.78" x2="106.162009375" y2="24.762009375" width="0.2" layer="1"/>
@@ -8708,6 +8709,8 @@ design rules under a new name.</description>
 <wire x1="106.8" y1="54.2" x2="106.8" y2="49.6" width="0.15" layer="16"/>
 <wire x1="106.8" y1="49.6" x2="107.2" y2="49.2" width="0.15" layer="16"/>
 <wire x1="107.2" y1="49.2" x2="115.3" y2="49.2" width="0.15" layer="16"/>
+<contactref element="R829" pad="2"/>
+<wire x1="66.6" y1="42.9" x2="66.55" y2="42.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD_POW">
 <contactref element="IC101" pad="N3"/>
@@ -8904,6 +8907,8 @@ design rules under a new name.</description>
 <wire x1="108.6" y1="28.2" x2="110.4" y2="28.2" width="0.15" layer="16"/>
 <wire x1="110.4" y1="28.2" x2="111.1" y2="28.9" width="0.15" layer="16"/>
 <wire x1="111.1" y1="28.9" x2="117" y2="28.9" width="0.15" layer="16"/>
+<contactref element="R830" pad="2"/>
+<wire x1="69.15" y1="42.2" x2="64.7" y2="49.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CS_XCVR">
 <contactref element="IC101" pad="J10"/>
@@ -9610,9 +9615,6 @@ design rules under a new name.</description>
 <contactref element="GPIO" pad="12"/>
 <wire x1="54.6" y1="45.5" x2="36.8" y2="79.27" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LCD_MISO">
-<contactref element="IC101" pad="P4"/>
-</signal>
 <signal name="LCD_MOSI">
 <contactref element="IC101" pad="M6"/>
 <contactref element="X802" pad="2"/>
@@ -9621,6 +9623,8 @@ design rules under a new name.</description>
 <wire x1="61.4" y1="45.9" x2="63.7" y2="45.9" width="0.15" layer="16"/>
 <wire x1="24.886" y1="31.13" x2="47.23" y2="31.13" width="0.15" layer="1"/>
 <wire x1="47.23" y1="31.13" x2="49.8" y2="33.7" width="0.15" layer="1"/>
+<contactref element="R829" pad="1"/>
+<wire x1="65.25" y1="42.1" x2="63.7" y2="45.9" width="0" layer="19" extent="1-16"/>
 <wire x1="49.8" y1="33.7" x2="61.4" y2="45.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LCD_SCK">
@@ -9629,6 +9633,8 @@ design rules under a new name.</description>
 <wire x1="62.6" y1="45.5" x2="63.7" y2="45.5" width="0.15" layer="1"/>
 <wire x1="24.886" y1="30.63" x2="47.43" y2="30.63" width="0.15" layer="1"/>
 <wire x1="47.43" y1="30.63" x2="50.1" y2="33.3" width="0.15" layer="1"/>
+<contactref element="R830" pad="1"/>
+<wire x1="63.7" y1="45.5" x2="67.85" y2="42.2" width="0" layer="19" extent="1-1"/>
 <wire x1="50.1" y1="33.3" x2="62.6" y2="45.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC0_0">
@@ -11598,8 +11604,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="SSP1_MISO">
 <contactref element="IC501" pad="29"/>
-<contactref element="IC101" pad="E4"/>
-<wire x1="55.4" y1="44.7" x2="55" y2="44.3" width="0.15" layer="1"/>
 <via x="55" y="44.3" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="55" y1="44.3" x2="54.6" y2="43.9" width="0.15" layer="16"/>
 <wire x1="101.9556" y1="50.638" x2="101.9376" y2="50.62" width="0.2" layer="1"/>
@@ -11625,7 +11629,7 @@ design rules under a new name.</description>
 <via x="76.6" y="47.5" extent="1-16" drill="0.2"/>
 <wire x1="76.6" y1="52" x2="76.6" y2="47.5" width="0.15" layer="3"/>
 <wire x1="76.6" y1="48.6" x2="76.6" y2="47.5" width="0.15" layer="3"/>
-<wire x1="55.4" y1="44.7" x2="61" y2="43.1" width="0" layer="19" extent="1-1"/>
+<wire x1="55" y1="44.3" x2="61" y2="43.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$161">
 <contactref element="IC501" pad="27"/>
@@ -14063,6 +14067,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="SPEAKER">
 <contactref element="C1" pad="2"/>
+</signal>
+<signal name="P8_0">
+<contactref element="IC101" pad="E4"/>
+</signal>
+<signal name="P9_1">
+<contactref element="IC101" pad="P4"/>
 </signal>
 </signals>
 </board>
