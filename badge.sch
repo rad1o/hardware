@@ -18824,7 +18824,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
 <part name="ISP" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="GND81" library="supply1" deviceset="GND" device=""/>
-<part name="IC801" library="muccc" deviceset="MAX8934DETI+" device="" value="MAX8394"/>
+<part name="IC801" library="muccc" deviceset="MAX8934DETI+" device="" value="MAX8934"/>
 <part name="C802" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C803" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
 <part name="C804" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>

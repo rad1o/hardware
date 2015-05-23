@@ -5543,7 +5543,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="34.442" y="43.898" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="34.442" y="43.898" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="IC801" library="muccc" package="21-0139I_T2844-1" value="MAX8394" x="34.008" y="22.438" rot="R180">
+<element name="IC801" library="muccc" package="21-0139I_T2844-1" value="MAX8934" x="34.008" y="22.438" rot="R180">
 <attribute name="VENDOR" value="MAXIM" x="34.008" y="22.438" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="max8934deti+" x="34.008" y="22.438" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
