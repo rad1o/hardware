@@ -1170,11 +1170,11 @@ DIN A4, landscape with extra doc field</description>
 <smd name="1" x="0.95" y="1.2" dx="0.7" dy="1" layer="1"/>
 <smd name="5" x="0.95" y="-1.2" dx="0.7" dy="1" layer="1"/>
 <smd name="4" x="-0.95" y="-1.2" dx="0.7" dy="1" layer="1"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="20"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="20"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="20"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="20"/>
-<circle x="1.25" y="0.45" radius="0.070709375" width="0.127" layer="20"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
+<circle x="1.25" y="0.45" radius="0.070709375" width="0.127" layer="21"/>
 <text x="-2.05" y="2.25" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2.3" y="-3.1" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
@@ -1381,11 +1381,11 @@ DIN A4, landscape with extra doc field</description>
 <smd name="1" x="0.95" y="1.2" dx="0.7" dy="1" layer="1"/>
 <smd name="5" x="0" y="-1.2" dx="0.7" dy="1" layer="1"/>
 <smd name="4" x="-0.95" y="-1.2" dx="0.7" dy="1" layer="1"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="20"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="20"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="20"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="20"/>
-<circle x="1.25" y="0.45" radius="0.070709375" width="0.127" layer="20"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
+<circle x="1.25" y="0.45" radius="0.070709375" width="0.127" layer="21"/>
 <text x="-2.05" y="2.25" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2.3" y="-3.1" size="0.8128" layer="27">&gt;VALUE</text>
 <smd name="6" x="0.95" y="-1.2" dx="0.7" dy="1" layer="1"/>
