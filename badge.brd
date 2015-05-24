@@ -1238,12 +1238,12 @@ height 300µm per layer
 <rectangle x1="-6.135" y1="7" x2="-5.865" y2="8" layer="51"/>
 </package>
 <package name="TSLP-6-4">
-<smd name="1" x="-0.2" y="0.4" dx="0.25" dy="0.25" layer="1" rot="R90"/>
-<smd name="2" x="-0.2" y="0" dx="0.25" dy="0.25" layer="1" rot="R90"/>
-<smd name="3" x="-0.2" y="-0.4" dx="0.25" dy="0.25" layer="1" rot="R90"/>
-<smd name="4" x="0.2" y="-0.4" dx="0.25" dy="0.25" layer="1" rot="R90"/>
-<smd name="5" x="0.2" y="0" dx="0.25" dy="0.25" layer="1" rot="R90"/>
-<smd name="6" x="0.2" y="0.4" dx="0.25" dy="0.25" layer="1" rot="R90"/>
+<smd name="1" x="-0.2" y="0.4" dx="0.25" dy="0.25" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="-0.2" y="0" dx="0.25" dy="0.25" layer="1" rot="R90" cream="no"/>
+<smd name="3" x="-0.2" y="-0.4" dx="0.25" dy="0.25" layer="1" rot="R90" cream="no"/>
+<smd name="4" x="0.2" y="-0.4" dx="0.25" dy="0.25" layer="1" rot="R90" cream="no"/>
+<smd name="5" x="0.2" y="0" dx="0.25" dy="0.25" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="0.2" y="0.4" dx="0.25" dy="0.25" layer="1" rot="R90" cream="no"/>
 <wire x1="0" y1="-0.25" x2="0" y2="0.25" width="0.05" layer="48"/>
 <wire x1="-0.25" y1="0" x2="0.25" y2="0" width="0.05" layer="48"/>
 <wire x1="-0.35" y1="-0.55" x2="0.35" y2="-0.55" width="0.05" layer="21"/>
@@ -1253,6 +1253,12 @@ height 300µm per layer
 <text x="-1.166" y="1.034" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
 <text x="-1.166" y="-3.755" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 <wire x1="-0.35" y1="-0.55" x2="-0.35" y2="0.55" width="0.05" layer="21"/>
+<circle x="-0.2" y="0" radius="0.125" width="0" layer="31"/>
+<circle x="-0.2" y="0.4" radius="0.125" width="0" layer="31"/>
+<circle x="0.2" y="0.4" radius="0.125" width="0" layer="31"/>
+<circle x="-0.2" y="-0.4" radius="0.125" width="0" layer="31"/>
+<circle x="0.2" y="-0.4" radius="0.125" width="0" layer="31"/>
+<circle x="0.2" y="0" radius="0.125" width="0" layer="31"/>
 </package>
 <package name="ESD_DIODE">
 <smd name="P$1" x="-0.4" y="0" dx="0.4" dy="0.5" layer="1"/>
