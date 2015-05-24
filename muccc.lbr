@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -57,8 +57,8 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -2922,6 +2922,42 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="0.2025" y1="-2.5069" x2="0.4463" y2="-1.65" layer="51"/>
 <rectangle x1="0.8525" y1="-2.5069" x2="1.0963" y2="-1.65" layer="51"/>
 </package>
+<package name="21-0205D_W151B2-1">
+<smd name="A1" x="-0.999996875" y="0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="A2" x="-0.5" y="0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="A3" x="0" y="0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="A4" x="0.5" y="0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="A5" x="0.999996875" y="0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="B1" x="-0.999996875" y="0" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="B2" x="-0.5" y="0" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="B3" x="0" y="0" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="B4" x="0.5" y="0" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="B5" x="0.999996875" y="0" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="C1" x="-0.999996875" y="-0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="C2" x="-0.5" y="-0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="C3" x="0" y="-0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="C4" x="0.5" y="-0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<smd name="C5" x="0.999996875" y="-0.5" dx="0.2794" dy="0.2794" layer="1" roundness="100"/>
+<text x="-3.1242" y="-0.127" size="1.27" layer="51" ratio="6" rot="SR0">A</text>
+<text x="-3.1242" y="-1.143" size="1.27" layer="51" ratio="6" rot="SR0">C</text>
+<text x="-0.3556" y="1.4478" size="1.27" layer="51" ratio="6" rot="SR90">1</text>
+<text x="1.6256" y="1.4478" size="1.27" layer="51" ratio="6" rot="SR90">5</text>
+<wire x1="-1.0922" y1="0.8128" x2="-1.3208" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.3208" y1="-0.8128" x2="1.3208" y2="-0.8128" width="0.1524" layer="21"/>
+<wire x1="1.3208" y1="-0.8128" x2="1.3208" y2="0.8128" width="0.1524" layer="21"/>
+<wire x1="1.3208" y1="0.8128" x2="-1.3208" y2="0.8128" width="0.1524" layer="21"/>
+<wire x1="-1.3208" y1="0.8128" x2="-1.3208" y2="-0.8128" width="0.1524" layer="21"/>
+<text x="-3.1242" y="-0.127" size="1.27" layer="21" ratio="6" rot="SR0">A</text>
+<text x="-3.1242" y="-1.143" size="1.27" layer="21" ratio="6" rot="SR0">C</text>
+<text x="-0.3556" y="1.4478" size="1.27" layer="21" ratio="6" rot="SR90">1</text>
+<text x="1.6256" y="1.4478" size="1.27" layer="21" ratio="6" rot="SR90">5</text>
+<text x="-1.9812" y="-0.127" size="1.27" layer="52" ratio="6" rot="SMR0">A</text>
+<text x="-1.9812" y="-1.143" size="1.27" layer="52" ratio="6" rot="SMR0">C</text>
+<text x="-1.6256" y="1.4224" size="1.27" layer="52" ratio="6" rot="SMR90">1</text>
+<text x="0.3556" y="1.4224" size="1.27" layer="52" ratio="6" rot="SMR90">5</text>
+<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX5864ETM+">
@@ -3510,6 +3546,29 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <text x="-9.144" y="5.588" size="2.54" layer="94">+</text>
 <text x="-8.89" y="14.224" size="2.54" layer="94">-</text>
 <text x="-9.144" y="-13.462" size="2.54" layer="94">-</text>
+</symbol>
+<symbol name="MAX15101EWL+T">
+<pin name="EN" x="0" y="0"/>
+<pin name="PG" x="0" y="-2.54"/>
+<pin name="GND" x="0" y="-5.08" direction="pwr"/>
+<pin name="SS_BYP" x="0" y="-7.62"/>
+<pin name="FB" x="0" y="-10.16"/>
+<pin name="IN_2" x="0" y="-12.7" direction="in"/>
+<pin name="IN_3" x="0" y="-15.24" direction="in"/>
+<pin name="IN_4" x="60.96" y="-17.78" direction="in" rot="R180"/>
+<pin name="IN_5" x="60.96" y="-15.24" direction="in" rot="R180"/>
+<pin name="IN" x="60.96" y="-12.7" direction="in" rot="R180"/>
+<pin name="OUT_2" x="60.96" y="-10.16" direction="out" rot="R180"/>
+<pin name="OUT_3" x="60.96" y="-7.62" direction="out" rot="R180"/>
+<pin name="OUT_4" x="60.96" y="-5.08" direction="out" rot="R180"/>
+<pin name="OUT_5" x="60.96" y="-2.54" direction="out" rot="R180"/>
+<pin name="OUT" x="60.96" y="0" direction="out" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="53.34" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="-22.86" x2="53.34" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="25.7556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="24.8158" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4245,6 +4304,39 @@ Mors, distributor Buerklin, 11G702</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX15101EWL+T" prefix="U">
+<gates>
+<gate name="A" symbol="MAX15101EWL+T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="21-0205D_W151B2-1">
+<connects>
+<connect gate="A" pin="EN" pad="A1"/>
+<connect gate="A" pin="FB" pad="A5"/>
+<connect gate="A" pin="GND" pad="A3"/>
+<connect gate="A" pin="IN" pad="B5"/>
+<connect gate="A" pin="IN_2" pad="B1"/>
+<connect gate="A" pin="IN_3" pad="B2"/>
+<connect gate="A" pin="IN_4" pad="B3"/>
+<connect gate="A" pin="IN_5" pad="B4"/>
+<connect gate="A" pin="OUT" pad="C5"/>
+<connect gate="A" pin="OUT_2" pad="C1"/>
+<connect gate="A" pin="OUT_3" pad="C2"/>
+<connect gate="A" pin="OUT_4" pad="C3"/>
+<connect gate="A" pin="OUT_5" pad="C4"/>
+<connect gate="A" pin="PG" pad="A2"/>
+<connect gate="A" pin="SS_BYP" pad="A4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_NAME" value="Maxim" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX15101EWL+T" constant="no"/>
+<attribute name="VENDOR" value="Maxim" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
