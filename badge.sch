@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27969,8 +27969,8 @@ used by LED4!</text>
 <attribute name="VALUE" x="104.394" y="53.848" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R908" gate="G$1" x="193.04" y="137.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="195.0466" y="137.414" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="195.072" y="142.494" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="185.166" y="139.1666" size="1.778" layer="95"/>
+<attribute name="VALUE" x="185.166" y="136.652" size="1.778" layer="96"/>
 </instance>
 <instance part="R909" gate="G$1" x="193.04" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="195.0466" y="112.014" size="1.778" layer="95" rot="R270"/>
