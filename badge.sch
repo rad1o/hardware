@@ -20085,8 +20085,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="R701" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="R704" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="R702" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R705" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R706" library="rcl" deviceset="R-EU_" device="R0402"/>
+<part name="R705" library="rcl" deviceset="R-EU_" device="R0402" value="4.5k"/>
+<part name="R706" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="C701" library="rcl" deviceset="C-EU" device="C1210" value="2.2u"/>
 <part name="C702" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C704" library="rcl" deviceset="C-EU" device="C1210" value="2.2u"/>
@@ -20112,8 +20112,8 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="AGND86" library="supply1" deviceset="AGND" device=""/>
-<part name="R707" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R708" library="rcl" deviceset="R-EU_" device="R0402"/>
+<part name="R707" library="rcl" deviceset="R-EU_" device="R0402" value="4.5k"/>
+<part name="R708" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>

@@ -5429,8 +5429,8 @@ design rules under a new name.</description>
 <element name="R701" library="rcl" package="R0402" value="10k" x="56.084" y="36.036" rot="R180"/>
 <element name="R704" library="rcl" package="R0402" value="10k" x="50.484" y="10.426" rot="R270"/>
 <element name="R702" library="rcl" package="R0402" value="10k" x="56.816" y="38.896"/>
-<element name="R705" library="rcl" package="R0402" value="" x="60.19" y="13.796" rot="R270"/>
-<element name="R706" library="rcl" package="R0402" value="" x="59.986" y="16.364" rot="R270"/>
+<element name="R705" library="rcl" package="R0402" value="4.5k" x="60.19" y="13.796" rot="R270"/>
+<element name="R706" library="rcl" package="R0402" value="1k" x="59.986" y="16.364" rot="R270"/>
 <element name="C701" library="rcl" package="C1210" value="2.2u" x="52.128" y="16.62" rot="R270"/>
 <element name="C702" library="rcl" package="C1210" value="10u" x="62.222" y="14.62" rot="R270"/>
 <element name="C704" library="rcl" package="C1210" value="2.2u" x="129.18" y="7.848"/>
@@ -5446,8 +5446,8 @@ design rules under a new name.</description>
 <element name="R703" library="rcl" package="R0402" value="10k" x="29.244" y="8.996"/>
 <element name="L707" library="muccc" package="0603K" value="FB" x="35.632" y="9.31" rot="R270"/>
 <element name="L708" library="muccc" package="0603K" value="FB" x="52.234" y="8.192" rot="R180"/>
-<element name="R707" library="rcl" package="R0402" value="" x="130.49" y="14.248"/>
-<element name="R708" library="rcl" package="R0402" value="" x="128.11" y="14.042"/>
+<element name="R707" library="rcl" package="R0402" value="4.5k" x="130.49" y="14.248"/>
+<element name="R708" library="rcl" package="R0402" value="1k" x="128.11" y="14.042"/>
 <element name="R802" library="rcl" package="R0402" value="10" x="15.856" y="35.126" rot="R180"/>
 <element name="R805" library="rcl" package="R0402" value="10k" x="45.1" y="67.6" rot="R270"/>
 <element name="R808" library="rcl" package="R0402" value="39" x="56.422" y="63.258"/>
