@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20409,6 +20409,9 @@ Supplier: DigiKey 3M5607CT-ND&lt;/li&gt;
 <part name="L7" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="L8" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="L9" library="adafruit" deviceset="WS2812B" device=""/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="GND109" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29175,6 +29178,17 @@ used by LED4!</text>
 <attribute name="NAME" x="139.319" y="113.284" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="144.399" y="113.284" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R4" gate="G$1" x="147.32" y="83.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="149.3266" y="84.074" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="149.352" y="89.154" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R5" gate="G$1" x="147.32" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="149.3266" y="68.834" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="149.352" y="73.914" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND109" gate="1" x="147.32" y="58.42" smashed="yes">
+<attribute name="VALUE" x="144.78" y="55.88" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29263,6 +29277,11 @@ used by LED4!</text>
 <wire x1="116.84" y1="134.62" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="134.62" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND109" gate="1" pin="GND"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="60.96" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$113" class="0">
 <segment>
@@ -29329,14 +29348,13 @@ used by LED4!</text>
 </net>
 <net name="ADC0_7" class="0">
 <segment>
-<pinref part="R906" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="55.88" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC901" gate="IC1" pin="2"/>
-<wire x1="132.08" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="93.98" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
-<junction x="132.08" y="93.98"/>
-<label x="149.86" y="93.98" size="1.778" layer="95" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="73.66" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="76.2" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
+<junction x="147.32" y="76.2"/>
+<label x="167.64" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$111" class="0">
@@ -29382,6 +29400,19 @@ used by LED4!</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="149.86" y="111.76" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MIC_AMP" class="0">
+<segment>
+<pinref part="R906" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="55.88" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC901" gate="IC1" pin="2"/>
+<wire x1="132.08" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<junction x="132.08" y="93.98"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="88.9" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
