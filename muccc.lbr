@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2175,7 +2175,7 @@
 <text x="-3" y="-2.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="QFN16">
-<smd name="17" x="0" y="0" dx="2.15" dy="2.15" layer="1"/>
+<smd name="17" x="0" y="0" dx="2.15" dy="2.15" layer="1" cream="no"/>
 <smd name="3" x="-1.81" y="-0.325" dx="0.72" dy="0.3" layer="1"/>
 <smd name="4" x="-1.81" y="-0.975" dx="0.72" dy="0.3" layer="1"/>
 <smd name="2" x="-1.81" y="0.325" dx="0.72" dy="0.3" layer="1"/>
@@ -2198,6 +2198,10 @@
 <wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="21"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.2" y1="0.2" x2="0.9" y2="0.9" layer="31"/>
+<rectangle x1="-0.9" y1="0.2" x2="-0.2" y2="0.9" layer="31"/>
+<rectangle x1="-0.9" y1="-0.9" x2="-0.2" y2="-0.2" layer="31"/>
+<rectangle x1="0.2" y1="-0.9" x2="0.9" y2="-0.2" layer="31"/>
 </package>
 <package name="0603K">
 <wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
