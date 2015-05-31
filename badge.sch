@@ -2407,7 +2407,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <text x="-8.89" y="14.224" size="2.54" layer="94">-</text>
 <text x="-9.144" y="-13.462" size="2.54" layer="94">-</text>
 </symbol>
-<symbol name="SI5351A">
+<symbol name="SI5351C">
 <pin name="SCL" x="-17.78" y="5.08" length="middle"/>
 <pin name="SDA" x="-17.78" y="2.54" length="middle"/>
 <pin name="XA" x="-17.78" y="-7.62" length="middle"/>
@@ -2420,8 +2420,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pin name="CLK5" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="CLK6" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="CLK7" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="A0" x="-17.78" y="0" length="middle"/>
-<pin name="SSEN" x="-17.78" y="-2.54" length="middle"/>
+<pin name="CLKIN" x="-17.78" y="0" length="middle"/>
+<pin name="INTR" x="-17.78" y="-2.54" length="middle"/>
 <pin name="OEB" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="VDD" x="2.54" y="17.78" length="middle" rot="R270"/>
 <pin name="VA" x="-10.16" y="17.78" length="middle" rot="R270"/>
@@ -3317,15 +3317,14 @@ On NCP699</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI5351B-A-GM" prefix="IC" uservalue="yes">
+<deviceset name="SI5351C-B-GM" prefix="IC" uservalue="yes">
 <description>SiLabs SI5351A-B-GM 8 Fach VCO/Teiler mit I2C</description>
 <gates>
-<gate name="G$1" symbol="SI5351A" x="0" y="0"/>
+<gate name="G$1" symbol="SI5351C" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFN20">
 <connects>
-<connect gate="G$1" pin="A0" pad="3"/>
 <connect gate="G$1" pin="CLK0" pad="13"/>
 <connect gate="G$1" pin="CLK1" pad="12"/>
 <connect gate="G$1" pin="CLK2" pad="9"/>
@@ -3334,11 +3333,12 @@ On NCP699</description>
 <connect gate="G$1" pin="CLK5" pad="17"/>
 <connect gate="G$1" pin="CLK6" pad="16"/>
 <connect gate="G$1" pin="CLK7" pad="15"/>
+<connect gate="G$1" pin="CLKIN" pad="6"/>
 <connect gate="G$1" pin="GND" pad="PAD"/>
+<connect gate="G$1" pin="INTR" pad="3"/>
 <connect gate="G$1" pin="OEB" pad="7"/>
 <connect gate="G$1" pin="SCL" pad="4"/>
 <connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="SSEN" pad="6"/>
 <connect gate="G$1" pin="VA" pad="11"/>
 <connect gate="G$1" pin="VB" pad="10"/>
 <connect gate="G$1" pin="VC" pad="18"/>
@@ -20345,7 +20345,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="P+65" library="supply1" deviceset="VCC" device=""/>
 <part name="P+66" library="supply1" deviceset="VCC" device=""/>
 <part name="R229" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R228" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="R230" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R231" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R232" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
@@ -20485,7 +20484,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="FID5" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID6" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="X301" library="con-coax" deviceset="SMA-" device="142-0711-821/826"/>
-<part name="IC1" library="muccc" deviceset="SI5351B-A-GM" device=""/>
+<part name="IC1" library="muccc" deviceset="SI5351C-B-GM" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
@@ -22201,10 +22200,6 @@ used by LED4!</text>
 <attribute name="NAME" x="189.992" y="121.1326" size="1.778" layer="95"/>
 <attribute name="VALUE" x="191.389" y="115.824" size="1.778" layer="96"/>
 </instance>
-<instance part="R228" gate="G$1" x="147.32" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.32" y="150.5966" size="1.778" layer="95"/>
-<attribute name="VALUE" x="147.447" y="142.24" size="1.778" layer="96"/>
-</instance>
 <instance part="R230" gate="G$1" x="200.66" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.389" y="145.0086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.835" y="145.288" size="1.778" layer="96"/>
@@ -23124,24 +23119,17 @@ used by LED4!</text>
 <pinref part="R226" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="154.94" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C215" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <junction x="142.24" y="154.94"/>
 <pinref part="P+65" gate="VCC" pin="VCC"/>
-<wire x1="147.32" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="165.1" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="160.02" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="157.48" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="165.1" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="154.94" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <junction x="137.16" y="154.94"/>
-<pinref part="R228" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="152.4" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
-<junction x="147.32" y="154.94"/>
 <pinref part="IC1" gate="G$1" pin="VA"/>
 <wire x1="157.48" y1="152.4" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <junction x="157.48" y="154.94"/>
@@ -23611,14 +23599,6 @@ used by LED4!</text>
 <pinref part="I2S0" gate="G$1" pin="25"/>
 <wire x1="243.84" y1="71.12" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
 <label x="246.38" y="71.12" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$89" class="0">
-<segment>
-<pinref part="R228" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="142.24" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="A0"/>
-<wire x1="147.32" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$119" class="0">

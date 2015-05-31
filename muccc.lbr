@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4114,7 +4114,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <text x="25.7556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="24.8158" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="SI5351A">
+<symbol name="SI5351C">
 <pin name="SCL" x="-17.78" y="5.08" length="middle"/>
 <pin name="SDA" x="-17.78" y="2.54" length="middle"/>
 <pin name="XA" x="-17.78" y="-7.62" length="middle"/>
@@ -4127,8 +4127,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pin name="CLK5" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="CLK6" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="CLK7" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="A0" x="-17.78" y="0" length="middle"/>
-<pin name="SSEN" x="-17.78" y="-2.54" length="middle"/>
+<pin name="CLKIN" x="-17.78" y="0" length="middle"/>
+<pin name="INTR" x="-17.78" y="-2.54" length="middle"/>
 <pin name="OEB" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="VDD" x="2.54" y="17.78" length="middle" rot="R270"/>
 <pin name="VA" x="-10.16" y="17.78" length="middle" rot="R270"/>
@@ -5114,15 +5114,14 @@ Mors, distributor Buerklin, 11G702</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI5351B-A-GM" prefix="IC" uservalue="yes">
+<deviceset name="SI5351C-B-GM" prefix="IC" uservalue="yes">
 <description>SiLabs SI5351A-B-GM 8 Fach VCO/Teiler mit I2C</description>
 <gates>
-<gate name="G$1" symbol="SI5351A" x="0" y="0"/>
+<gate name="G$1" symbol="SI5351C" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFN20">
 <connects>
-<connect gate="G$1" pin="A0" pad="3"/>
 <connect gate="G$1" pin="CLK0" pad="13"/>
 <connect gate="G$1" pin="CLK1" pad="12"/>
 <connect gate="G$1" pin="CLK2" pad="9"/>
@@ -5131,11 +5130,12 @@ Mors, distributor Buerklin, 11G702</description>
 <connect gate="G$1" pin="CLK5" pad="17"/>
 <connect gate="G$1" pin="CLK6" pad="16"/>
 <connect gate="G$1" pin="CLK7" pad="15"/>
+<connect gate="G$1" pin="CLKIN" pad="6"/>
 <connect gate="G$1" pin="GND" pad="PAD"/>
+<connect gate="G$1" pin="INTR" pad="3"/>
 <connect gate="G$1" pin="OEB" pad="7"/>
 <connect gate="G$1" pin="SCL" pad="4"/>
 <connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="SSEN" pad="6"/>
 <connect gate="G$1" pin="VA" pad="11"/>
 <connect gate="G$1" pin="VB" pad="10"/>
 <connect gate="G$1" pin="VC" pad="18"/>
