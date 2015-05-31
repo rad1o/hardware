@@ -229,7 +229,8 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="0.3048" y1="1.0414" x2="-0.3048" y2="1.016" width="0" layer="25" curve="-180"/>
 <text x="-2.8702" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-3.175" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
-<smd name="EP" x="0" y="0" dx="1.5" dy="1.5" layer="1" rot="R90"/>
+<smd name="EP" x="0" y="0" dx="1.5" dy="1.5" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="31"/>
 </package>
 <package name="HT800">
 <smd name="G" x="0" y="0" dx="1.6" dy="0.6" layer="1" rot="R90"/>
@@ -1838,7 +1839,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <smd name="20" x="-1" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
 <text x="-2.6" y="-4.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.5" y="-5.8" size="1.27" layer="25" font="vector">&gt;VALUE</text>
-<smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1"/>
+<smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1" cream="no"/>
+<rectangle x1="0.2" y1="0.2" x2="1" y2="1" layer="31"/>
+<rectangle x1="-1" y1="0.2" x2="-0.2" y2="1" layer="31"/>
+<rectangle x1="-1" y1="-1" x2="-0.2" y2="-0.2" layer="31"/>
+<rectangle x1="0.2" y1="-1" x2="1" y2="-0.2" layer="31"/>
 </package>
 </packages>
 <symbols>
