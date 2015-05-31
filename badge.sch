@@ -11621,6 +11621,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <smd name="A1" x="-5.2" y="5.2" dx="0.35" dy="0.35" layer="1" roundness="100"/>
 <text x="-6.4" y="6.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-6.4" y="-8" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0.4" y="-5.2" radius="0.275" width="0" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -20636,7 +20637,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND110" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="con-amp" deviceset="SMDTOP-16" device=""/>
 <part name="C508" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="Q1" library="transistor-fet" deviceset="BSA223SP" device=""/>
+<part name="Q1" library="transistor-fet" deviceset="BSA223SP" device="" value="IRLML6402TRPBF"/>
 </parts>
 <sheets>
 <sheet>
