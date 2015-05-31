@@ -19852,6 +19852,107 @@ RJ45 Jack connectors&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-fet">
+<description>&lt;b&gt;Field Effect Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
+&lt;p&gt;
+Symbols changed according to IEC617&lt;p&gt; 
+All types, packages and assignment to symbols and pins checked&lt;p&gt;
+Package outlines partly checked&lt;p&gt;
+&lt;p&gt;
+JFET = junction FET&lt;p&gt;
+IGBT-x = insulated gate bipolar transistor&lt;p&gt;
+x=N: NPN; x=P: PNP&lt;p&gt;
+IGFET-mc-nnn; (IGFET=insulated gate field effect transistor)&lt;P&gt;
+m=D: depletion mode (Verdr&amp;auml;ngungstyp)&lt;p&gt;
+m=E: enhancement mode (Anreicherungstyp)&lt;p&gt;
+c: N=N-channel; P=P-Channel&lt;p&gt;
+GDSB: gate, drain, source, bulk&lt;p&gt;
+&lt;p&gt;
+by R. Vogg  15.March.2002</description>
+<packages>
+<package name="SC75_INFINEON">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; Reflow soldering&lt;p&gt;
+INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
+<wire x1="-0.7" y1="0.3" x2="-0.45" y2="0.3" width="0.2032" layer="21"/>
+<wire x1="-0.45" y1="0.3" x2="0.45" y2="0.3" width="0.2032" layer="51"/>
+<wire x1="0.45" y1="0.3" x2="0.7" y2="0.3" width="0.2032" layer="21"/>
+<wire x1="0.7" y1="0.3" x2="0.7" y2="-0.15" width="0.2032" layer="21"/>
+<wire x1="0.7" y1="-0.15" x2="0.7" y2="-0.3" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="-0.3" x2="-0.7" y2="-0.3" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="-0.3" x2="-0.7" y2="-0.15" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="-0.15" x2="-0.7" y2="0.3" width="0.2032" layer="21"/>
+<smd name="1" x="-0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="2" x="0" y="0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="3" x="0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<text x="-0.8" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.6" y1="-0.8" x2="-0.4" y2="-0.35" layer="51"/>
+<rectangle x1="0.4" y1="-0.8" x2="0.6" y2="-0.35" layer="51"/>
+<rectangle x1="-0.1" y1="0.35" x2="0.1" y2="0.8" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="P-MOSFET">
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-11.43" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="-1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="4.318" y="-0.254"/>
+<vertex x="3.302" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BSA223SP" prefix="Q">
+<description>&lt;b&gt;OptiMOS(R)-P Small-Signal-Transistor&lt;/b&gt; P-Channel, Enhancement mode, Super Logic Level (2.5 V rated)&lt;p&gt;
+Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC75_INFINEON">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20494,7 +20595,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R908" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="R909" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="GND75" library="supply1" deviceset="GND" device=""/>
-<part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="R902" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="C902" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="RC903" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -20535,6 +20635,8 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
 <part name="GND110" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="con-amp" deviceset="SMDTOP-16" device=""/>
+<part name="C508" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="Q1" library="transistor-fet" deviceset="BSA223SP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20691,18 +20793,6 @@ used by LED4!</text>
 <pinref part="IC101" gate="G$1" pin="P0_1"/>
 <wire x1="40.64" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
 <label x="43.18" y="162.56" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="P1_1" class="0">
-<segment>
-<label x="43.18" y="147.32" size="1.016" layer="95" xref="yes"/>
-<pinref part="IC101" gate="G$2" pin="P1_1"/>
-<wire x1="43.18" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R102" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
-<label x="66.04" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P1_2" class="0">
@@ -21282,9 +21372,14 @@ used by LED4!</text>
 </net>
 <net name="LCD_BL_EN" class="0">
 <segment>
-<pinref part="IC101" gate="G$10" pin="P9_5"/>
-<wire x1="121.92" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
-<label x="124.46" y="119.38" size="1.016" layer="95" xref="yes"/>
+<label x="43.18" y="147.32" size="1.016" layer="95" xref="yes"/>
+<pinref part="IC101" gate="G$2" pin="P1_1"/>
+<wire x1="43.18" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R102" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<label x="66.04" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SGPIO_CLK" class="0">
@@ -21998,6 +22093,13 @@ used by LED4!</text>
 <pinref part="IC101" gate="G$5" pin="P4_7"/>
 <wire x1="78.74" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <label x="81.28" y="147.32" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MIC_AMP_DISABLE" class="0">
+<segment>
+<pinref part="IC101" gate="G$10" pin="P9_5"/>
+<wire x1="121.92" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<label x="124.46" y="119.38" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -25923,6 +26025,10 @@ used by LED4!</text>
 <attribute name="NAME" x="98.552" y="88.265" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="97.536" y="85.725" size="1.778" layer="96" rot="MR180"/>
 </instance>
+<instance part="C508" gate="G$1" x="99.06" y="55.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="91.948" y="61.595" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="92.202" y="56.769" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26170,8 +26276,11 @@ used by LED4!</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C507" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="50.8" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="48.26" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="50.8" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C508" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="50.8" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<junction x="91.44" y="45.72"/>
 </segment>
 <segment>
 <pinref part="IC501" gate="A" pin="GNDCP"/>
@@ -26428,10 +26537,9 @@ used by LED4!</text>
 <pinref part="C507" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="58.42" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC501" gate="A" pin="VCCCP"/>
-<wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC501" gate="A" pin="VCCDIG"/>
 <wire x1="127" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
@@ -26443,6 +26551,9 @@ used by LED4!</text>
 <junction x="124.46" y="68.58"/>
 <junction x="91.44" y="66.04"/>
 <pinref part="P+35" gate="VCC" pin="VCC"/>
+<pinref part="C508" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="58.42" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<junction x="99.06" y="66.04"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -29290,8 +29401,8 @@ used by LED4!</text>
 <attribute name="NAME" x="99.314" y="150.3934" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="104.394" y="150.368" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+16" gate="VCC" x="99.06" y="139.7" smashed="yes">
-<attribute name="VALUE" x="101.092" y="141.986" size="1.778" layer="96" rot="R270"/>
+<instance part="P+16" gate="VCC" x="81.28" y="160.02" smashed="yes">
+<attribute name="VALUE" x="83.312" y="162.306" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND59" gate="1" x="220.98" y="93.98" smashed="yes">
 <attribute name="VALUE" x="218.44" y="91.44" size="1.778" layer="96"/>
@@ -29326,9 +29437,6 @@ used by LED4!</text>
 </instance>
 <instance part="GND75" gate="1" x="193.04" y="93.98" smashed="yes">
 <attribute name="VALUE" x="190.5" y="91.44" size="1.778" layer="96"/>
-</instance>
-<instance part="P+17" gate="VCC" x="193.04" y="147.32" smashed="yes">
-<attribute name="VALUE" x="195.072" y="149.606" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R902" gate="G$1" x="53.34" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.594" y="86.8934" size="1.778" layer="95" rot="R180"/>
@@ -29375,6 +29483,7 @@ used by LED4!</text>
 <instance part="GND109" gate="1" x="147.32" y="58.42" smashed="yes">
 <attribute name="VALUE" x="144.78" y="55.88" size="1.778" layer="96"/>
 </instance>
+<instance part="Q1" gate="G$1" x="78.74" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -29409,21 +29518,9 @@ used by LED4!</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC901" gate="IC1" pin="VCC"/>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
-<wire x1="99.06" y1="129.54" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="R903" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="134.62" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="132.08" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<junction x="99.06" y="134.62"/>
-<pinref part="C904" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R908" gate="G$1" pin="1"/>
-<pinref part="P+17" gate="VCC" pin="VCC"/>
-<wire x1="193.04" y1="142.24" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="81.28" y1="149.86" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -29599,6 +29696,33 @@ used by LED4!</text>
 <junction x="132.08" y="93.98"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="88.9" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="IC901" gate="IC1" pin="VCC"/>
+<wire x1="99.06" y1="129.54" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R903" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="132.08" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
+<junction x="99.06" y="134.62"/>
+<pinref part="C904" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="81.28" y1="134.62" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
+<junction x="81.28" y="134.62"/>
+<pinref part="R908" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="142.24" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="144.78" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MIC_AMP_DISABLE" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="76.2" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
+<label x="53.34" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
