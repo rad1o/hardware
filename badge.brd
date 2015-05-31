@@ -5292,7 +5292,7 @@ design rules under a new name.</description>
 <element name="C407" library="rcl" package="C0402" value="100n" x="111.887" y="62.23" rot="R180"/>
 <element name="C406" library="rcl" package="C0402" value="100n" x="111.887" y="63.5" rot="R180"/>
 <element name="C404" library="rcl" package="C0402" value="100n" x="111.53" y="58.028" rot="R180"/>
-<element name="R402" library="rcl" package="R0402" value="4.75k" x="110.578" y="59.298" rot="R180"/>
+<element name="R402" library="rcl" package="R0402" value="1.8k" x="110.578" y="59.298" rot="R180"/>
 <element name="IC309" library="muccc" package="TSLP-6-4" value="BGS12SL6" x="121.793" y="58.166" rot="R270"/>
 <element name="IC406" library="muccc" package="TSLP-6-4" value="BGS12SL6" x="117.475" y="63.119" rot="R180"/>
 <element name="IC402" library="muccc" package="TSLP-6-4" value="BGS12SL6" x="118.11" y="54.102" rot="R270"/>

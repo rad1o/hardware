@@ -19920,7 +19920,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="C406" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C404" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND23" library="supply1" deviceset="AGND" device=""/>
-<part name="R402" library="rcl" deviceset="R-EU_" device="R0402" value="4.75k"/>
+<part name="R402" library="rcl" deviceset="R-EU_" device="R0402" value="1.8k"/>
 <part name="AGND24" library="supply1" deviceset="AGND" device=""/>
 <part name="IC309" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="IC406" library="muccc" deviceset="BGS12SL6" device=""/>
