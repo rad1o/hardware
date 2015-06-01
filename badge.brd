@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -309,10 +309,10 @@
 <wire x1="108.4" y1="45" x2="108.6" y2="44.8" width="1.4224" layer="41" curve="-90"/>
 <wire x1="111" y1="70.4" x2="111" y2="73.6" width="1.4224" layer="41"/>
 <wire x1="126" y1="74" x2="124" y2="74" width="1.4224" layer="41"/>
-<hole x="17" y="78" drill="3"/>
-<hole x="17" y="4" drill="3"/>
-<hole x="132" y="4" drill="3"/>
-<hole x="135" y="74.7" drill="3"/>
+<hole x="17" y="78" drill="3.2"/>
+<hole x="17" y="4" drill="3.2"/>
+<hole x="132" y="4" drill="3.2"/>
+<hole x="135" y="74.57395" drill="3.2"/>
 <wire x1="101.9" y1="71.8" x2="101.9" y2="68.1" width="0.15" layer="41"/>
 <wire x1="101.9" y1="68.1" x2="105.6" y2="68.1" width="0.15" layer="41"/>
 <wire x1="105.6" y1="68.1" x2="105.6" y2="71.8" width="0.15" layer="41"/>
@@ -8335,7 +8335,7 @@ design rules under a new name.</description>
 <via x="15" y="25" extent="1-16" drill="0.4" diameter="0.45"/>
 <via x="15" y="15" extent="1-16" drill="0.4" diameter="0.45"/>
 <via x="15" y="10" extent="1-16" drill="0.4" diameter="0.45"/>
-<via x="15" y="5" extent="1-16" drill="0.4" diameter="0.45"/>
+<via x="14.62185" y="5.315125" extent="1-16" drill="0.4" diameter="0.45"/>
 <via x="75" y="65" extent="1-16" drill="0.4" diameter="0.45"/>
 <via x="40" y="70" extent="1-16" drill="0.4" diameter="0.45"/>
 <via x="35" y="70" extent="1-16" drill="0.4" diameter="0.45"/>
@@ -18753,8 +18753,8 @@ design rules under a new name.</description>
 <approved hash="3,1,4bc84bc857ce5bce"/>
 <approved hash="5,1,15c7ecd1ef2f9634"/>
 <approved hash="5,1,94046f1c6f011414"/>
-<approved hash="5,1,1407631d63039416"/>
 <approved hash="5,1,95c49cd2ff2f1634"/>
+<approved hash="5,1,1407631d63039416"/>
 <approved hash="4,1,fbf9a7b2703029ab"/>
 <approved hash="4,1,e618d1cf0923a42f"/>
 <approved hash="4,1,f48690832cc9f22d"/>
