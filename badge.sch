@@ -20732,14 +20732,14 @@ used by LED4!</text>
 <busses>
 </busses>
 <nets>
-<net name="SPGI00" class="0">
+<net name="SGPIO0" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="P0_0"/>
 <wire x1="40.64" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
 <label x="43.18" y="165.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI01" class="0">
+<net name="SGPIO1" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="P0_1"/>
 <wire x1="40.64" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
@@ -20821,35 +20821,35 @@ used by LED4!</text>
 <label x="43.18" y="116.84" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI010" class="0">
+<net name="SGPIO10" class="0">
 <segment>
 <pinref part="IC101" gate="G$2" pin="P1_14"/>
 <wire x1="40.64" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <label x="43.18" y="114.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI02" class="0">
+<net name="SGPIO2" class="0">
 <segment>
 <pinref part="IC101" gate="G$2" pin="P1_15"/>
 <wire x1="40.64" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <label x="43.18" y="111.76" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI03" class="0">
+<net name="SGPIO3" class="0">
 <segment>
 <pinref part="IC101" gate="G$2" pin="P1_16"/>
 <wire x1="40.64" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="43.18" y="109.22" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI011" class="0">
+<net name="SGPIO11" class="0">
 <segment>
 <pinref part="IC101" gate="G$2" pin="P1_17"/>
 <wire x1="40.64" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <label x="43.18" y="106.68" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI012" class="0">
+<net name="SGPIO12" class="0">
 <segment>
 <pinref part="IC101" gate="G$2" pin="P1_18"/>
 <wire x1="40.64" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
@@ -20894,7 +20894,7 @@ used by LED4!</text>
 <label x="111.76" y="15.24" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI06" class="0">
+<net name="SGPIO6" class="0">
 <segment>
 <pinref part="IC101" gate="G$3" pin="P2_2"/>
 <wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
@@ -21041,7 +21041,7 @@ used by LED4!</text>
 <label x="81.28" y="165.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI09" class="0">
+<net name="SGPIO9" class="0">
 <segment>
 <pinref part="IC101" gate="G$5" pin="P4_3"/>
 <wire x1="78.74" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
@@ -21069,21 +21069,21 @@ used by LED4!</text>
 <label x="81.28" y="149.86" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI013" class="0">
+<net name="SGPIO13" class="0">
 <segment>
 <pinref part="IC101" gate="G$5" pin="P4_8"/>
 <wire x1="78.74" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
 <label x="81.28" y="144.78" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI014" class="0">
+<net name="SGPIO14" class="0">
 <segment>
 <pinref part="IC101" gate="G$5" pin="P4_9"/>
 <wire x1="78.74" y1="142.24" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <label x="81.28" y="142.24" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI015" class="0">
+<net name="SGPIO15" class="0">
 <segment>
 <pinref part="IC101" gate="G$5" pin="P4_10"/>
 <wire x1="78.74" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
@@ -21139,7 +21139,7 @@ used by LED4!</text>
 <label x="81.28" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI04" class="0">
+<net name="SGPIO4" class="0">
 <segment>
 <pinref part="IC101" gate="G$7" pin="P6_3"/>
 <wire x1="78.74" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
@@ -21160,7 +21160,7 @@ used by LED4!</text>
 <label x="81.28" y="83.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI05" class="0">
+<net name="SGPIO5" class="0">
 <segment>
 <pinref part="IC101" gate="G$7" pin="P6_6"/>
 <wire x1="78.74" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
@@ -21423,7 +21423,7 @@ used by LED4!</text>
 <label x="121.92" y="33.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI07" class="0">
+<net name="SGPIO7" class="0">
 <segment>
 <label x="43.18" y="149.86" size="1.016" layer="95" xref="yes"/>
 <pinref part="IC101" gate="G$2" pin="P1_0"/>
@@ -22373,84 +22373,84 @@ used by LED4!</text>
 <busses>
 </busses>
 <nets>
-<net name="SPGI00" class="0">
+<net name="SGPIO0" class="0">
 <segment>
 <pinref part="R203" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="139.7" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="76.2" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI01" class="0">
+<net name="SGPIO1" class="0">
 <segment>
 <pinref part="R205" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="139.7" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 <label x="101.6" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI010" class="0">
+<net name="SGPIO10" class="0">
 <segment>
 <pinref part="R208" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="139.7" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <label x="109.22" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI02" class="0">
+<net name="SGPIO2" class="0">
 <segment>
 <pinref part="R209" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
 <label x="147.32" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI03" class="0">
+<net name="SGPIO3" class="0">
 <segment>
 <pinref part="R210" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
 <label x="147.32" y="99.06" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI011" class="0">
+<net name="SGPIO11" class="0">
 <segment>
 <pinref part="R211" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
 <label x="147.32" y="96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI012" class="0">
+<net name="SGPIO12" class="0">
 <segment>
 <pinref part="R212" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 <label x="147.32" y="93.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI06" class="0">
+<net name="SGPIO6" class="0">
 <segment>
 <pinref part="R216" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <label x="147.32" y="71.12" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI09" class="0">
+<net name="SGPIO9" class="0">
 <segment>
 <pinref part="R200" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="139.7" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
 <label x="71.12" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI013" class="0">
+<net name="SGPIO13" class="0">
 <segment>
 <pinref part="R201" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="139.7" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
 <label x="73.66" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI014" class="0">
+<net name="SGPIO14" class="0">
 <segment>
 <pinref part="R204" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="139.7" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <label x="96.52" y="144.78" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPGI015" class="0">
+<net name="SGPIO15" class="0">
 <segment>
 <pinref part="R206" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="139.7" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
@@ -22481,7 +22481,7 @@ used by LED4!</text>
 <pinref part="X1" gate="-11" pin="1"/>
 </segment>
 </net>
-<net name="SPGI04" class="0">
+<net name="SGPIO4" class="0">
 <segment>
 <pinref part="R214" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="86.36" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
@@ -22500,7 +22500,7 @@ used by LED4!</text>
 <pinref part="X1" gate="-16" pin="1"/>
 </segment>
 </net>
-<net name="SPGI05" class="0">
+<net name="SGPIO5" class="0">
 <segment>
 <pinref part="R215" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
@@ -22632,7 +22632,7 @@ used by LED4!</text>
 <wire x1="132.08" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPGI07" class="0">
+<net name="SGPIO7" class="0">
 <segment>
 <pinref part="R207" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="139.7" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
