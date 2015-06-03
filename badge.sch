@@ -20013,7 +20013,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="AGND21" library="supply1" deviceset="AGND" device=""/>
 <part name="IC401" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="IC501" library="muccc" deviceset="MAX2837ETM+" device="CCC" value="MAX2837ETM+CCC"/>
-<part name="IC408" library="muccc" deviceset="MAX2870ETJ+" device="PDF"/>
+<part name="IC408" library="muccc" deviceset="MAX2870ETJ+" device="PDF" value="MAX2871ETJ+T"/>
 <part name="R301" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
 <part name="R302" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
