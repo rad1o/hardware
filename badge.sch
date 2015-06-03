@@ -20043,7 +20043,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C412" library="rcl" deviceset="C-EU" device="C0402" value="820p"/>
 <part name="AGND39" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND40" library="supply1" deviceset="AGND" device=""/>
-<part name="C415" library="rcl" deviceset="C-EU" device="C0402" value="10n"/>
+<part name="C415" library="rcl" deviceset="C-EU" device="C0402" value="12n"/>
 <part name="AGND41" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND42" library="supply1" deviceset="AGND" device=""/>
 <part name="C416" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
@@ -20106,10 +20106,10 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C603" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C611" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C610" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
-<part name="R603" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
-<part name="R604" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
-<part name="R601" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
-<part name="R602" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
+<part name="R603" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
+<part name="R604" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
+<part name="R601" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
+<part name="R602" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="AGND54" library="supply1" deviceset="AGND" device=""/>
@@ -20132,7 +20132,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C609" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND69" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND70" library="supply1" deviceset="AGND" device=""/>
-<part name="R505" library="resistor" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R505" library="resistor" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="AGND71" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND72" library="supply1" deviceset="AGND" device=""/>
@@ -20161,14 +20161,14 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME7" library="frames" deviceset="DINA4_L" device=""/>
 <part name="JTAG" library="con-lstb" deviceset="MA05-2" device=""/>
-<part name="R106" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R105" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R106" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R105" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="R104" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R104" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
@@ -20185,15 +20185,15 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="AGND35" library="supply1" deviceset="AGND" device=""/>
 <part name="C405" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND38" library="supply1" deviceset="AGND" device=""/>
-<part name="R406" library="resistor" deviceset="R-EU_" device="R0402" value="120"/>
-<part name="R405" library="resistor" deviceset="R-EU_" device="R0402" value="120"/>
-<part name="R404" library="resistor" deviceset="R-EU_" device="R0402" value="120"/>
-<part name="R403" library="resistor" deviceset="R-EU_" device="R0402" value="120"/>
-<part name="C408" library="rcl" deviceset="C-EU" device="C0402" value="10p"/>
+<part name="R406" library="resistor" deviceset="R-EU_" device="R0402" value="39"/>
+<part name="R405" library="resistor" deviceset="R-EU_" device="R0402" value="39"/>
+<part name="R404" library="resistor" deviceset="R-EU_" device="R0402" value="39"/>
+<part name="R403" library="resistor" deviceset="R-EU_" device="R0402" value="39"/>
+<part name="C408" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="AGND74" library="supply1" deviceset="AGND" device=""/>
-<part name="C409" library="rcl" deviceset="C-EU" device="C0402" value="10p"/>
-<part name="C410" library="rcl" deviceset="C-EU" device="C0402" value="10p"/>
-<part name="C411" library="rcl" deviceset="C-EU" device="C0402" value="10p"/>
+<part name="C409" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C410" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C411" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="L407" library="muccc" deviceset="L_0603" device="" value="3.3u"/>
 <part name="L406" library="muccc" deviceset="L_0603" device="" value="3.3u"/>
 <part name="C427" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -20250,10 +20250,10 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="P+47" library="supply1" deviceset="VCC" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
-<part name="R701" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R704" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R702" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R705" library="rcl" deviceset="R-EU_" device="R0402" value="4.5k"/>
+<part name="R701" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R704" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R702" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R705" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
 <part name="R706" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="C701" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
 <part name="C702" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
@@ -20267,7 +20267,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="D701" library="muccc" deviceset="PUSBMXX4" device=""/>
 <part name="D702" library="muccc" deviceset="PUSBMXX4" device=""/>
 <part name="L706" library="muccc" deviceset="L_0603" device="" value="100"/>
-<part name="R703" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R703" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="L707" library="muccc" deviceset="L_0603" device="" value="FB"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
@@ -20280,7 +20280,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="AGND86" library="supply1" deviceset="AGND" device=""/>
-<part name="R707" library="rcl" deviceset="R-EU_" device="R0402" value="4.5k"/>
+<part name="R707" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
 <part name="R708" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
@@ -20301,24 +20301,24 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="P+55" library="supply1" deviceset="VCC" device=""/>
 <part name="R802" library="rcl" deviceset="R-EU_" device="R0402" value="10"/>
 <part name="FRAME8" library="frames" deviceset="DINA4_L" device=""/>
-<part name="R805" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R805" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="R808" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
-<part name="R807" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="C106" library="rcl" deviceset="C-EU" device="C0402" value="18p"/>
-<part name="C105" library="rcl" deviceset="C-EU" device="C0402" value="18p"/>
+<part name="R807" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="C106" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C105" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="C103" library="rcl" deviceset="C-EU" device="C0402" value="18p"/>
-<part name="C104" library="rcl" deviceset="C-EU" device="C0402" value="18p"/>
+<part name="C103" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C104" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="P+58" library="supply1" deviceset="VCC" device=""/>
-<part name="R107" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R103" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R102" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R107" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R103" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R102" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="P+59" library="supply1" deviceset="VCC" device=""/>
 <part name="C102" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="R101" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R101" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="C101" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
@@ -20328,11 +20328,11 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="P+60" library="supply1" deviceset="VCC" device=""/>
-<part name="R709" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R709" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="P+62" library="supply1" deviceset="VCC" device=""/>
-<part name="R710" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R710" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="L709" library="muccc" deviceset="L_0603" device="" value="FB"/>
-<part name="C707" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C707" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="AGND87" library="supply1" deviceset="AGND" device=""/>
@@ -20401,24 +20401,24 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="R815" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
 <part name="R816" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
 <part name="R817" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
-<part name="R818" library="rcl" deviceset="R-EU_" device="R0402" value="1.5k"/>
+<part name="R818" library="rcl" deviceset="R-EU_" device="R0402" value="1.8k"/>
 <part name="R819" library="rcl" deviceset="R-EU_" device="R0402" value="3k"/>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
 <part name="C808" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C807" library="rcl" deviceset="C-EU" device="C0402" value="68n"/>
+<part name="C807" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
 <part name="R820" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="C215" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
 <part name="GND91" library="supply1" deviceset="GND" device=""/>
-<part name="C207" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
-<part name="C208" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C207" library="rcl" deviceset="C-EU" device="C0402" value="2p"/>
+<part name="C208" library="rcl" deviceset="C-EU" device="C0402" value="2p"/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
-<part name="R226" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="R227" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R226" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="R227" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="P+65" library="supply1" deviceset="VCC" device=""/>
 <part name="P+66" library="supply1" deviceset="VCC" device=""/>
-<part name="R229" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R229" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="R230" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R231" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
 <part name="R232" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
@@ -20460,7 +20460,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C520" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND101" library="supply1" deviceset="AGND" device=""/>
 <part name="C521" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C436" library="rcl" deviceset="C-EU" device="C0402" value="10n"/>
+<part name="C436" library="rcl" deviceset="C-EU" device="C0402" value="12n"/>
 <part name="C440" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="AGND100" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND103" library="supply1" deviceset="AGND" device=""/>
@@ -20486,7 +20486,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="AGND102" library="supply1" deviceset="AGND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="L710" library="muccc" deviceset="L_0603" device="" value="FB"/>
-<part name="C715" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C715" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="LD803" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
@@ -20521,7 +20521,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="X701" library="con-3m" deviceset="2908-" device="05WB-MG"/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
-<part name="R217" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R717" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="RGB801" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="RGB802" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
@@ -20576,8 +20576,8 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="RGB807" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="RGB808" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="RGB809" library="adafruit" deviceset="WS2812B" device=""/>
-<part name="R915" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
-<part name="R914" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R915" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
+<part name="R914" library="rcl" deviceset="R-EU_" device="R0402" value="240"/>
 <part name="GND109" library="supply1" deviceset="GND" device=""/>
 <part name="LCD1" library="lcd_nokia_6100" deviceset="NOKIA6100_LCD" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
@@ -20595,6 +20595,13 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <text x="22.86" y="185.42" size="3.81" layer="91">VCC CPU Spannung 3v3, VDD HF versorgung, gnd Dig Ground, AGND, RF Ground</text>
 <text x="137.16" y="81.28" size="1.016" layer="97">ADC0_6 is
 used by LED4!</text>
+<wire x1="176.784" y1="89.154" x2="182.118" y2="83.82" width="0.1524" layer="94"/>
+<wire x1="181.61" y1="88.9" x2="177.292" y2="84.582" width="0.1524" layer="94"/>
+<wire x1="180.848" y1="76.708" x2="176.784" y2="80.772" width="0.1524" layer="94"/>
+<wire x1="176.784" y1="76.454" x2="181.102" y2="80.772" width="0.1524" layer="94"/>
+<wire x1="175.26" y1="82.042" x2="171.196" y2="86.106" width="0.1524" layer="94"/>
+<wire x1="170.434" y1="82.042" x2="170.942" y2="82.042" width="0.1524" layer="94"/>
+<wire x1="170.942" y1="82.042" x2="174.752" y2="85.852" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -22060,6 +22067,14 @@ used by LED4!</text>
 <plain>
 <text x="66.04" y="165.1" size="5.08" layer="91">CPLD</text>
 <text x="154.94" y="165.1" size="5.08" layer="91">CLK_GEN</text>
+<wire x1="139.7" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="137.16" y1="129.54" x2="132.08" y2="124.46" width="0.1524" layer="94"/>
+<wire x1="132.08" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="134.62" y1="129.54" x2="139.7" y2="124.46" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="94"/>
+<wire x1="137.16" y1="124.46" x2="132.08" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="132.08" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="94"/>
+<wire x1="134.62" y1="124.46" x2="139.7" y2="119.38" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -23747,10 +23762,24 @@ used by LED4!</text>
 <text x="101.6" y="53.34" size="3.81" layer="91">LNA</text>
 <text x="96.52" y="114.3" size="3.81" layer="91">AMP</text>
 <text x="193.04" y="170.18" size="3.81" layer="91">Filtering</text>
-<text x="205.74" y="50.8" size="2.54" layer="91">TEST_1</text>
+<text x="210.82" y="58.42" size="2.54" layer="91" rot="R90">TEST_1</text>
 <text x="132.08" y="127" size="2.54" layer="91">TEST_2</text>
 <text x="7.62" y="25.4" size="5.08" layer="91">TODO</text>
 <text x="7.62" y="17.78" size="5.08" layer="91">-evtl. antenna bias</text>
+<wire x1="20.32" y1="73.66" x2="25.4" y2="76.2" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="73.66" x2="20.32" y2="76.2" width="0.1524" layer="94"/>
+<wire x1="50.8" y1="53.34" x2="55.88" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="55.88" y1="53.34" x2="50.8" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="165.1" y1="53.34" x2="170.18" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="170.18" y1="53.34" x2="165.1" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="200.66" y1="50.8" x2="205.74" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="205.74" y1="50.8" x2="200.66" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="215.9" y1="50.8" x2="220.98" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="220.98" y1="50.8" x2="215.9" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="251.46" y1="129.54" x2="246.38" y2="127" width="0.1524" layer="94"/>
+<wire x1="251.46" y1="127" x2="246.38" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="147.32" y1="129.54" x2="142.24" y2="127" width="0.1524" layer="94"/>
+<wire x1="147.32" y1="127" x2="142.24" y2="129.54" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -24466,6 +24495,20 @@ used by LED4!</text>
 <text x="144.78" y="101.6" size="1.778" layer="91">MAX2871 has the same functions and layout as MAX2870</text>
 <text x="235.458" y="176.276" size="2.54" layer="91">TEST_5</text>
 <text x="116.84" y="55.88" size="2.54" layer="91" rot="R90">TEST_6</text>
+<wire x1="259.08" y1="48.26" x2="264.16" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="264.16" y1="48.26" x2="259.08" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="50.8" x2="185.42" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="185.42" y1="50.8" x2="190.5" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="88.9" y1="45.72" x2="93.98" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="93.98" y1="45.72" x2="88.9" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="73.66" y1="48.26" x2="68.58" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="73.66" y1="45.72" x2="68.58" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="2.54" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="43.18" x2="7.62" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="43.18" x2="2.54" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="96.52" x2="5.08" y2="99.06" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="96.52" x2="10.16" y2="99.06" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -27467,7 +27510,7 @@ used by LED4!</text>
 <instance part="P+14" gate="VCC" x="121.92" y="76.2" smashed="yes">
 <attribute name="VALUE" x="123.825" y="77.47" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R217" gate="G$1" x="119.38" y="60.96" smashed="yes" rot="R270">
+<instance part="R717" gate="G$1" x="119.38" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="118.8974" y="51.689" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="118.872" y="64.135" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -27615,7 +27658,7 @@ used by LED4!</text>
 <pinref part="X701" gate="G$1" pin="VCC"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R217" gate="G$1" pin="1"/>
+<pinref part="R717" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="66.04" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <junction x="121.92" y="68.58"/>
@@ -28203,7 +28246,7 @@ used by LED4!</text>
 <pinref part="X701" gate="G$1" pin="SHIELD@1"/>
 <wire x1="127" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 <label x="114.3" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R217" gate="G$1" pin="2"/>
+<pinref part="R717" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="55.88" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 <junction x="119.38" y="27.94"/>
@@ -28256,6 +28299,14 @@ used by LED4!</text>
 <sheet>
 <description>Display Taster</description>
 <plain>
+<wire x1="76.2" y1="175.26" x2="71.12" y2="170.18" width="0.1524" layer="94"/>
+<wire x1="71.12" y1="175.26" x2="76.2" y2="170.18" width="0.1524" layer="94"/>
+<wire x1="76.2" y1="167.64" x2="71.12" y2="172.72" width="0.1524" layer="94"/>
+<wire x1="71.12" y1="167.64" x2="76.2" y2="172.72" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="73.66" x2="12.7" y2="68.58" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="68.58" x2="12.7" y2="73.66" width="0.1524" layer="94"/>
+<wire x1="104.14" y1="165.1" x2="93.98" y2="137.16" width="0.1524" layer="94"/>
+<wire x1="91.44" y1="165.1" x2="106.68" y2="134.62" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="C801" gate="G$1" x="86.36" y="134.62" smashed="yes">
