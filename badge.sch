@@ -20132,7 +20132,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C609" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND69" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND70" library="supply1" deviceset="AGND" device=""/>
-<part name="R505" library="resistor" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R505" library="resistor" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="AGND71" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND72" library="supply1" deviceset="AGND" device=""/>
@@ -20161,14 +20161,14 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME7" library="frames" deviceset="DINA4_L" device=""/>
 <part name="JTAG" library="con-lstb" deviceset="MA05-2" device=""/>
-<part name="R106" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="R105" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R106" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R105" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="R104" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R104" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
@@ -20312,13 +20312,13 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C104" library="rcl" deviceset="C-EU" device="C0402" value="18p"/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="P+58" library="supply1" deviceset="VCC" device=""/>
-<part name="R107" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="R103" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="R102" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R107" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R103" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
+<part name="R102" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="P+59" library="supply1" deviceset="VCC" device=""/>
 <part name="C102" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="R101" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R101" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="C101" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
@@ -20328,9 +20328,9 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="P+60" library="supply1" deviceset="VCC" device=""/>
-<part name="R709" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R709" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="P+62" library="supply1" deviceset="VCC" device=""/>
-<part name="R710" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R710" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="L709" library="muccc" deviceset="L_0603" device="" value="FB"/>
 <part name="C707" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
