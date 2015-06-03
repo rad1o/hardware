@@ -20527,7 +20527,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME9" library="frames" deviceset="DINA4_L" device=""/>
-<part name="X901" library="muccc" deviceset="SJ-4351TS-SMT" device=""/>
+<part name="X901" library="muccc" deviceset="SJ-4351TS-SMT" device="" value="SJ-43515TS-SMT"/>
 <part name="IC901" library="muccc" deviceset="TS482" device=""/>
 <part name="C901" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="R901" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
