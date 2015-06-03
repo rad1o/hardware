@@ -20106,10 +20106,10 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="C603" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C611" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C610" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
-<part name="R603" library="rcl" deviceset="R-EU_" device="R0402" value="4k7"/>
-<part name="R604" library="rcl" deviceset="R-EU_" device="R0402" value="4k7"/>
-<part name="R601" library="rcl" deviceset="R-EU_" device="R0402" value="4k7"/>
-<part name="R602" library="rcl" deviceset="R-EU_" device="R0402" value="4k7"/>
+<part name="R603" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
+<part name="R604" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
+<part name="R601" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
+<part name="R602" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="AGND54" library="supply1" deviceset="AGND" device=""/>
