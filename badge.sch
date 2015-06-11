@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11899,8 +11899,8 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <pin name="VDDIO1" x="-7.62" y="0" length="middle" direction="sup"/>
 <pin name="VDDIO2" x="-7.62" y="-2.54" length="middle" direction="sup"/>
 <pin name="VDDIO3" x="-7.62" y="-5.08" length="middle" direction="sup"/>
-<pin name="VDDREG2" x="-7.62" y="-12.7" length="middle" direction="sup"/>
-<pin name="VDDREG1" x="-7.62" y="-10.16" length="middle" direction="sup"/>
+<pin name="VDDREG2" x="-7.62" y="-15.24" length="middle" direction="sup"/>
+<pin name="VDDREG1" x="-7.62" y="-12.7" length="middle" direction="sup"/>
 <pin name="VSS1" x="30.48" y="0" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS2" x="30.48" y="-2.54" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS3" x="30.48" y="-5.08" length="middle" direction="sup" rot="R180"/>
@@ -11908,7 +11908,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <pin name="VSS5" x="30.48" y="-10.16" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS6" x="30.48" y="-12.7" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS7" x="30.48" y="-15.24" length="middle" direction="sup" rot="R180"/>
-<pin name="VSS8" x="30.48" y="-17.78" length="middle" direction="sup" rot="R180"/>
+<pin name="VDDIO4" x="-7.62" y="-7.62" length="middle" direction="sup"/>
 </symbol>
 <symbol name="180_23_USB">
 <wire x1="27.94" y1="-38.1" x2="27.94" y2="2.54" width="0.254" layer="94"/>
@@ -11933,6 +11933,12 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <devicesets>
 <deviceset name="LPC4300_TFBGA180" prefix="IC">
 <description>&lt;b&gt;TFBGA180 - SOT570-3 &lt;/b&gt;&lt;p&gt;
+
+
+&lt;b&gt;Fixed Version by RFguy&lt;/b&gt;&lt;p&gt;
+
+TFBGA180 - SOT570-3
+
 TFBGA180: thin fine-pitch ball grid array package; 180 balls &lt;p&gt;
 body 12 x 12 x 0.8 mm;&lt;p&gt;
 Solderland 0.4 mm diameter &lt;p&gt;
@@ -11995,7 +12001,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$14" pin="PE_2" pad="L12"/>
 <connect gate="G$14" pin="PE_3" pad="K10"/>
 <connect gate="G$14" pin="PE_4" pad="J11"/>
-<connect gate="G$15" pin="PF_4" pad="L8"/>
+<connect gate="G$15" pin="PF_4" pad="D6"/>
 <connect gate="G$16" pin="ADC0" pad="B6"/>
 <connect gate="G$16" pin="ADC1" pad="C4"/>
 <connect gate="G$16" pin="ADC2" pad="B3"/>
@@ -12008,13 +12014,13 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$16" pin="VSSA" pad="A3"/>
 <connect gate="G$17" pin="!SAMPLE" pad="B8"/>
 <connect gate="G$17" pin="RTCX1" pad="A8"/>
-<connect gate="G$17" pin="RTCX2" pad="A7"/>
+<connect gate="G$17" pin="RTCX2" pad="B7"/>
 <connect gate="G$17" pin="RTC_ALARM" pad="A10"/>
 <connect gate="G$17" pin="VBAT" pad="B9"/>
 <connect gate="G$17" pin="WAKEUP0" pad="A9"/>
 <connect gate="G$17" pin="WAKEUP1" pad="C8"/>
 <connect gate="G$17" pin="WAKEUP2" pad="E5"/>
-<connect gate="G$18" pin="!RESET" pad="B7"/>
+<connect gate="G$18" pin="!RESET" pad="C7"/>
 <connect gate="G$18" pin="CLK0" pad="M4"/>
 <connect gate="G$18" pin="CLK2" pad="P10"/>
 <connect gate="G$18" pin="XTAL1" pad="C1"/>
@@ -12030,7 +12036,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$2" pin="P1_10" pad="N6"/>
 <connect gate="G$2" pin="P1_11" pad="P8"/>
 <connect gate="G$2" pin="P1_12" pad="P7"/>
-<connect gate="G$2" pin="P1_13" pad="D6"/>
+<connect gate="G$2" pin="P1_13" pad="L8"/>
 <connect gate="G$2" pin="P1_14" pad="K7"/>
 <connect gate="G$2" pin="P1_15" pad="P11"/>
 <connect gate="G$2" pin="P1_16" pad="L5"/>
@@ -12051,16 +12057,16 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$21" pin="VDDIO1" pad="H5"/>
 <connect gate="G$21" pin="VDDIO2" pad="H10"/>
 <connect gate="G$21" pin="VDDIO3" pad="K8"/>
+<connect gate="G$21" pin="VDDIO4" pad="G10"/>
 <connect gate="G$21" pin="VDDREG1" pad="D8"/>
 <connect gate="G$21" pin="VDDREG2" pad="E8"/>
 <connect gate="G$21" pin="VSS1" pad="F10"/>
-<connect gate="G$21" pin="VSS2" pad="G10"/>
+<connect gate="G$21" pin="VSS2" pad="K9"/>
 <connect gate="G$21" pin="VSS3" pad="D7"/>
 <connect gate="G$21" pin="VSS4" pad="E6"/>
 <connect gate="G$21" pin="VSS5" pad="E7"/>
 <connect gate="G$21" pin="VSS6" pad="E9"/>
 <connect gate="G$21" pin="VSS7" pad="K6"/>
-<connect gate="G$21" pin="VSS8" pad="K9"/>
 <connect gate="G$22" pin="USB0_DM" pad="F2"/>
 <connect gate="G$22" pin="USB0_DP" pad="E2"/>
 <connect gate="G$22" pin="USB0_ID" pad="G2"/>
@@ -12132,7 +12138,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$8" pin="P7_2" pad="A14"/>
 <connect gate="G$8" pin="P7_3" pad="C12"/>
 <connect gate="G$8" pin="P7_4" pad="C6"/>
-<connect gate="G$8" pin="P7_5" pad="C7"/>
+<connect gate="G$8" pin="P7_5" pad="A7"/>
 <connect gate="G$8" pin="P7_6" pad="F5"/>
 <connect gate="G$8" pin="P7_7" pad="D5"/>
 <connect gate="G$9" pin="P8_0" pad="E4"/>
@@ -27604,10 +27610,14 @@ used by LED4!</text>
 <pinref part="IC101" gate="G$21" pin="VDDIO1"/>
 <pinref part="C708" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="48.26" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="P+48" gate="VCC" pin="VCC"/>
+<wire x1="58.42" y1="40.64" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="50.8" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <junction x="58.42" y="48.26"/>
+<pinref part="IC101" gate="G$21" pin="VDDIO4"/>
+<wire x1="53.34" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
+<junction x="58.42" y="40.64"/>
 </segment>
 <segment>
 <pinref part="IC101" gate="G$21" pin="VDDIO2"/>
@@ -27630,20 +27640,20 @@ used by LED4!</text>
 <segment>
 <pinref part="IC101" gate="G$21" pin="VDDREG1"/>
 <pinref part="C711" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="38.1" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="35.56" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="P+51" gate="VCC" pin="VCC"/>
-<wire x1="73.66" y1="50.8" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
-<junction x="73.66" y="38.1"/>
+<wire x1="73.66" y1="50.8" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<junction x="73.66" y="35.56"/>
 </segment>
 <segment>
 <pinref part="IC101" gate="G$21" pin="VDDREG2"/>
 <pinref part="C712" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="35.56" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="33.02" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="P+52" gate="VCC" pin="VCC"/>
-<wire x1="78.74" y1="50.8" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-<junction x="78.74" y="35.56"/>
+<wire x1="78.74" y1="50.8" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
+<junction x="78.74" y="33.02"/>
 </segment>
 <segment>
 <pinref part="IC703" gate="G$1" pin="IN"/>
@@ -27771,9 +27781,8 @@ used by LED4!</text>
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
-<wire x1="10.16" y1="20.32" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC101" gate="G$21" pin="VSS1"/>
-<wire x1="10.16" y1="30.48" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="33.02" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="35.56" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="38.1" x2="10.16" y2="40.64" width="0.1524" layer="91"/>
@@ -27799,9 +27808,6 @@ used by LED4!</text>
 <pinref part="IC101" gate="G$21" pin="VSS7"/>
 <wire x1="10.16" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
 <junction x="10.16" y="33.02"/>
-<pinref part="IC101" gate="G$21" pin="VSS8"/>
-<wire x1="10.16" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<junction x="10.16" y="30.48"/>
 </segment>
 <segment>
 <pinref part="C708" gate="G$1" pin="2"/>
