@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2683,8 +2683,8 @@ Solderland (pads) 0.4 x 1.5 mm on corners (8 x) and 0.28 x 1.5 mm (136 x)   &lt;
 <pin name="VDDIO1" x="-7.62" y="0" length="middle" direction="sup"/>
 <pin name="VDDIO2" x="-7.62" y="-2.54" length="middle" direction="sup"/>
 <pin name="VDDIO3" x="-7.62" y="-5.08" length="middle" direction="sup"/>
-<pin name="VDDREG2" x="-7.62" y="-12.7" length="middle" direction="sup"/>
-<pin name="VDDREG1" x="-7.62" y="-10.16" length="middle" direction="sup"/>
+<pin name="VDDREG2" x="-7.62" y="-15.24" length="middle" direction="sup"/>
+<pin name="VDDREG1" x="-7.62" y="-12.7" length="middle" direction="sup"/>
 <pin name="VSS1" x="30.48" y="0" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS2" x="30.48" y="-2.54" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS3" x="30.48" y="-5.08" length="middle" direction="sup" rot="R180"/>
@@ -2692,7 +2692,7 @@ Solderland (pads) 0.4 x 1.5 mm on corners (8 x) and 0.28 x 1.5 mm (136 x)   &lt;
 <pin name="VSS5" x="30.48" y="-10.16" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS6" x="30.48" y="-12.7" length="middle" direction="sup" rot="R180"/>
 <pin name="VSS7" x="30.48" y="-15.24" length="middle" direction="sup" rot="R180"/>
-<pin name="VSS8" x="30.48" y="-17.78" length="middle" direction="sup" rot="R180"/>
+<pin name="VDDIO4" x="-7.62" y="-7.62" length="middle" direction="sup"/>
 </symbol>
 <symbol name="180_23_USB">
 <wire x1="27.94" y1="-38.1" x2="27.94" y2="2.54" width="0.254" layer="94"/>
@@ -3939,6 +3939,12 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 </deviceset>
 <deviceset name="LPC4300_TFBGA180" prefix="IC">
 <description>&lt;b&gt;TFBGA180 - SOT570-3 &lt;/b&gt;&lt;p&gt;
+
+
+&lt;b&gt;Fixed Version by RFguy&lt;/b&gt;&lt;p&gt;
+
+TFBGA180 - SOT570-3
+
 TFBGA180: thin fine-pitch ball grid array package; 180 balls &lt;p&gt;
 body 12 x 12 x 0.8 mm;&lt;p&gt;
 Solderland 0.4 mm diameter &lt;p&gt;
@@ -4001,7 +4007,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$14" pin="PE_2" pad="L12"/>
 <connect gate="G$14" pin="PE_3" pad="K10"/>
 <connect gate="G$14" pin="PE_4" pad="J11"/>
-<connect gate="G$15" pin="PF_4" pad="L8"/>
+<connect gate="G$15" pin="PF_4" pad="D6"/>
 <connect gate="G$16" pin="ADC0" pad="B6"/>
 <connect gate="G$16" pin="ADC1" pad="C4"/>
 <connect gate="G$16" pin="ADC2" pad="B3"/>
@@ -4014,13 +4020,13 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$16" pin="VSSA" pad="A3"/>
 <connect gate="G$17" pin="!SAMPLE" pad="B8"/>
 <connect gate="G$17" pin="RTCX1" pad="A8"/>
-<connect gate="G$17" pin="RTCX2" pad="A7"/>
+<connect gate="G$17" pin="RTCX2" pad="B7"/>
 <connect gate="G$17" pin="RTC_ALARM" pad="A10"/>
 <connect gate="G$17" pin="VBAT" pad="B9"/>
 <connect gate="G$17" pin="WAKEUP0" pad="A9"/>
 <connect gate="G$17" pin="WAKEUP1" pad="C8"/>
 <connect gate="G$17" pin="WAKEUP2" pad="E5"/>
-<connect gate="G$18" pin="!RESET" pad="B7"/>
+<connect gate="G$18" pin="!RESET" pad="C7"/>
 <connect gate="G$18" pin="CLK0" pad="M4"/>
 <connect gate="G$18" pin="CLK2" pad="P10"/>
 <connect gate="G$18" pin="XTAL1" pad="C1"/>
@@ -4036,7 +4042,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$2" pin="P1_10" pad="N6"/>
 <connect gate="G$2" pin="P1_11" pad="P8"/>
 <connect gate="G$2" pin="P1_12" pad="P7"/>
-<connect gate="G$2" pin="P1_13" pad="D6"/>
+<connect gate="G$2" pin="P1_13" pad="L8"/>
 <connect gate="G$2" pin="P1_14" pad="K7"/>
 <connect gate="G$2" pin="P1_15" pad="P11"/>
 <connect gate="G$2" pin="P1_16" pad="L5"/>
@@ -4057,16 +4063,16 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$21" pin="VDDIO1" pad="H5"/>
 <connect gate="G$21" pin="VDDIO2" pad="H10"/>
 <connect gate="G$21" pin="VDDIO3" pad="K8"/>
+<connect gate="G$21" pin="VDDIO4" pad="G10"/>
 <connect gate="G$21" pin="VDDREG1" pad="D8"/>
 <connect gate="G$21" pin="VDDREG2" pad="E8"/>
 <connect gate="G$21" pin="VSS1" pad="F10"/>
-<connect gate="G$21" pin="VSS2" pad="G10"/>
+<connect gate="G$21" pin="VSS2" pad="K9"/>
 <connect gate="G$21" pin="VSS3" pad="D7"/>
 <connect gate="G$21" pin="VSS4" pad="E6"/>
 <connect gate="G$21" pin="VSS5" pad="E7"/>
 <connect gate="G$21" pin="VSS6" pad="E9"/>
 <connect gate="G$21" pin="VSS7" pad="K6"/>
-<connect gate="G$21" pin="VSS8" pad="K9"/>
 <connect gate="G$22" pin="USB0_DM" pad="F2"/>
 <connect gate="G$22" pin="USB0_DP" pad="E2"/>
 <connect gate="G$22" pin="USB0_ID" pad="G2"/>
@@ -4138,7 +4144,7 @@ Grid 0.8 x 0.8 mm &lt;p&gt;</description>
 <connect gate="G$8" pin="P7_2" pad="A14"/>
 <connect gate="G$8" pin="P7_3" pad="C12"/>
 <connect gate="G$8" pin="P7_4" pad="C6"/>
-<connect gate="G$8" pin="P7_5" pad="C7"/>
+<connect gate="G$8" pin="P7_5" pad="A7"/>
 <connect gate="G$8" pin="P7_6" pad="F5"/>
 <connect gate="G$8" pin="P7_7" pad="D5"/>
 <connect gate="G$9" pin="P8_0" pad="E4"/>
