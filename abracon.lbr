@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -220,10 +220,28 @@
 <wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
 <wire x1="2.58" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-<text x="-2.5" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.5" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-2.5" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.5" y="3.048" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="CRYSTAL_GND">
+<wire x1="-0.341" y1="1.524" x2="-0.341" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.341" y1="-1.524" x2="0.421" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.421" y1="-1.524" x2="0.421" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.421" y1="1.524" x2="-0.341" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="2.58" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="-2.5" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.5" y="3.048" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="G" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -299,6 +317,54 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL_4POL" prefix="Q" uservalue="yes">
+<description>Pologe SMD Quarze Quarzwerk</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1" package="3.2X2.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="G" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2" package="5X3.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="G" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="7X5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="G" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4" package="ABS25">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="G" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
