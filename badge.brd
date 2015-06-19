@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -100,7 +100,7 @@
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="142" name="tBestueckung" color="14" fill="1" visible="no" active="yes"/>
+<layer number="142" name="tBestueckung" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="143" name="bBestueckung" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
@@ -883,16 +883,10 @@
 </polygon>
 <circle x="83.6" y="45.4" radius="6.10081875" width="1.778" layer="142"/>
 <circle x="46.6" y="19" radius="6.109828125" width="1.778" layer="142"/>
-<text x="77.2" y="11.2" size="3.81" layer="142">r</text>
-<text x="79.9" y="11.1" size="5.08" layer="142">a</text>
-<text x="85.1" y="11.1" size="6.4516" layer="142">d</text>
-<text x="89.4" y="11.1" size="9" layer="142">1</text>
-<text x="57" y="14.2" size="2.1844" layer="142">CHAOS
-COMMUNICATION
-CAMP</text>
-<wire x1="31.8" y1="67.7" x2="23.6" y2="52.7" width="1.9304" layer="142"/>
-<wire x1="23.6" y1="52.7" x2="41.3" y2="52.7" width="1.9304" layer="142"/>
-<wire x1="41.3" y1="52.7" x2="32.5" y2="68.1" width="1.9304" layer="142"/>
+<text x="78.784746875" y="11.9793875" size="3.81" layer="142">r</text>
+<text x="81.050103125" y="12.069640625" size="5.08" layer="142">a</text>
+<text x="85.380721875" y="11.997109375" size="6.4516" layer="142">d</text>
+<text x="89.72603125" y="11.969975" size="8.5" layer="142">1</text>
 <circle x="102.8" y="18.8" radius="6.109828125" width="1.778" layer="142"/>
 <wire x1="12.1" y1="16.5" x2="31.9" y2="16.5" width="1.9304" layer="142"/>
 <wire x1="31.9" y1="16.5" x2="38.3" y2="12.9" width="1.9304" layer="142" curve="-58.715516"/>
@@ -923,9 +917,9 @@ CAMP</text>
 <wire x1="64.7" y1="48.8" x2="64.7" y2="61.8" width="1.016" layer="142"/>
 <wire x1="64.7" y1="61.8" x2="65.5" y2="61.8" width="1.016" layer="142"/>
 <wire x1="65.5" y1="61.8" x2="70.5" y2="66.8" width="1.016" layer="142" curve="90"/>
-<wire x1="70.5" y1="66.8" x2="70.5" y2="68.1" width="1.016" layer="142"/>
-<wire x1="70.5" y1="68.1" x2="83.3" y2="68.1" width="1.016" layer="142"/>
-<wire x1="83.3" y1="68.1" x2="88.3" y2="63.1" width="1.016" layer="142" curve="-90"/>
+<wire x1="70.5" y1="66.8" x2="70.5" y2="66.8494125" width="1.016" layer="142"/>
+<wire x1="70.5" y1="66.8494125" x2="84.441109375" y2="66.903784375" width="1.016" layer="142"/>
+<wire x1="84.441109375" y1="66.903784375" x2="88.3" y2="63.1" width="1.016" layer="142" curve="-90"/>
 <wire x1="88.3" y1="63.1" x2="88.3" y2="49.3" width="1.016" layer="142"/>
 <wire x1="12.1" y1="10.3" x2="21.4" y2="1" width="1.9304" layer="142" curve="90"/>
 <wire x1="21.4" y1="1" x2="25.1" y2="1" width="1.9304" layer="142"/>
@@ -1098,6 +1092,58 @@ CAMP</text>
 <wire x1="18" y1="33" x2="21" y2="33" width="0.6096" layer="143"/>
 <wire x1="21" y1="33" x2="21" y2="32" width="0.6096" layer="143"/>
 <wire x1="21" y1="32" x2="22" y2="32" width="0.6096" layer="143"/>
+<text x="132" y="38" size="1.016" layer="143" distance="30" rot="MR0">Der Zugang zu Computern und allem, was einem zeigen kann, wie 
+diese Welt funktioniert, sollte unbegrenzt und vollständig sein.
+
+Alle Informationen müssen frei sein.
+
+Mißtraue Autoritäten – fördere Dezentralisierung.
+
+Beurteile einen Hacker nach dem, was er tut, und nicht nach 
+üblichen Kriterien wie Aussehen, Alter, Herkunft, Spezies, 
+Geschlecht oder gesellschaftliche Stellung.
+
+Man kann mit einem Computer Kunst und Schönheit schaffen.
+
+Computer können dein Leben zum Besseren verändern.
+
+Mülle nicht in den Daten anderer Leute.
+
+Öffentliche Daten nützen, private Daten schützen.</text>
+<wire x1="81" y1="-14" x2="81" y2="-19" width="0.6096" layer="143"/>
+<wire x1="78" y1="-19" x2="81" y2="-19" width="0.6096" layer="143"/>
+<wire x1="81" y1="-19" x2="84" y2="-19" width="0.6096" layer="143"/>
+<wire x1="80" y1="-21" x2="82" y2="-21" width="0.6096" layer="143"/>
+<wire x1="79" y1="-20" x2="83" y2="-20" width="0.6096" layer="143"/>
+<wire x1="21" y1="77" x2="21" y2="72" width="0.6096" layer="143"/>
+<wire x1="18" y1="72" x2="21" y2="72" width="0.6096" layer="143"/>
+<wire x1="21" y1="72" x2="24" y2="72" width="0.6096" layer="143"/>
+<wire x1="20" y1="70" x2="22" y2="70" width="0.6096" layer="143"/>
+<wire x1="19" y1="71" x2="23" y2="71" width="0.6096" layer="143"/>
+<wire x1="86" y1="-21" x2="96" y2="-21" width="0.3048" layer="142"/>
+<wire x1="96" y1="-21" x2="91" y2="-13" width="0.3048" layer="142"/>
+<wire x1="91" y1="-13" x2="86" y2="-21" width="0.3048" layer="142"/>
+<wire x1="93" y1="-17" x2="92" y2="-16" width="0.3048" layer="142"/>
+<wire x1="92" y1="-16" x2="90" y2="-16" width="0.3048" layer="142" curve="90"/>
+<wire x1="90" y1="-16" x2="89" y2="-17" width="0.3048" layer="142"/>
+<wire x1="89" y1="-17" x2="90" y2="-18" width="0.3048" layer="142"/>
+<wire x1="90" y1="-18" x2="92" y2="-18" width="0.3048" layer="142" curve="90"/>
+<wire x1="92" y1="-18" x2="93" y2="-17" width="0.3048" layer="142"/>
+<circle x="91" y="-17" radius="1" width="0.3048" layer="142"/>
+<wire x1="25.983603125" y1="54.4407375" x2="35.983603125" y2="54.4407375" width="0.3048" layer="142"/>
+<wire x1="35.983603125" y1="54.4407375" x2="30.983603125" y2="62.4407375" width="0.3048" layer="142"/>
+<wire x1="30.983603125" y1="62.4407375" x2="25.983603125" y2="54.4407375" width="0.3048" layer="142"/>
+<wire x1="32.983603125" y1="58.4407375" x2="31.983603125" y2="59.4407375" width="0.3048" layer="142"/>
+<wire x1="31.983603125" y1="59.4407375" x2="29.983603125" y2="59.4407375" width="0.3048" layer="142" curve="90"/>
+<wire x1="29.983603125" y1="59.4407375" x2="28.983603125" y2="58.4407375" width="0.3048" layer="142"/>
+<wire x1="28.983603125" y1="58.4407375" x2="29.983603125" y2="57.4407375" width="0.3048" layer="142"/>
+<wire x1="29.983603125" y1="57.4407375" x2="31.983603125" y2="57.4407375" width="0.3048" layer="142" curve="90"/>
+<wire x1="31.983603125" y1="57.4407375" x2="32.983603125" y2="58.4407375" width="0.3048" layer="142"/>
+<circle x="30.983603125" y="58.4407375" radius="1" width="0.3048" layer="142"/>
+<text x="63.90245" y="21.4706" size="2.9" layer="142" font="fixed">CHAOS</text>
+<text x="64.258853125" y="19.613334375" size="1.016" layer="142" font="vector">COMMUNICATION</text>
+<text x="63.480759375" y="12.020715625" size="3.81" layer="142" font="fixed" distance="3">CAMP
+2015</text>
 </plain>
 <libraries>
 <library name="muccc">
