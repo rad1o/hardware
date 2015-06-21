@@ -20346,13 +20346,6 @@ www.irf.com&lt;p&gt;
 <part name="C517" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND81" library="supply1" deviceset="AGND" device=""/>
 <part name="P+35" library="supply1" deviceset="VCC" device=""/>
-<part name="P+37" library="supply1" deviceset="VCC" device=""/>
-<part name="P+38" library="supply1" deviceset="VCC" device=""/>
-<part name="P+39" library="supply1" deviceset="VCC" device=""/>
-<part name="P+40" library="supply1" deviceset="VCC" device=""/>
-<part name="P+41" library="supply1" deviceset="VCC" device=""/>
-<part name="P+42" library="supply1" deviceset="VCC" device=""/>
-<part name="P+43" library="supply1" deviceset="VCC" device=""/>
 <part name="U$20" library="supply1" deviceset="+1V8" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
@@ -20617,7 +20610,6 @@ www.irf.com&lt;p&gt;
 <part name="C809" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="C612" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C613" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="GND102" library="supply1" deviceset="GND" device=""/>
 <part name="GND103" library="supply1" deviceset="GND" device=""/>
 <part name="GND104" library="supply1" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
@@ -20746,6 +20738,20 @@ www.irf.com&lt;p&gt;
 <part name="GND91" library="supply1" deviceset="GND" device=""/>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
 <part name="R834" library="rcl" deviceset="R-EU_" device="R0402" value="39"/>
+<part name="VDD30" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD31" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD32" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD33" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD34" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD35" library="supply1" deviceset="VDD" device=""/>
+<part name="VDD36" library="supply1" deviceset="VDD" device=""/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="AGND29" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND30" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND31" library="supply1" deviceset="AGND" device=""/>
+<part name="R715" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
+<part name="GND93" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27280,40 +27286,40 @@ used by LED4!</text>
 <instance part="AGND70" gate="VR1" x="162.56" y="137.16" smashed="yes">
 <attribute name="VALUE" x="162.56" y="133.604" size="1.778" layer="96"/>
 </instance>
-<instance part="P+37" gate="VCC" x="86.36" y="104.14" smashed="yes" rot="R90">
-<attribute name="VALUE" x="85.725" y="106.045" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+38" gate="VCC" x="86.36" y="111.76" smashed="yes" rot="R90">
-<attribute name="VALUE" x="85.979" y="111.379" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+39" gate="VCC" x="86.36" y="127" smashed="yes" rot="R90">
-<attribute name="VALUE" x="85.217" y="127.889" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+40" gate="VCC" x="180.34" y="88.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="179.705" y="90.805" size="1.778" layer="96"/>
-</instance>
-<instance part="P+41" gate="VCC" x="175.26" y="114.3" smashed="yes" rot="R270">
-<attribute name="VALUE" x="176.911" y="113.411" size="1.778" layer="96"/>
-</instance>
-<instance part="P+42" gate="VCC" x="182.88" y="121.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="179.197" y="124.079" size="1.778" layer="96"/>
-</instance>
-<instance part="P+43" gate="VCC" x="162.56" y="104.14" smashed="yes" rot="R270">
-<attribute name="VALUE" x="164.211" y="103.759" size="1.778" layer="96"/>
-</instance>
-<instance part="C612" gate="G$1" x="71.12" y="78.74" smashed="yes">
-<attribute name="NAME" x="63.246" y="79.248" size="1.778" layer="95"/>
-<attribute name="VALUE" x="62.992" y="76.835" size="1.778" layer="96"/>
+<instance part="C612" gate="G$1" x="177.8" y="76.2" smashed="yes">
+<attribute name="NAME" x="169.926" y="76.708" size="1.778" layer="95"/>
+<attribute name="VALUE" x="169.672" y="74.295" size="1.778" layer="96"/>
 </instance>
 <instance part="C613" gate="G$1" x="76.2" y="78.74" smashed="yes">
 <attribute name="NAME" x="78.994" y="79.248" size="1.778" layer="95"/>
 <attribute name="VALUE" x="79.502" y="76.835" size="1.778" layer="96"/>
 </instance>
-<instance part="GND102" gate="1" x="71.12" y="71.12" smashed="yes">
-<attribute name="VALUE" x="71.755" y="64.77" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND103" gate="1" x="76.2" y="71.12" smashed="yes">
 <attribute name="VALUE" x="76.835" y="64.77" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VDD30" gate="G$1" x="86.36" y="127" rot="R90"/>
+<instance part="VDD31" gate="G$1" x="86.36" y="111.76" rot="R90"/>
+<instance part="VDD32" gate="G$1" x="86.36" y="104.14" rot="R90"/>
+<instance part="VDD33" gate="G$1" x="180.34" y="104.14" rot="R270"/>
+<instance part="VDD34" gate="G$1" x="195.58" y="81.28" rot="R270"/>
+<instance part="VDD35" gate="G$1" x="180.34" y="114.3" rot="R270"/>
+<instance part="VDD36" gate="G$1" x="180.34" y="121.92" rot="R270"/>
+<instance part="C1" gate="G$1" x="182.88" y="76.2" smashed="yes">
+<attribute name="NAME" x="175.006" y="76.708" size="1.778" layer="95"/>
+<attribute name="VALUE" x="174.752" y="74.295" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="187.96" y="76.2" smashed="yes">
+<attribute name="NAME" x="180.086" y="76.708" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.832" y="74.295" size="1.778" layer="96"/>
+</instance>
+<instance part="AGND29" gate="VR1" x="177.8" y="68.58" smashed="yes">
+<attribute name="VALUE" x="178.435" y="66.04" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="AGND30" gate="VR1" x="182.88" y="68.58" smashed="yes">
+<attribute name="VALUE" x="183.515" y="66.04" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="AGND31" gate="VR1" x="187.96" y="68.58" smashed="yes">
+<attribute name="VALUE" x="188.595" y="66.04" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -27477,49 +27483,11 @@ used by LED4!</text>
 <segment>
 <pinref part="IC601" gate="A" pin="OVDD"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="66.04" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C612" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="81.28" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<junction x="71.12" y="86.36"/>
 <pinref part="C613" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="81.28" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
 <junction x="76.2" y="86.36"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="VDD_4"/>
-<wire x1="88.9" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="P+37" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="VDD_3"/>
-<wire x1="88.9" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="P+38" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="VDD_2"/>
-<wire x1="88.9" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
-<pinref part="P+39" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="VDD_5"/>
-<wire x1="177.8" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="P+40" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="VDD"/>
-<wire x1="172.72" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P+41" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="REFIN"/>
-<wire x1="180.34" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="P+42" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC601" gate="A" pin="VDD_6"/>
-<pinref part="P+43" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -27527,10 +27495,6 @@ used by LED4!</text>
 <pinref part="IC601" gate="A" pin="OGND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="83.82" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C612" gate="G$1" pin="2"/>
-<pinref part="GND102" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C613" gate="G$1" pin="2"/>
@@ -27608,6 +27572,18 @@ used by LED4!</text>
 <segment>
 <pinref part="C609" gate="G$1" pin="2"/>
 <pinref part="AGND70" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C612" gate="G$1" pin="2"/>
+<pinref part="AGND29" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="AGND30" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="AGND31" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$166" class="0">
@@ -27750,6 +27726,56 @@ used by LED4!</text>
 <pinref part="C608" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="149.86" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="IC601" gate="A" pin="VDD_2"/>
+<wire x1="88.9" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
+<pinref part="VDD30" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="IC601" gate="A" pin="VDD_3"/>
+<wire x1="88.9" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="VDD31" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="IC601" gate="A" pin="VDD_4"/>
+<wire x1="88.9" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="VDD32" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="IC601" gate="A" pin="VDD_5"/>
+<wire x1="193.04" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="VDD34" gate="G$1" pin="VDD"/>
+<pinref part="C612" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="78.74" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<junction x="177.8" y="81.28"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="78.74" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<junction x="182.88" y="81.28"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="78.74" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<junction x="187.96" y="81.28"/>
+</segment>
+<segment>
+<pinref part="IC601" gate="A" pin="VDD_6"/>
+<pinref part="VDD33" gate="G$1" pin="VDD"/>
+<wire x1="177.8" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC601" gate="A" pin="VDD"/>
+<wire x1="177.8" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="VDD35" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="IC601" gate="A" pin="REFIN"/>
+<wire x1="177.8" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="VDD36" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 </nets>
@@ -28135,6 +28161,13 @@ used by LED4!</text>
 <instance part="GND92" gate="1" x="147.32" y="116.84" smashed="yes">
 <attribute name="VALUE" x="144.78" y="114.3" size="1.778" layer="96"/>
 </instance>
+<instance part="R715" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.986" y="71.0946" size="1.778" layer="95"/>
+<attribute name="VALUE" x="14.732" y="68.326" size="1.778" layer="96"/>
+</instance>
+<instance part="GND93" gate="1" x="22.86" y="63.5" smashed="yes">
+<attribute name="VALUE" x="20.32" y="60.96" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -28517,6 +28550,10 @@ used by LED4!</text>
 <pinref part="C716" gate="G$1" pin="2"/>
 <pinref part="GND92" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R715" gate="G$1" pin="1"/>
+<pinref part="GND93" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$54" class="0">
 <segment>
@@ -28775,8 +28812,11 @@ used by LED4!</text>
 <net name="EN_1V8" class="0">
 <segment>
 <pinref part="IC703" gate="G$1" pin="EN"/>
-<wire x1="35.56" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 <label x="20.32" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R715" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="22.86" y="76.2"/>
 </segment>
 </net>
 <net name="N$71" class="0">
