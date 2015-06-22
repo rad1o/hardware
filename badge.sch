@@ -20747,7 +20747,6 @@ www.irf.com&lt;p&gt;
 <part name="R712" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="T901" library="transistor-small-signal" deviceset="BSS84" device="" value="IRLML6402TRPBF"/>
-<part name="R833" library="rcl" deviceset="R-EU_" device="R0402" value="10"/>
 <part name="Q102" library="abracon" deviceset="CRYSTAL_4POL" device="1" value="12 MHz"/>
 <part name="Q201" library="abracon" deviceset="CRYSTAL_4POL" device="1" value="25MHz"/>
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
@@ -20792,6 +20791,9 @@ www.irf.com&lt;p&gt;
 <part name="C218" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C219" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="L2" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
+<part name="L802" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
+<part name="C811" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="GND94" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29450,13 +29452,20 @@ used by LED4!</text>
 <instance part="GND111" gate="1" x="55.88" y="40.64" smashed="yes">
 <attribute name="VALUE" x="53.34" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="R833" gate="G$1" x="17.78" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.812" y="145.0086" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.812" y="142.494" size="1.778" layer="96"/>
-</instance>
 <instance part="R834" gate="G$1" x="187.96" y="157.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="185.166" y="159.2326" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="159.258" size="1.778" layer="96"/>
+</instance>
+<instance part="L802" gate="G$1" x="22.86" y="154.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.986" y="155.4226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="15.494" y="152.4" size="1.778" layer="96"/>
+</instance>
+<instance part="C811" gate="G$1" x="33.02" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.639" y="148.844" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="37.719" y="148.844" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND94" gate="1" x="50.8" y="142.24" smashed="yes">
+<attribute name="VALUE" x="48.26" y="139.7" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -29699,6 +29708,12 @@ used by LED4!</text>
 <pinref part="R832" gate="G$1" pin="1"/>
 <pinref part="GND111" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND94" gate="1" pin="GND"/>
+<wire x1="50.8" y1="144.78" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C811" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -29907,9 +29922,10 @@ used by LED4!</text>
 <label x="231.14" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R833" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
-<label x="20.32" y="149.86" size="1.016" layer="95" xref="yes"/>
+<wire x1="22.86" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
+<label x="17.78" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="L802" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="165.1" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT+" class="0">
@@ -30301,15 +30317,20 @@ used by LED4!</text>
 <segment>
 <pinref part="L801" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="137.16" x2="17.78" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R833" gate="G$1" pin="2"/>
 <pinref part="IC802" gate="G$1" pin="VIN"/>
 <wire x1="25.4" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C809" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="119.38" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="139.7" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<junction x="17.78" y="139.7"/>
 <junction x="22.86" y="132.08"/>
+<pinref part="L802" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="139.7" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
+<junction x="22.86" y="139.7"/>
+<pinref part="C811" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="147.32" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
+<junction x="22.86" y="147.32"/>
 </segment>
 </net>
 <net name="WAKEUP1" class="0">
