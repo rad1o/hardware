@@ -1839,14 +1839,14 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <text x="-3.175" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="L0805">
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<wire x1="-0.371" y1="0.48" x2="0.391" y2="0.48" width="0.1016" layer="51"/>
+<wire x1="-0.366" y1="-0.5" x2="0.371" y2="-0.5" width="0.1016" layer="51"/>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.6" x2="-0.3421" y2="0.6" layer="51"/>
+<rectangle x1="0.3556" y1="-0.6" x2="1.1057" y2="0.6" layer="51"/>
 </package>
 <package name="L1206">
 <wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
@@ -20638,7 +20638,7 @@ www.irf.com&lt;p&gt;
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
 <part name="C810" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND100" library="supply1" deviceset="GND" device=""/>
-<part name="L801" library="rcl" deviceset="L-EU" device="L1206" value="10u"/>
+<part name="L801" library="rcl" deviceset="L-EU" device="L3225M" value="10u"/>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="C809" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="C612" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -20790,7 +20790,7 @@ www.irf.com&lt;p&gt;
 <part name="C217" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C218" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C219" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="L2" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
+<part name="L208" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="L802" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="C811" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
@@ -22636,7 +22636,7 @@ used by LED4!</text>
 <attribute name="NAME" x="174.117" y="180.086" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="174.117" y="172.466" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="L2" gate="G$1" x="137.16" y="162.56" smashed="yes" rot="R270">
+<instance part="L208" gate="G$1" x="137.16" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="131.572" y="161.0614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="137.16" y="160.528" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -23879,7 +23879,7 @@ used by LED4!</text>
 <segment>
 <pinref part="VDD27" gate="G$1" pin="VDD"/>
 <wire x1="124.46" y1="167.64" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L208" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="162.56" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24150,7 +24150,7 @@ used by LED4!</text>
 <junction x="165.1" y="170.18"/>
 <pinref part="C219" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="175.26" x2="167.64" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L208" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="154.94" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <junction x="142.24" y="154.94"/>
 <label x="142.24" y="157.48" size="1.778" layer="95"/>
