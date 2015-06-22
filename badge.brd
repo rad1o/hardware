@@ -26244,16 +26244,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 </package>
 <package name="MASSEFU">
-<pad name="AG3" x="-2" y="0" drill="0.2"/>
-<pad name="AG2" x="-2" y="1" drill="0.2"/>
-<pad name="AG4" x="-2" y="-1" drill="0.2"/>
-<pad name="AG1" x="-2" y="2" drill="0.2"/>
-<pad name="AG5" x="-2" y="-2" drill="0.2"/>
-<pad name="G1" x="2" y="2" drill="0.2"/>
-<pad name="G2" x="2" y="1" drill="0.2"/>
-<pad name="G3" x="2" y="0" drill="0.2"/>
-<pad name="G4" x="2" y="-1" drill="0.2"/>
-<pad name="G5" x="2" y="-2" drill="0.2"/>
+<pad name="AG3" x="-2" y="0" drill="0.2" stop="no"/>
+<pad name="AG2" x="-2" y="1" drill="0.2" stop="no"/>
+<pad name="AG4" x="-2" y="-1" drill="0.2" stop="no"/>
+<pad name="AG1" x="-2" y="2" drill="0.2" stop="no"/>
+<pad name="AG5" x="-2" y="-2" drill="0.2" stop="no"/>
+<pad name="G1" x="2" y="2" drill="0.2" stop="no"/>
+<pad name="G2" x="2" y="1" drill="0.2" stop="no"/>
+<pad name="G3" x="2" y="0" drill="0.2" stop="no"/>
+<pad name="G4" x="2" y="-1" drill="0.2" stop="no"/>
+<pad name="G5" x="2" y="-2" drill="0.2" stop="no"/>
 <rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="3"/>
 </package>
 </packages>
