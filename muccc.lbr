@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2781,14 +2781,14 @@ Mors, distributor Buerklin, 11G702</description>
 <smd name="P$24" x="7.91" y="-6.115" dx="3.55" dy="1" layer="1" rot="R90"/>
 </package>
 <package name="PCB-2.4G">
-<rectangle x1="7.2" y1="4.3" x2="9.38" y2="10.47" layer="1"/>
-<rectangle x1="9.38" y1="4.3" x2="17.38" y2="5.59" layer="1"/>
+<rectangle x1="7.2" y1="4.3" x2="11.3" y2="10.47" layer="1"/>
+<rectangle x1="9" y1="4.3" x2="17.38" y2="5.59" layer="1"/>
 <rectangle x1="9.3" y1="8.26" x2="16.39" y2="10.47" layer="1"/>
-<rectangle x1="16.39" y1="9.26" x2="32.79" y2="10.47" layer="1"/>
-<rectangle x1="15.19" y1="7.46" x2="16.39" y2="8.26" layer="1"/>
+<rectangle x1="16" y1="9.26" x2="30.7" y2="10.47" layer="1"/>
+<rectangle x1="15.19" y1="7.3" x2="16.39" y2="8.5" layer="1"/>
 <rectangle x1="14.2" y1="6.25" x2="17.41" y2="7.46" layer="1"/>
-<rectangle x1="14.2" y1="3.56" x2="15.2" y2="4.3" layer="1"/>
-<rectangle x1="16.38" y1="3.56" x2="17.38" y2="4.3" layer="1"/>
+<rectangle x1="14.2" y1="3.66" x2="15.2" y2="4.4" layer="1"/>
+<rectangle x1="16.38" y1="3.66" x2="17.38" y2="4.4" layer="1"/>
 <smd name="GND1" x="14.7" y="3.66" dx="1" dy="0.2" layer="1" stop="no" cream="no"/>
 <smd name="GND2" x="16.88" y="3.66" dx="1" dy="0.2" layer="1" stop="no" cream="no"/>
 <smd name="ANT" x="18.06" y="4.06" dx="1" dy="0.45" layer="1" rot="R90" stop="no" cream="no"/>
