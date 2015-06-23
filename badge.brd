@@ -30001,10 +30001,10 @@ design rules under a new name.</description>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0.05"/>
 <param name="mvCreamFrame" value="0"/>
 <param name="mlMinStopFrame" value="0mil"/>
-<param name="mlMaxStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0.4mm"/>
