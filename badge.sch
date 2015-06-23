@@ -20588,7 +20588,6 @@ www.irf.com&lt;p&gt;
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
 <part name="C439" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="VDD22" library="supply1" deviceset="VDD" device=""/>
-<part name="VDD23" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD24" library="supply1" deviceset="VDD" device=""/>
 <part name="C520" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND101" library="supply1" deviceset="AGND" device=""/>
@@ -26701,9 +26700,6 @@ used by LED4!</text>
 <attribute name="VALUE" x="84.328" y="73.406" size="1.778" layer="96"/>
 </instance>
 <instance part="VDD22" gate="G$1" x="106.68" y="170.18"/>
-<instance part="VDD23" gate="G$1" x="228.6" y="121.92" smashed="yes">
-<attribute name="VALUE" x="230.632" y="121.92" size="1.778" layer="96"/>
-</instance>
 <instance part="VDD24" gate="G$1" x="248.92" y="63.5" rot="R270"/>
 <instance part="C520" gate="G$1" x="238.76" y="55.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="231.648" y="61.595" size="1.778" layer="95" rot="MR180"/>
@@ -26936,14 +26932,20 @@ used by LED4!</text>
 <pinref part="IC501" gate="A" pin="VCCRXVGA"/>
 <wire x1="226.06" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="149.86" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="149.86" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="149.86" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
 <junction x="226.06" y="96.52"/>
 <junction x="132.08" y="149.86"/>
 <pinref part="C515" gate="G$1" pin="2"/>
 <junction x="226.06" y="91.44"/>
 <pinref part="C521" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="109.22" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="81.28" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C517" gate="G$1" pin="2"/>
+<pinref part="IC501" gate="A" pin="VCCRXMX"/>
+<wire x1="231.14" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
+<junction x="226.06" y="109.22"/>
+<wire x1="226.06" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GAIN_TRX_B5" class="0">
@@ -27266,15 +27268,6 @@ used by LED4!</text>
 <wire x1="106.68" y1="167.64" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
 <junction x="106.68" y="165.1"/>
 <pinref part="VDD22" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="C517" gate="G$1" pin="2"/>
-<pinref part="IC501" gate="A" pin="VCCRXMX"/>
-<wire x1="231.14" y1="109.22" x2="228.6" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="119.38" x2="228.6" y2="109.22" width="0.1524" layer="91"/>
-<junction x="228.6" y="109.22"/>
-<pinref part="VDD23" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="IC501" gate="A" pin="VCCVCO"/>
