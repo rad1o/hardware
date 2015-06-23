@@ -28,9 +28,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -101,7 +101,7 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="142" name="tBestueckung" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="143" name="bBestueckung" color="14" fill="1" visible="no" active="yes"/>
+<layer number="143" name="bBestueckung" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
@@ -366,8 +366,8 @@
 <text x="17.5" y="61.7" size="2.1844" layer="1" font="vector">TOP</text>
 <text x="23.04" y="61.68" size="2.1844" layer="16" font="vector" rot="MR0">BOT</text>
 <text x="131" y="78" size="2.1844" layer="16" font="vector">s</text>
-<text x="87" y="14" size="2.1844" layer="16" font="vector" rot="MR0">fpletz</text>
-<text x="86.6" y="10.7" size="2.1844" layer="16" font="vector" rot="MR0">2015-06-23</text>
+<text x="97" y="15" size="2.1844" layer="16" font="vector" rot="MR0">fpletz</text>
+<text x="86.5" y="15" size="2.1844" layer="16" font="vector" rot="MR0">2015-06-23</text>
 <circle x="19.2" y="7.8" radius="1.4212" width="0.2" layer="41"/>
 <circle x="21" y="78" radius="1.4212" width="0.2" layer="41"/>
 <circle x="72" y="39" radius="1.4212" width="0.2" layer="41"/>
