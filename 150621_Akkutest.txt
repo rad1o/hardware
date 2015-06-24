@@ -6,18 +6,22 @@ Kurzschlusstest:
 
 Steigt sofort aus, Steigt wieder ein nachdem kein Widerstand mehr anliegt.
 
-Entladen:
----------
+Entladen mit 10 Ohm:
+--------------------
 
 Startzeit: 19:23
 Leerlaufspannung Start: 3.91V
 Spannung unter Last Start: 3.75V
-Entladestrom Start: 0.372A
+Entladestrom Start: 0.375A
 
-Endzeit (Auto Abschaltung):
-Leerlaufspannung Ende: 
-Spannung unter Last Ende:
-Entladestrom Ende:
+Endzeit (Auto Abschaltung): 22:38
+Leerlaufspannung Ende: 3.02
+Spannung unter Last Ende: 2.70V
+Entladestrom Ende: 0.280 A
+
+Entladezeit: 3:15h
+Durchschnittsstrom: 0.350
+Testkapazitaet: 1137 mAh
 
 Laden:
 ------
@@ -44,15 +48,19 @@ Steigt sofort aus, Steigt wieder ein nachdem kein Widerstand mehr anliegt.
 Entladen:
 ---------
 
-Startzeit:
-Leerlaufspannung Start:
-Spannung unter Last Start:
-Entladestrom Start:
+Startzeit: 18:23
+Leerlaufspannung Start: 3.92 V
+Spannung unter Last Start: 3.86 V
+Entladestrom Start: 0.389 A
 
-Endzeit (Auto Abschaltung):
-Leerlaufspannung Ende: 
-Spannung unter Last Ende:
-Entladestrom Ende:
+Endzeit (Auto Abschaltung): 21:42 (wirklich!)
+Leerlaufspannung Ende: 2.95
+Spannung unter Last Ende: 2.85
+Entladestrom Ende: 0.285
+
+Entladezeit: 3:19h
+Durchschnittsstrom: 0.350
+Testkapazitaet: 1160 mAh
 
 Laden:
 ------
