@@ -1,0 +1,68 @@
+Akku 1 (good)
+=============
+
+Kurzschlusstest: 
+----------------
+
+Steigt sofort aus, Steigt wieder ein nachdem kein Widerstand mehr anliegt.
+
+Entladen:
+---------
+
+Startzeit: 19:23
+Leerlaufspannung Start: 3.91V
+Spannung unter Last Start: 3.75V
+Entladestrom Start: 0.372A
+
+Endzeit (Auto Abschaltung):
+Leerlaufspannung Ende: 
+Spannung unter Last Ende:
+Entladestrom Ende:
+
+Laden:
+------
+
+Startzeit: 
+Leerlaufspannung Start: 
+Ladespannung Start:
+Ladestrom Start:
+
+Endzeit (Auto Abschaltung):
+Leerlaufspannung Ende: 
+Ladespannung Ende:
+Ladestrom Ende:
+
+
+Akku 1 (standard)
+=============
+
+Kurzschlusstest: 
+----------------
+
+Steigt sofort aus, Steigt wieder ein nachdem kein Widerstand mehr anliegt.
+
+Entladen:
+---------
+
+Startzeit:
+Leerlaufspannung Start:
+Spannung unter Last Start:
+Entladestrom Start:
+
+Endzeit (Auto Abschaltung):
+Leerlaufspannung Ende: 
+Spannung unter Last Ende:
+Entladestrom Ende:
+
+Laden:
+------
+
+Startzeit: 
+Leerlaufspannung Start: 
+Ladespannung Start:
+Ladestrom Start:
+
+Endzeit (Auto Abschaltung):
+Leerlaufspannung Ende: 
+Ladespannung Ende:
+Ladestrom Ende:
