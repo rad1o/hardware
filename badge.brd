@@ -36494,7 +36494,7 @@ design rules under a new name.</description>
 <via x="43.1" y="33.9" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="43.1" y1="33.9" x2="42.2" y2="34.8" width="0.15" layer="3"/>
 </signal>
-<signal name="SPIFL_SCK">
+<signal name="SPIFI_SCK">
 <contactref element="IC101" pad="B13"/>
 <wire x1="53" y1="51.9" x2="52.6" y2="52.3" width="0.15" layer="1"/>
 <contactref element="IC102" pad="6"/>
@@ -36514,7 +36514,7 @@ design rules under a new name.</description>
 <wire x1="49.25" y1="58.8" x2="48.595" y2="59.455" width="0.2" layer="16"/>
 <wire x1="48.595" y1="59.455" x2="47.1" y2="59.455" width="0.2" layer="16"/>
 </signal>
-<signal name="SPIFL_SI03">
+<signal name="SPIFI_SIO3">
 <contactref element="IC101" pad="C14"/>
 <contactref element="IC102" pad="7"/>
 <wire x1="53.435" y1="64.7" x2="53.435" y2="62.970209375" width="0.15" layer="1"/>
@@ -36522,7 +36522,7 @@ design rules under a new name.</description>
 <wire x1="53.50939375" y1="62.79060625" x2="53.8" y2="62.5" width="0.15" layer="1"/>
 <wire x1="53.8" y1="62.5" x2="53.8" y2="52.7" width="0.15" layer="1"/>
 </signal>
-<signal name="SPIFL_MISO">
+<signal name="SPIFI_MISO">
 <contactref element="IC101" pad="B12"/>
 <wire x1="53" y1="51.1" x2="52.6" y2="51.5" width="0.15" layer="1"/>
 <wire x1="52.6" y1="51.5" x2="51.4" y2="51.5" width="0.15" layer="1"/>
@@ -36542,7 +36542,7 @@ design rules under a new name.</description>
 <wire x1="48.6" y1="52.3" x2="48.3" y2="52.6" width="0.15" layer="16"/>
 <wire x1="48.3" y1="52.6" x2="47.655" y2="52.6" width="0.15" layer="16"/>
 </signal>
-<signal name="SPIFL_MOSI">
+<signal name="SPIFI_MOSI">
 <contactref element="IC101" pad="C10"/>
 <wire x1="53.8" y1="49.5" x2="53.4" y2="49.9" width="0.15" layer="1"/>
 <via x="53.4" y="49.9" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -36559,7 +36559,7 @@ design rules under a new name.</description>
 <wire x1="48.2" y1="50.7" x2="47.7" y2="51.2" width="0.15" layer="16"/>
 <wire x1="47.7" y1="51.2" x2="47.655" y2="51.2" width="0.15" layer="16"/>
 </signal>
-<signal name="SPIFL_CS">
+<signal name="SPIFI_CS">
 <contactref element="IC101" pad="C9"/>
 <wire x1="53.8" y1="48.7" x2="53.4" y2="49.1" width="0.15" layer="1"/>
 <via x="53.4" y="49.1" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -39954,7 +39954,7 @@ design rules under a new name.</description>
 <via x="29.1" y="40.4" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="29.1" y1="40.4" x2="28.2" y2="41.3" width="0.15" layer="2"/>
 </signal>
-<signal name="SPIFL_SI02">
+<signal name="SPIFI_SIO2">
 <contactref element="IC101" pad="C11"/>
 <wire x1="53.8" y1="50.3" x2="53.4" y2="50.7" width="0.15" layer="1"/>
 <via x="53.4" y="50.7" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -44279,7 +44279,7 @@ design rules under a new name.</description>
 <wire x1="78.9" y1="85.7" x2="77.6" y2="87" width="0.4" layer="16"/>
 <wire x1="77.6" y1="87" x2="75.4" y2="87" width="0.4" layer="16"/>
 </signal>
-<signal name="SPIFL_SCK_OPT">
+<signal name="SPIFI_SCK_OPT">
 <contactref element="I2S0" pad="8"/>
 <contactref element="R217" pad="1"/>
 <wire x1="66.85" y1="8.15" x2="66.85" y2="18.55" width="0.2" layer="3"/>
@@ -44304,7 +44304,7 @@ design rules under a new name.</description>
 <wire x1="47.1" y1="58.945" x2="46.755" y2="58.945" width="0.2" layer="16"/>
 <wire x1="46.755" y1="58.945" x2="46.5" y2="59.2" width="0.2" layer="16"/>
 </signal>
-<signal name="SPIFL_MISO_R">
+<signal name="SPIFI_MISO_OPT">
 <contactref element="I2S0" pad="7"/>
 <contactref element="R218" pad="2"/>
 <wire x1="69.4" y1="20.4" x2="69.4" y2="27.4" width="0.15" layer="3"/>
@@ -44332,7 +44332,7 @@ design rules under a new name.</description>
 <wire x1="45.7" y1="52.4" x2="45.9" y2="52.6" width="0.15" layer="16"/>
 <wire x1="45.9" y1="52.6" x2="47.145" y2="52.6" width="0.15" layer="16"/>
 </signal>
-<signal name="SPIFL_MOSI_R">
+<signal name="SPIFI_MOSI_OPT">
 <contactref element="I2S0" pad="9"/>
 <contactref element="R219" pad="2"/>
 <wire x1="67.8" y1="10.8" x2="67.8" y2="18.2" width="0.15" layer="3"/>
