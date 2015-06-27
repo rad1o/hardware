@@ -20205,7 +20205,9 @@ www.irf.com&lt;p&gt;
 <part name="L401" library="muccc" deviceset="CMCHOKE" device="" value="0603USB-951ML_"/>
 <part name="C420" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C403" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C401" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *"/>
+<part name="C401" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="C418" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C419" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
@@ -20423,8 +20425,12 @@ www.irf.com&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R311" library="resistor" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="AGND77" library="supply1" deviceset="AGND" device=""/>
-<part name="TP1" library="testpad" deviceset="TP" device="TP07R" value="TPTP07R"/>
-<part name="TP2" library="testpad" deviceset="TP" device="B1,27"/>
+<part name="TP1" library="testpad" deviceset="TP" device="TP07R" value="TPTP07R">
+<variant name="PRODUCTION" populate="no"/>
+</part>
+<part name="TP2" library="testpad" deviceset="TP" device="B1,27">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="L408" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="R413" library="resistor" deviceset="R-EU_" device="R0402" value="0"/>
@@ -20442,10 +20448,14 @@ www.irf.com&lt;p&gt;
 <part name="L508" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="C519" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND79" library="supply1" deviceset="AGND" device=""/>
-<part name="TP3" library="testpad" deviceset="TP" device="TP07R" value="TPTP07R"/>
+<part name="TP3" library="testpad" deviceset="TP" device="TP07R" value="TPTP07R">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="C515" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND80" library="supply1" deviceset="AGND" device=""/>
-<part name="TP4" library="testpad" deviceset="TP" device="TP07R" value="TPTP07R"/>
+<part name="TP4" library="testpad" deviceset="TP" device="TP07R" value="TPTP07R">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="C517" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND81" library="supply1" deviceset="AGND" device=""/>
 <part name="P+35" library="supply1" deviceset="VCC" device=""/>
@@ -20522,7 +20532,9 @@ www.irf.com&lt;p&gt;
 <part name="C106" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C105" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="C103" library="rcl" deviceset="C-EU" device="C0402" value="22p *"/>
+<part name="C103" library="rcl" deviceset="C-EU" device="C0402" value="22p *">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="C104" library="rcl" deviceset="C-EU" device="C0402" value="22p *">
 <variant name="PRODUCTION" populate="no"/>
 </part>
@@ -20533,9 +20545,7 @@ www.irf.com&lt;p&gt;
 <part name="R102" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="P+59" library="supply1" deviceset="VCC" device=""/>
-<part name="C102" library="rcl" deviceset="C-EU" device="C0402" value="100n">
-<variant name="PRODUCTION" populate="no"/>
-</part>
+<part name="C102" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="R101" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="C101" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -20743,7 +20753,9 @@ www.irf.com&lt;p&gt;
 <part name="SHIELD201" library="muccc" deviceset="BMI-S-102" device="">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="ANT1" library="muccc" deviceset="2.4-GHZ-ANT" device=""/>
+<part name="ANT1" library="muccc" deviceset="2.4-GHZ-ANT" device="">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="R315" library="resistor" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="AGND102" library="supply1" deviceset="AGND" device=""/>
 <part name="L710" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
@@ -20957,7 +20969,9 @@ www.irf.com&lt;p&gt;
 <part name="AGND31" library="supply1" deviceset="AGND" device=""/>
 <part name="R715" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="muccc" deviceset="MASSEFU" device=""/>
+<part name="U$1" library="muccc" deviceset="MASSEFU" device="">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="AGND32" library="supply1" deviceset="AGND" device=""/>
 <part name="R230" library="rcl" deviceset="R-EU_" device="R0402" value="0*">
 <variant name="PRODUCTION" populate="no"/>
