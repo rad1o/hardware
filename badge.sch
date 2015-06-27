@@ -20950,8 +20950,8 @@ www.irf.com&lt;p&gt;
 <part name="VDD34" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD35" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD36" library="supply1" deviceset="VDD" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C614" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C615" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND29" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND30" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND31" library="supply1" deviceset="AGND" device=""/>
@@ -27680,11 +27680,11 @@ used by LED4!</text>
 <instance part="VDD34" gate="G$1" x="195.58" y="81.28" rot="R270"/>
 <instance part="VDD35" gate="G$1" x="180.34" y="114.3" rot="R270"/>
 <instance part="VDD36" gate="G$1" x="180.34" y="121.92" rot="R270"/>
-<instance part="C1" gate="G$1" x="182.88" y="76.2" smashed="yes">
+<instance part="C614" gate="G$1" x="182.88" y="76.2" smashed="yes">
 <attribute name="NAME" x="175.006" y="76.708" size="1.778" layer="95"/>
 <attribute name="VALUE" x="174.752" y="74.295" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="187.96" y="76.2" smashed="yes">
+<instance part="C615" gate="G$1" x="187.96" y="76.2" smashed="yes">
 <attribute name="NAME" x="180.086" y="76.708" size="1.778" layer="95"/>
 <attribute name="VALUE" x="179.832" y="74.295" size="1.778" layer="96"/>
 </instance>
@@ -27954,11 +27954,11 @@ used by LED4!</text>
 <pinref part="AGND29" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C614" gate="G$1" pin="2"/>
 <pinref part="AGND30" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C615" gate="G$1" pin="2"/>
 <pinref part="AGND31" gate="VR1" pin="AGND"/>
 </segment>
 </net>
@@ -28131,10 +28131,10 @@ used by LED4!</text>
 <pinref part="C612" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="78.74" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <junction x="177.8" y="81.28"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C614" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <junction x="182.88" y="81.28"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C615" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="78.74" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <junction x="187.96" y="81.28"/>
 </segment>

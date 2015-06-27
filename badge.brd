@@ -31716,8 +31716,8 @@ design rules under a new name.</description>
 <variant name="PRODUCTION" populate="no"/>
 </element>
 <element name="R834" library="rcl" package="R0402" value="39" x="49.5" y="54.3" rot="R270"/>
-<element name="C1" library="rcl" package="C0402" value="100n" x="110.2" y="26.6"/>
-<element name="C2" library="rcl" package="C0402" value="100n" x="99.9" y="33.3" rot="R270"/>
+<element name="C614" library="rcl" package="C0402" value="100n" x="110.2" y="26.6"/>
+<element name="C615" library="rcl" package="C0402" value="100n" x="99.9" y="33.3" rot="R270"/>
 <element name="R715" library="rcl" package="R0402" value="12k" x="56.1" y="20.2"/>
 <element name="U$1" library="muccc" package="MASSEFU" value="MASSEFU" x="114.9" y="23.9" rot="R90"/>
 <element name="R230" library="rcl" package="R0402" value="0*" x="123.3" y="31.2" rot="R180">
@@ -34737,8 +34737,8 @@ design rules under a new name.</description>
 <via x="136.168" y="10.794" extent="1-16" drill="0.2"/>
 <via x="136.668" y="19.994" extent="1-16" drill="0.2"/>
 <contactref element="C612" pad="2"/>
-<contactref element="C1" pad="2"/>
-<contactref element="C2" pad="2"/>
+<contactref element="C614" pad="2"/>
+<contactref element="C615" pad="2"/>
 <wire x1="110.85" y1="26.6" x2="111.5" y2="26.6" width="0.3048" layer="1"/>
 <via x="111.5" y="26.6" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="111.5" y1="26.6" x2="111.7" y2="26.6" width="0.3048" layer="16"/>
@@ -41503,8 +41503,8 @@ design rules under a new name.</description>
 <via x="110.9" y="22.8" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="110.3" y="22.8" extent="1-16" drill="0.2" diameter="0.45"/>
 <contactref element="C612" pad="1"/>
-<contactref element="C1" pad="1"/>
-<contactref element="C2" pad="1"/>
+<contactref element="C614" pad="1"/>
+<contactref element="C615" pad="1"/>
 <wire x1="105.85" y1="22.5" x2="105.85" y2="23.25" width="0.3048" layer="1"/>
 <wire x1="105.85" y1="23.25" x2="105.7" y2="23.4" width="0.3048" layer="1"/>
 <wire x1="109.55" y1="26.6" x2="109.3" y2="26.6" width="0.3048" layer="1"/>
