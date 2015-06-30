@@ -20689,8 +20689,8 @@ www.irf.com&lt;p&gt;
 <part name="C208" library="rcl" deviceset="C-EU" device="C0402" value="2p2 *">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="R226" library="rcl" deviceset="R-EU_" device="R0402" value="1K"/>
-<part name="R227" library="rcl" deviceset="R-EU_" device="R0402" value="1K"/>
+<part name="R226" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R227" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R229" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="C227" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C228" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
@@ -20837,7 +20837,7 @@ www.irf.com&lt;p&gt;
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="C904" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
-<part name="C905" library="rcl" deviceset="C-EU" device="C1210" value="2.2u"/>
+<part name="C905" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
 <part name="R830" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="R829" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="FID5" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
@@ -20924,7 +20924,7 @@ www.irf.com&lt;p&gt;
 <part name="R713" library="rcl" deviceset="R-EU_" device="R0402" value="0R *">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="R712" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R712" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="T901" library="transistor-small-signal" deviceset="BSS84" device="" value="IRLML6402TRPBF"/>
 <part name="Q102" library="abracon" deviceset="CRYSTAL_4POL" device="1" value="12 MHz"/>
@@ -20986,7 +20986,7 @@ www.irf.com&lt;p&gt;
 <part name="L802" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="C811" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
-<part name="C909" library="rcl" deviceset="C-EU" device="C1210" value="2.2u"/>
+<part name="C909" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
 <part name="C910" library="rcl" deviceset="C-EU" device="C0805" value="2.2u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
