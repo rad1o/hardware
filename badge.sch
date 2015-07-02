@@ -20484,14 +20484,14 @@ www.irf.com&lt;p&gt;
 <part name="C702" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C704" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
 <part name="C705" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
-<part name="L701" library="muccc" deviceset="L_0603" device="0603" value="100"/>
-<part name="L702" library="muccc" deviceset="L_0603" device="0603" value="100"/>
-<part name="L703" library="muccc" deviceset="L_0603" device="0603" value="100"/>
-<part name="L704" library="muccc" deviceset="L_0603" device="0603" value="100"/>
-<part name="L705" library="muccc" deviceset="L_0603" device="0603" value="100"/>
+<part name="L701" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
+<part name="L702" library="muccc" deviceset="L_0603" device="0603" value="0"/>
+<part name="L703" library="muccc" deviceset="L_0603" device="0603" value="0"/>
+<part name="L704" library="muccc" deviceset="L_0603" device="0603" value="0"/>
+<part name="L705" library="muccc" deviceset="L_0603" device="0603" value="0"/>
 <part name="D701" library="muccc" deviceset="PUSBMXX4" device=""/>
 <part name="D702" library="muccc" deviceset="PUSBMXX4" device=""/>
-<part name="L706" library="muccc" deviceset="L_0603" device="0603" value="100"/>
+<part name="L706" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
 <part name="R703" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="L707" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
@@ -20868,7 +20868,7 @@ www.irf.com&lt;p&gt;
 <part name="RGB808" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="R915" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
+<part name="R915" library="rcl" deviceset="R-EU_" device="R0402" value="475"/>
 <part name="R914" library="rcl" deviceset="R-EU_" device="R0402" value="240"/>
 <part name="GND109" library="supply1" deviceset="GND" device=""/>
 <part name="X803" library="lcd_nokia_6100" deviceset="NOKIA6100_LCD" device=""/>
@@ -20932,7 +20932,7 @@ www.irf.com&lt;p&gt;
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
 <part name="C906" library="rcl" deviceset="C-EU" device="C0402" value="8n2"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="C907" library="rcl" deviceset="C-EU" device="C0402" value="47n"/>
+<part name="C907" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
 <part name="R917" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="R916" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
