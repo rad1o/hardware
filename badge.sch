@@ -20783,7 +20783,7 @@ www.irf.com&lt;p&gt;
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
 <part name="C810" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND100" library="supply1" deviceset="GND" device=""/>
-<part name="L801" library="rcl" deviceset="L-EU" device="L3225M" value="10u"/>
+<part name="L801" library="rcl" deviceset="L-EU" device="L3225M" value="22u"/>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="C809" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="C612" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
