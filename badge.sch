@@ -20126,7 +20126,8 @@ www.irf.com&lt;p&gt;
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="PRODUCTION"/>
+<variantdef name="PRODUCTION" current="yes"/>
+<variantdef name="Stencil"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -20188,6 +20189,7 @@ www.irf.com&lt;p&gt;
 <part name="SW801" library="badge" deviceset="MCMT5-F-V" device=""/>
 <part name="X802" library="badge" deviceset="NOKIA" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="IC701" library="MAX15101EWL" deviceset="MAX15101EWL" device=""/>
 <part name="IC101" library="LPC4300" deviceset="LPC4300_TFBGA180" device="" value="LPC4330FET180"/>
@@ -20573,7 +20575,10 @@ www.irf.com&lt;p&gt;
 <part name="R810" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R811" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
-<part name="SHIELD401" library="muccc" deviceset="BMI-S-106" device=""/>
+<part name="SHIELD401" library="muccc" deviceset="BMI-S-106" device="">
+<variant name="Stencil" populate="no"/>
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="AGND25" library="supply1" deviceset="AGND" device=""/>
 <part name="C428" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
@@ -20744,6 +20749,7 @@ www.irf.com&lt;p&gt;
 <part name="IC102" library="Tado-Rev0301-Lib" deviceset="IC_FLASH?" device="_SOIC" technology="_S25FL204K0TMFI043" value="S25FL204K0TMFI043"/>
 <part name="R314" library="resistor" deviceset="R-EU_" device="R0402" value="0 *">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="Q101" library="abracon" deviceset="CRYSTAL" device=".3.2X1.5MM" value="32 KHz *">
 <variant name="PRODUCTION" populate="no"/>
@@ -20752,6 +20758,7 @@ www.irf.com&lt;p&gt;
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="SHIELD201" library="muccc" deviceset="BMI-S-102" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="ANT1" library="muccc" deviceset="2.4-GHZ-ANT" device="">
 <variant name="PRODUCTION" populate="no"/>
@@ -20799,9 +20806,11 @@ www.irf.com&lt;p&gt;
 <part name="R714" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="RGB801" library="adafruit" deviceset="WS2812B" device="" value="WS2812B *">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="RGB802" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME9" library="frames" deviceset="DINA4_L" device=""/>
@@ -20844,6 +20853,7 @@ www.irf.com&lt;p&gt;
 <part name="FID6" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="X301" library="con-coax" deviceset="SMA-" device="142-0711-821/826" value="SMA *">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="IC202" library="muccc" deviceset="SI5351C-B-GM" device=""/>
 <part name="C230" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
@@ -20852,21 +20862,27 @@ www.irf.com&lt;p&gt;
 <part name="TP6" library="testpad" deviceset="TP" device="TP07R"/>
 <part name="RGB803" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="RGB804" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="RGB805" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="RGB806" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="RGB807" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="RGB808" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="R915" library="rcl" deviceset="R-EU_" device="R0402" value="475"/>
 <part name="R914" library="rcl" deviceset="R-EU_" device="R0402" value="240"/>
@@ -20907,12 +20923,14 @@ www.irf.com&lt;p&gt;
 <part name="VDD27" library="supply1" deviceset="VDD" device=""/>
 <part name="L303" library="muccc" deviceset="L_0603" device="1206" value="3300n *">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="C318" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND122" library="supply1" deviceset="AGND" device=""/>
 <part name="VDD29" library="supply1" deviceset="VDD" device=""/>
 <part name="X201" library="con-coax" deviceset="SMA-" device="142-0711-821/826" value="CLK Out">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="AGND123" library="supply1" deviceset="AGND" device=""/>
 <part name="C240" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
@@ -21007,14 +21025,17 @@ www.irf.com&lt;p&gt;
 </part>
 <part name="T801" library="transistor-small-signal" deviceset="BSS123" device="" value="IRLML2502TRPBF">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="T802" library="transistor-small-signal" deviceset="BSS123" device="" value="IRLML2502TRPBF">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
 <part name="T803" library="transistor-small-signal" deviceset="BSS123" device="" value="IRLML2502TRPBF">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </part>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
 <part name="R217" library="rcl" deviceset="R-EU_" device="R0201" value="0*">

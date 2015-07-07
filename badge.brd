@@ -30013,7 +30013,8 @@ www.irf.com&lt;p&gt;
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="PRODUCTION"/>
+<variantdef name="PRODUCTION" current="yes"/>
+<variantdef name="Stencil"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -30338,6 +30339,7 @@ design rules under a new name.</description>
 <element name="X802" library="badge" package="DF23" value="NOKIA" x="22" y="34.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.89" y="37.71" size="0.4064" layer="21" font="vector"/>
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="IC701" library="MAX15101EWL" package="BGA_CB15" value="" x="57.578" y="13.702" smashed="yes">
 <attribute name="NAME" x="55.016" y="14.672" size="0.4064" layer="25" font="vector"/>
@@ -31142,7 +31144,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="115.889" y="2.903" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="115.589" y="3.543" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="SHIELD401" library="muccc" package="BMI-S-106" value="BMI-S-106" x="92.202" y="43.18" smashed="yes"/>
+<element name="SHIELD401" library="muccc" package="BMI-S-106" value="BMI-S-106" x="92.202" y="43.18" smashed="yes">
+<variant name="Stencil" populate="no"/>
+<variant name="PRODUCTION" populate="no"/>
+</element>
 <element name="C428" library="rcl" package="C0402" value="100n" x="105.152" y="75.408" smashed="yes">
 <attribute name="NAME" x="104.517" y="76.043" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="104.517" y="73.503" size="1.27" layer="27"/>
@@ -31406,6 +31411,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="130.035" y="74.738" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="129.935" y="75.632" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="Q101" library="abracon" package="3.2X1.5MM" value="32 KHz *" x="45.8" y="34.6" smashed="yes">
 <attribute name="NAME" x="45.05" y="32.9" size="0.4064" layer="25" font="vector" ratio="12"/>
@@ -31416,6 +31422,7 @@ design rules under a new name.</description>
 </element>
 <element name="SHIELD201" library="muccc" package="BMI-S-102" value="BMI-S-102" x="128.7" y="32.2" smashed="yes">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="ANT1" library="muccc" package="PCB-2.4G" value="" x="126.69" y="79.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="136.29" y="71.76" size="0.4064" layer="25" font="vector" rot="R270"/>
@@ -31508,10 +31515,12 @@ design rules under a new name.</description>
 <element name="RGB801" library="adafruit" package="WS2812B" value="WS2812B *" x="46.6" y="18.9" smashed="yes">
 <attribute name="NAME" x="45.6125" y="18.6925" size="0.4064" layer="25" font="vector" ratio="10"/>
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="RGB802" library="adafruit" package="WS2812B" value="WS2812B" x="102.4" y="18.9" smashed="yes">
 <attribute name="NAME" x="101.3125" y="18.6925" size="0.4064" layer="25" font="vector" ratio="10"/>
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="X901" library="muccc" package="SJ-43515TS-SMT" value="SJ-43515TS-SMT" x="84.13" y="82.33" smashed="yes" rot="R270"/>
 <element name="IC901" library="muccc" package="MSOP08" value="" x="63.6" y="71.2" smashed="yes" rot="R180">
@@ -31608,6 +31617,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="138.35" y="80.265" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="123.11" y="79.63" size="1.778" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="IC202" library="muccc" package="QFN20" value="" x="129.1" y="32.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.1" y="35.9" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -31632,21 +31642,27 @@ design rules under a new name.</description>
 </element>
 <element name="RGB803" library="adafruit" package="WS2812B" value="WS2812B" x="73.20304375" y="86.539959375" smashed="yes" rot="R178.2">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="RGB804" library="adafruit" package="WS2812B" value="WS2812B" x="65.17666875" y="86.789125" smashed="yes" rot="R178.2">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="RGB805" library="adafruit" package="WS2812B" value="WS2812B" x="57.180690625" y="87.080484375" smashed="yes" rot="R178.2">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="RGB806" library="adafruit" package="WS2812B" value="WS2812B" x="49.175565625" y="87.3426" smashed="yes" rot="R178.2">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="RGB807" library="adafruit" package="WS2812B" value="WS2812B" x="41.28174375" y="87.597853125" smashed="yes" rot="R178.2">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="RGB808" library="adafruit" package="WS2812B" value="WS2812B" x="21.923109375" y="88.3021875" smashed="yes" rot="R178">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="R915" library="rcl" package="R0402" value="475" x="64.2" y="65.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.735" y="65.065" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -31683,6 +31699,7 @@ design rules under a new name.</description>
 <element name="C238" library="rcl" package="C0402" value="100p" x="124.8" y="27.1" rot="R270"/>
 <element name="L303" library="muccc" package="L1206" value="3300n *" x="130.8" y="75.6" rot="R180">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="C318" library="rcl" package="C0402" value="100n" x="127.5" y="75.6" rot="R90"/>
 <element name="X201" library="con-coax" package="J502-ND-142-0711-821/826" value="CLK Out" x="137.2" y="15.4" rot="R180">
@@ -31691,6 +31708,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="JOHNSON COMPONENTS" x="137.2" y="15.4" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1019328" x="137.2" y="15.4" size="1.27" layer="27" rot="R180" display="off"/>
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="C240" library="rcl" package="C0402" value="100p" x="134.2" y="25.1"/>
 <element name="L207" library="muccc" package="0603K" value="180n" x="132.4" y="25.8" rot="R270"/>
@@ -31760,12 +31778,15 @@ design rules under a new name.</description>
 </element>
 <element name="T801" library="transistor-small-signal" package="SOT23" value="IRLML2502TRPBF" x="51.5" y="20.6" rot="R180">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="T802" library="transistor-small-signal" package="SOT23" value="IRLML2502TRPBF" x="107.8" y="18.3" rot="R90">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="T803" library="transistor-small-signal" package="SOT23" value="IRLML2502TRPBF" x="70.6" y="77.8" rot="R90">
 <variant name="PRODUCTION" populate="no"/>
+<variant name="Stencil" populate="no"/>
 </element>
 <element name="R217" library="rcl" package="R0201" value="0*" x="47.1" y="59.2" rot="MR90">
 <variant name="PRODUCTION" populate="no"/>
