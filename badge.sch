@@ -20948,7 +20948,7 @@ www.irf.com&lt;p&gt;
 <part name="Q102" library="abracon" deviceset="CRYSTAL_4POL" device="1" value="12 MHz"/>
 <part name="Q201" library="abracon" deviceset="CRYSTAL_4POL" device="1" value="25MHz"/>
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
-<part name="C906" library="rcl" deviceset="C-EU" device="C0402" value="8n2"/>
+<part name="C906" library="rcl" deviceset="C-EU" device="C0402" value="12n"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="C907" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>

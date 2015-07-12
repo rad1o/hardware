@@ -31721,7 +31721,7 @@ design rules under a new name.</description>
 <element name="T901" library="transistor-small-signal" package="SOT23" value="IRLML6402TRPBF" x="53.8" y="73.5" rot="R270"/>
 <element name="Q102" library="abracon" package="3.2X2.5MM" value="12 MHz" x="51.14" y="37.84" rot="R180"/>
 <element name="Q201" library="abracon" package="3.2X2.5MM" value="25MHz" x="128.61" y="28.05"/>
-<element name="C906" library="rcl" package="C0402" value="8n2" x="59.01" y="75.92" rot="R270"/>
+<element name="C906" library="rcl" package="C0402" value="12n" x="59.01" y="75.92" rot="R270"/>
 <element name="C907" library="rcl" package="C0402" value="100n" x="66.5" y="65.8" rot="R180"/>
 <element name="R917" library="rcl" package="R0402" value="0" x="77.2" y="74.4"/>
 <element name="R916" library="rcl" package="R0402" value="0" x="77.2" y="73.1"/>
