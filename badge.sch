@@ -20859,7 +20859,9 @@ www.irf.com&lt;p&gt;
 <part name="C230" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C231" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C232" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
-<part name="TP6" library="testpad" deviceset="TP" device="TP07R"/>
+<part name="TP6" library="testpad" deviceset="TP" device="TP07R">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="RGB803" library="adafruit" deviceset="WS2812B" device="">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
