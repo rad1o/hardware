@@ -20171,9 +20171,13 @@ www.irf.com&lt;p&gt;
 <part name="C706" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C703" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C709" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C710" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C710" library="rcl" deviceset="C-EU" device="C0402" value="100n">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="C711" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C712" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C712" library="rcl" deviceset="C-EU" device="C0402" value="100n">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="C801" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C713" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C714" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
