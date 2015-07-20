@@ -20750,7 +20750,7 @@ www.irf.com&lt;p&gt;
 <part name="FID2" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID3" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID4" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
-<part name="IC102" library="Tado-Rev0301-Lib" deviceset="IC_FLASH?" device="_SOIC" technology="_S25FL204K0TMFI043" value="S25FL204K0TMFI043"/>
+<part name="IC102" library="Tado-Rev0301-Lib" deviceset="IC_FLASH?" device="_SOIC" technology="_S25FL204K0TMFI043" value="W25Q16DVSNIG"/>
 <part name="R314" library="resistor" deviceset="R-EU_" device="R0402" value="0 *">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
