@@ -20486,9 +20486,9 @@ www.irf.com&lt;p&gt;
 <part name="R702" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="R705" library="rcl" deviceset="R-EU_" device="R0402" value="4.53k"/>
 <part name="R706" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
-<part name="C701" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
+<part name="C701" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C702" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
-<part name="C704" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
+<part name="C704" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C705" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="L701" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
 <part name="L702" library="muccc" deviceset="L_0603" device="0603" value="0"/>
@@ -20657,9 +20657,9 @@ www.irf.com&lt;p&gt;
 <part name="GND81" library="supply1" deviceset="GND" device=""/>
 <part name="IC801" library="muccc" deviceset="MAX8934DETI+" device="PDF" value="MAX8934"/>
 <part name="C802" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
-<part name="C803" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
-<part name="C804" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
-<part name="C805" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
+<part name="C803" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
+<part name="C804" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
+<part name="C805" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C806" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="R812" library="rcl" deviceset="R-EU_" device="R0402" value="1M">
 <variant name="PRODUCTION" populate="no"/>
@@ -20820,7 +20820,7 @@ www.irf.com&lt;p&gt;
 <part name="FRAME9" library="frames" deviceset="DINA4_L" device=""/>
 <part name="X901" library="muccc" deviceset="SJ-4351TS-SMT" device="" value="SJ-43515TS-SMT"/>
 <part name="IC901" library="muccc" deviceset="TS482" device=""/>
-<part name="C901" library="rcl" deviceset="C-EU" device="C0805" value="2.2u">
+<part name="C901" library="rcl" deviceset="C-EU" device="C0805" value="10U">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="R901" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
@@ -20850,7 +20850,7 @@ www.irf.com&lt;p&gt;
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="C904" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
-<part name="C905" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
+<part name="C905" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="R830" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="R829" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="FID5" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
@@ -20965,13 +20965,13 @@ www.irf.com&lt;p&gt;
 <part name="C717" library="rcl" deviceset="C-EU" device="C0805" value="10u *">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="C716" library="rcl" deviceset="C-EU" device="C0805" value="4.7u *">
+<part name="C716" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="C719" library="rcl" deviceset="C-EU" device="C0805" value="10u *">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="C718" library="rcl" deviceset="C-EU" device="C0805" value="4.7u *">
+<part name="C718" library="rcl" deviceset="C-EU" device="C0805" value="10u *">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND27" library="supply1" deviceset="AGND" device=""/>
@@ -21010,8 +21010,8 @@ www.irf.com&lt;p&gt;
 <part name="L802" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="C811" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
-<part name="C909" library="rcl" deviceset="C-EU" device="C1210" value="4.7u"/>
-<part name="C910" library="rcl" deviceset="C-EU" device="C0805" value="2.2u">
+<part name="C909" library="rcl" deviceset="C-EU" device="C1210" value="10U"/>
+<part name="C910" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="C812" library="rcl" deviceset="C-EU" device="C0805">
@@ -22523,7 +22523,7 @@ used by LED4!</text>
 <description>CPLD und Clock</description>
 <plain>
 <text x="66.04" y="165.1" size="5.08" layer="91">CPLD</text>
-<text x="132.08" y="172.72" size="5.08" layer="91">CLK_GEN</text>
+<text x="126.238" y="170.942" size="5.08" layer="91">CLK_GEN</text>
 <text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
 <text x="259.08" y="7.62" size="3.81" layer="97">2</text>
 <text x="165.1" y="27.94" size="3.81" layer="97">Rad1o CPLD / Clock</text>
@@ -22707,16 +22707,16 @@ used by LED4!</text>
 <attribute name="VALUE" x="199.39" y="100.838" size="1.778" layer="96"/>
 </instance>
 <instance part="C215" gate="G$1" x="170.18" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="174.117" y="159.766" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="174.117" y="152.146" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="185.42" y="154.94" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="193.04" y="154.94" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C207" gate="G$1" x="132.08" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="128.143" y="132.842" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.905" y="130.302" size="1.778" layer="96"/>
+<attribute name="NAME" x="125.095" y="129.54" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.477" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C208" gate="G$1" x="132.08" y="121.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="116.713" y="125.222" size="1.778" layer="95"/>
-<attribute name="VALUE" x="117.221" y="122.682" size="1.778" layer="96"/>
+<attribute name="NAME" x="125.095" y="117.602" size="1.778" layer="95"/>
+<attribute name="VALUE" x="135.763" y="117.602" size="1.778" layer="96"/>
 </instance>
 <instance part="R226" gate="G$1" x="132.08" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="151.3586" size="1.778" layer="95"/>
@@ -22744,7 +22744,10 @@ used by LED4!</text>
 </instance>
 <instance part="GPIO" gate="G$1" x="187.96" y="91.44"/>
 <instance part="SHIELD201" gate="G$1" x="12.7" y="154.94" smashed="yes"/>
-<instance part="IC202" gate="G$1" x="162.56" y="134.62"/>
+<instance part="IC202" gate="G$1" x="162.56" y="134.62" smashed="yes">
+<attribute name="NAME" x="167.64" y="148.59" size="1.27" layer="95"/>
+<attribute name="VALUE" x="160.02" y="157.48" size="1.27" layer="96"/>
+</instance>
 <instance part="C230" gate="G$1" x="238.76" y="121.92" smashed="yes">
 <attribute name="NAME" x="235.966" y="113.157" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="237.998" y="113.411" size="1.778" layer="96" rot="R90"/>
@@ -22823,7 +22826,7 @@ used by LED4!</text>
 <attribute name="VALUE" x="122.682" y="111.252" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND119" gate="VR1" x="177.8" y="149.86" smashed="yes">
-<attribute name="VALUE" x="179.578" y="151.13" size="1.778" layer="96"/>
+<attribute name="VALUE" x="179.832" y="147.828" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND120" gate="VR1" x="20.32" y="152.4" smashed="yes">
 <attribute name="VALUE" x="16.764" y="148.336" size="1.778" layer="96"/>
@@ -22857,45 +22860,45 @@ used by LED4!</text>
 <attribute name="VALUE" x="213.995" y="169.164" size="1.778" layer="96"/>
 </instance>
 <instance part="Q201" gate="G$1" x="139.7" y="124.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="137.454" y="130.302" size="1.27" layer="95"/>
-<attribute name="VALUE" x="136.946" y="128.778" size="1.27" layer="96"/>
+<attribute name="NAME" x="143.55" y="121.92" size="1.27" layer="95"/>
+<attribute name="VALUE" x="143.55" y="119.634" size="1.27" layer="96"/>
 </instance>
 <instance part="AGND26" gate="VR1" x="134.62" y="116.84" smashed="yes">
 <attribute name="VALUE" x="132.842" y="111.252" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND32" gate="VR1" x="137.16" y="134.62" smashed="yes" rot="R270">
-<attribute name="VALUE" x="133.858" y="138.43" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="128.524" y="133.604" size="1.778" layer="96"/>
 </instance>
 <instance part="R230" gate="G$1" x="91.44" y="177.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="87.4014" y="179.578" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="90.17" y="180.975" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="90.678" y="174.5234" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.885" y="174.498" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R228" gate="G$1" x="101.6" y="172.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.378" y="176.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="104.775" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="103.886" y="173.4566" size="1.778" layer="95"/>
+<attribute name="VALUE" x="104.013" y="170.434" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND105" gate="VR1" x="101.6" y="162.56" smashed="yes">
 <attribute name="VALUE" x="92.202" y="159.512" size="1.778" layer="96"/>
 </instance>
 <instance part="C216" gate="G$1" x="170.18" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="174.117" y="164.846" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="174.117" y="157.226" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="185.42" y="160.02" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="193.04" y="160.02" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C217" gate="G$1" x="170.18" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="174.117" y="169.926" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="174.117" y="162.306" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="185.42" y="165.1" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="193.04" y="165.1" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C218" gate="G$1" x="170.18" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="174.117" y="175.006" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="174.117" y="167.386" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="185.42" y="170.18" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="193.04" y="170.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C219" gate="G$1" x="170.18" y="175.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="174.117" y="180.086" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="174.117" y="172.466" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="185.42" y="175.26" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="193.04" y="175.26" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="L208" gate="G$1" x="137.16" y="162.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="131.572" y="161.0614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="137.16" y="160.528" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="140.208" y="166.116" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="139.446" y="160.782" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R217" gate="G$1" x="177.8" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.784" y="51.3334" size="1.778" layer="95" rot="R180"/>
@@ -24415,7 +24418,7 @@ used by LED4!</text>
 <pinref part="L208" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="154.94" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <junction x="142.24" y="154.94"/>
-<label x="142.24" y="157.48" size="1.778" layer="95"/>
+<label x="147.066" y="156.464" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R229" gate="G$1" pin="1"/>
