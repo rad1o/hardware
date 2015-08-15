@@ -8,7 +8,7 @@ width  = 13;
 
 length = 20;
 
-thickness_case   = 4;
+thickness_case   = 5;
 length_hook_case = 2.5; // +1.5 = 5 = size of the hole
 
 thickness_laptop = 10;
