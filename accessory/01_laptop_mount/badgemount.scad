@@ -12,14 +12,13 @@ thickness_case   = 5;
 length_hook_case = 2.5; // +1.5 = 5 = size of the hole
 
 thickness_laptop = 10;
-length_hook_laptop = 10;
+length_hook_laptop = 15;
 
 
 rotate([0,-90,0])
-difference()
+
+union()
 {
-	union()
-	{
 		translate([0, 0, 0]) cube([width, thick, length]);
 
 		translate([0, 0, -thick]) cube([width, thickness_laptop+(2*thick), thick]);
@@ -27,5 +26,4 @@ difference()
 		
 		translate([0, -thickness_case-thick, length]) cube([width, thickness_case+(2*thick), 1.5]);
 		translate([0, -thickness_case-thick, length-length_hook_case]) cube([width, thick, length_hook_case]);
-	}
 }
