@@ -20305,10 +20305,16 @@ www.irf.com&lt;p&gt;
 <part name="C503" library="rcl" deviceset="C-EU" device="C0402" value="3.3p"/>
 <part name="C504" library="rcl" deviceset="C-EU" device="C0402" value="3.3p"/>
 <part name="L504" library="muccc" deviceset="CMCHOKE" device="" value="0603USB-951ML_"/>
-<part name="L507" library="muccc" deviceset="L_0603" device="0603" value="6.8n"/>
+<part name="L507" library="muccc" deviceset="L_0603" device="0603" value="6.8n">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="AGND49" library="supply1" deviceset="AGND" device=""/>
-<part name="L502" library="muccc" deviceset="L_0603" device="0603" value="6.8n"/>
-<part name="L506" library="muccc" deviceset="L_0603" device="0603" value="6.8n"/>
+<part name="L502" library="muccc" deviceset="L_0603" device="0603" value="6.8n">
+<variant name="PRODUCTION" populate="no"/>
+</part>
+<part name="L506" library="muccc" deviceset="L_0603" device="0603" value="6.8n">
+<variant name="PRODUCTION" populate="no"/>
+</part>
 <part name="C518" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="AGND50" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND51" library="supply1" deviceset="AGND" device=""/>
