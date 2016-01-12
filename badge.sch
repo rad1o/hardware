@@ -21036,7 +21036,7 @@ www.irf.com&lt;p&gt;
 <part name="L802" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="C811" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
-<part name="C909" library="rcl" deviceset="C-EU" device="C1210" value="10U"/>
+<part name="C909" library="rcl" deviceset="C-EU" device="C1210" value="10u"/>
 <part name="C910" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
