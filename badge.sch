@@ -2432,6 +2432,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <text x="-9.144" y="5.588" size="2.54" layer="94">+</text>
 <text x="-8.89" y="14.224" size="2.54" layer="94">-</text>
 <text x="-9.144" y="-13.462" size="2.54" layer="94">-</text>
+<text x="-17.78" y="25.4" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-25.4" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="SI5351C">
 <pin name="SCL" x="-17.78" y="5.08" length="middle"/>
@@ -20143,8 +20145,8 @@ www.irf.com&lt;p&gt;
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
 <part name="IC305" library="muccc" deviceset="MAX2616ETA+T" device="" value="MAX2616"/>
-<part name="FL301" library="muccc" deviceset="HT800HIGHPASS" device="DEA20248"/>
-<part name="FL302" library="muccc" deviceset="LP0603LOWPASS" device=""/>
+<part name="FL301" library="muccc" deviceset="HT800HIGHPASS" device="DEA20248" value="DEA202484HT-8002A1"/>
+<part name="FL302" library="muccc" deviceset="LP0603LOWPASS" device="" value="LP0603LOWPASS"/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
 <part name="C303" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C306" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -20189,15 +20191,15 @@ www.irf.com&lt;p&gt;
 <part name="C202" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C708" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="IC702" library="MAX15101EWL" deviceset="MAX15101EWL" device=""/>
+<part name="IC702" library="MAX15101EWL" deviceset="MAX15101EWL" device="" value="MAX15101EWL"/>
 <part name="SW801" library="badge" deviceset="MCMT5-F-V" device=""/>
 <part name="X802" library="badge" deviceset="NOKIA" device="">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </part>
-<part name="IC701" library="MAX15101EWL" deviceset="MAX15101EWL" device=""/>
+<part name="IC701" library="MAX15101EWL" deviceset="MAX15101EWL" device="" value="MAX15101EWL"/>
 <part name="IC101" library="LPC4300" deviceset="LPC4300_TFBGA180" device="" value="LPC4330FET180"/>
-<part name="IC201" library="muccc" deviceset="XC2C64A-7VQG100C" device=""/>
+<part name="IC201" library="muccc" deviceset="XC2C64A-7VQG100C" device="" value="XC2C64A-100"/>
 <part name="IC301" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="IC306" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="IC302" library="muccc" deviceset="BGS12SL6" device=""/>
@@ -20207,7 +20209,7 @@ www.irf.com&lt;p&gt;
 <part name="IC308" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="IC310" library="muccc" deviceset="BGS12SL6" device=""/>
 <part name="FRAME5" library="frames" deviceset="DINA4_L" device=""/>
-<part name="IC405" library="muccc" deviceset="LTC5510" device=""/>
+<part name="IC405" library="muccc" deviceset="LTC5510" device="" value="LTC5510"/>
 <part name="L401" library="muccc" deviceset="CMCHOKE" device="" value="0603USB-951ML_"/>
 <part name="C420" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C403" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
@@ -20327,7 +20329,7 @@ www.irf.com&lt;p&gt;
 <part name="C512" library="rcl" deviceset="C-EU" device="C0402" value="180p"/>
 <part name="C513" library="rcl" deviceset="C-EU" device="C0402" value="3.3n"/>
 <part name="FRAME6" library="frames" deviceset="DINA4_L" device=""/>
-<part name="IC601" library="muccc" deviceset="MAX5864ETM+" device="PDF"/>
+<part name="IC601" library="muccc" deviceset="MAX5864ETM+" device="PDF" value="MAX5864ETM"/>
 <part name="C604" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C606" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C605" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
@@ -20501,8 +20503,8 @@ www.irf.com&lt;p&gt;
 <part name="L703" library="muccc" deviceset="L_0603" device="0603" value="0"/>
 <part name="L704" library="muccc" deviceset="L_0603" device="0603" value="0"/>
 <part name="L705" library="muccc" deviceset="L_0603" device="0603" value="0"/>
-<part name="D701" library="muccc" deviceset="PUSBMXX4" device=""/>
-<part name="D702" library="muccc" deviceset="PUSBMXX4" device=""/>
+<part name="D701" library="muccc" deviceset="PUSBMXX4" device="" value="PUSBMXX4"/>
+<part name="D702" library="muccc" deviceset="PUSBMXX4" device="" value="PUSBMXX4"/>
 <part name="L706" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
 <part name="R703" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="L707" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
@@ -20831,7 +20833,7 @@ www.irf.com&lt;p&gt;
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME9" library="frames" deviceset="DINA4_L" device=""/>
 <part name="X901" library="muccc" deviceset="SJ-4351TS-SMT" device="" value="SJ-43515TS-SMT"/>
-<part name="IC901" library="muccc" deviceset="TS482" device=""/>
+<part name="IC901" library="muccc" deviceset="TS482" device="" value="TS482"/>
 <part name="C901" library="rcl" deviceset="C-EU" device="C0805" value="10U">
 <variant name="PRODUCTION" populate="no"/>
 </part>
@@ -20871,7 +20873,7 @@ www.irf.com&lt;p&gt;
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </part>
-<part name="IC202" library="muccc" deviceset="SI5351C-B-GM" device=""/>
+<part name="IC202" library="muccc" deviceset="SI5351C-B-GM" device="" value="SI5351C-B-GM"/>
 <part name="C230" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C231" library="rcl" deviceset="C-EU" device="C0402" value="100p"/>
 <part name="C232" library="rcl" deviceset="C-EU" device="C0402" value="100p">
@@ -22557,7 +22559,10 @@ used by LED4!</text>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="162.56" y="0"/>
-<instance part="IC201" gate="G$1" x="71.12" y="78.74"/>
+<instance part="IC201" gate="G$1" x="71.12" y="78.74" smashed="yes">
+<attribute name="NAME" x="68.58" y="81.28" size="1.27" layer="95"/>
+<attribute name="VALUE" x="66.04" y="73.66" size="1.27" layer="96"/>
+</instance>
 <instance part="R200" gate="G$1" x="63.5" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.2714" y="128.524" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="62.992" y="140.335" size="1.778" layer="96" rot="R90"/>
@@ -22771,8 +22776,8 @@ used by LED4!</text>
 <instance part="GPIO" gate="G$1" x="187.96" y="91.44"/>
 <instance part="SHIELD201" gate="G$1" x="12.7" y="154.94" smashed="yes"/>
 <instance part="IC202" gate="G$1" x="162.56" y="134.62" smashed="yes">
-<attribute name="NAME" x="167.64" y="148.59" size="1.27" layer="95"/>
-<attribute name="VALUE" x="160.02" y="157.48" size="1.27" layer="96"/>
+<attribute name="NAME" x="166.624" y="148.082" size="1.27" layer="95"/>
+<attribute name="VALUE" x="165.1" y="119.38" size="1.27" layer="96"/>
 </instance>
 <instance part="C230" gate="G$1" x="238.76" y="121.92" smashed="yes">
 <attribute name="NAME" x="235.966" y="113.157" size="1.778" layer="95" rot="R90"/>
@@ -24504,11 +24509,11 @@ used by LED4!</text>
 </instance>
 <instance part="FL301" gate="G$1" x="198.12" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="202.438" y="122.936" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="203.2" y="96.52" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="170.18" y="104.14" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="FL302" gate="G$1" x="198.12" y="147.32" smashed="yes" rot="MR0">
-<attribute name="NAME" x="188.722" y="157.48" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="203.2" y="127" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="186.182" y="157.48" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="203.2" y="157.48" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C303" gate="G$1" x="86.36" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.408" y="50.673" size="1.778" layer="95"/>
