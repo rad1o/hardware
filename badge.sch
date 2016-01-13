@@ -20213,7 +20213,7 @@ www.irf.com&lt;p&gt;
 <part name="L401" library="muccc" deviceset="CMCHOKE" device="" value="0603USB-951ML_"/>
 <part name="C420" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="C403" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C401" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C401" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
@@ -20448,10 +20448,10 @@ www.irf.com&lt;p&gt;
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="L408" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="R413" library="resistor" deviceset="R-EU_" device="R0402" value="0"/>
-<part name="R412" library="resistor" deviceset="R-EU_" device="R0402" value="1M *">
+<part name="R412" library="resistor" deviceset="R-EU_" device="R0402" value="1M">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="R414" library="resistor" deviceset="R-EU_" device="R0402" value=" 1M *">
+<part name="R414" library="resistor" deviceset="R-EU_" device="R0402" value="1M">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND33" library="supply1" deviceset="AGND" device=""/>
@@ -20546,10 +20546,10 @@ www.irf.com&lt;p&gt;
 <part name="C106" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="C105" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="C103" library="rcl" deviceset="C-EU" device="C0402" value="22p *">
+<part name="C103" library="rcl" deviceset="C-EU" device="C0402" value="22p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="C104" library="rcl" deviceset="C-EU" device="C0402" value="22p *">
+<part name="C104" library="rcl" deviceset="C-EU" device="C0402" value="22p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
@@ -20570,11 +20570,11 @@ www.irf.com&lt;p&gt;
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="P+60" library="supply1" deviceset="VCC" device=""/>
-<part name="R709" library="rcl" deviceset="R-EU_" device="R0402" value="12k*">
+<part name="R709" library="rcl" deviceset="R-EU_" device="R0402" value="12k">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="P+62" library="supply1" deviceset="VCC" device=""/>
-<part name="R710" library="rcl" deviceset="R-EU_" device="R0402" value="12k*">
+<part name="R710" library="rcl" deviceset="R-EU_" device="R0402" value="12k">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="L709" library="muccc" deviceset="L_0603" device="0603" value="FB"/>
@@ -20594,55 +20594,55 @@ www.irf.com&lt;p&gt;
 <part name="AGND25" library="supply1" deviceset="AGND" device=""/>
 <part name="C428" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
-<part name="C311" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C311" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND75" library="supply1" deviceset="AGND" device=""/>
-<part name="C312" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C312" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND88" library="supply1" deviceset="AGND" device=""/>
-<part name="C313" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C313" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND89" library="supply1" deviceset="AGND" device=""/>
-<part name="C314" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C314" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND90" library="supply1" deviceset="AGND" device=""/>
-<part name="C315" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C315" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND91" library="supply1" deviceset="AGND" device=""/>
-<part name="C316" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C316" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND92" library="supply1" deviceset="AGND" device=""/>
-<part name="C317" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C317" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND93" library="supply1" deviceset="AGND" device=""/>
-<part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND94" library="supply1" deviceset="AGND" device=""/>
-<part name="C429" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C429" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND95" library="supply1" deviceset="AGND" device=""/>
-<part name="C430" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C430" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND96" library="supply1" deviceset="AGND" device=""/>
-<part name="C431" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C431" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND97" library="supply1" deviceset="AGND" device=""/>
-<part name="C432" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C432" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND98" library="supply1" deviceset="AGND" device=""/>
-<part name="C433" library="rcl" deviceset="C-EU" device="C0402" value="0.6p *">
+<part name="C433" library="rcl" deviceset="C-EU" device="C0402" value="0.6p">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND99" library="supply1" deviceset="AGND" device=""/>
@@ -20700,10 +20700,10 @@ www.irf.com&lt;p&gt;
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
 <part name="R820" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
 <part name="C215" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C207" library="rcl" deviceset="C-EU" device="C0402" value="2p2 *">
+<part name="C207" library="rcl" deviceset="C-EU" device="C0402" value="2p2">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="C208" library="rcl" deviceset="C-EU" device="C0402" value="2p2 *">
+<part name="C208" library="rcl" deviceset="C-EU" device="C0402" value="2p2">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="R226" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
@@ -20765,11 +20765,11 @@ www.irf.com&lt;p&gt;
 <part name="FID3" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID4" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="IC102" library="Tado-Rev0301-Lib" deviceset="IC_FLASH?" device="_SOIC" technology="_S25FL204K0TMFI043" value="W25Q16DVSNIG"/>
-<part name="R314" library="resistor" deviceset="R-EU_" device="R0402" value="0 *">
+<part name="R314" library="resistor" deviceset="R-EU_" device="R0402" value="0">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </part>
-<part name="Q101" library="abracon" deviceset="CRYSTAL" device=".3.2X1.5MM" value="32 KHz *">
+<part name="Q101" library="abracon" deviceset="CRYSTAL" device=".3.2X1.5MM" value="32 KHz">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="SW802" library="muccc" deviceset="SSSS811101" device="" value="Power"/>
@@ -20791,7 +20791,7 @@ www.irf.com&lt;p&gt;
 <part name="R821" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="R827" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="R828" library="rcl" deviceset="R-EU_" device="R0402" value="1M *">
+<part name="R828" library="rcl" deviceset="R-EU_" device="R0402" value="1M">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="LD804" library="microbuilder" deviceset="LED" device="0805" value="APT2012SGC"/>
@@ -20822,7 +20822,7 @@ www.irf.com&lt;p&gt;
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="R714" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
-<part name="RGB801" library="adafruit" deviceset="WS2812B" device="" value="WS2812B *">
+<part name="RGB801" library="adafruit" deviceset="WS2812B" device="" value="WS2812B">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </part>
@@ -20842,11 +20842,11 @@ www.irf.com&lt;p&gt;
 <part name="R905" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="P+16" library="supply1" deviceset="VCC" device=""/>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="R912" library="rcl" deviceset="R-EU_" device="R0402" value="0 *">
+<part name="R912" library="rcl" deviceset="R-EU_" device="R0402" value="0">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="R913" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
-<part name="R911" library="rcl" deviceset="R-EU_" device="R0402" value="0 *">
+<part name="R911" library="rcl" deviceset="R-EU_" device="R0402" value="0">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="R910" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
@@ -20869,7 +20869,7 @@ www.irf.com&lt;p&gt;
 <part name="R829" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="FID5" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
 <part name="FID6" library="SparkFun" deviceset="FIDUCIAL" device="1.5X3"/>
-<part name="X301" library="con-coax" deviceset="SMA-" device="142-0711-821/826" value="SMA *">
+<part name="X301" library="con-coax" deviceset="SMA-" device="142-0711-821/826" value="SMA">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </part>
@@ -20951,7 +20951,7 @@ www.irf.com&lt;p&gt;
 <part name="AGND120" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND121" library="supply1" deviceset="AGND" device=""/>
 <part name="VDD27" library="supply1" deviceset="VDD" device=""/>
-<part name="L303" library="muccc" deviceset="L_0603" device="1206" value="3300n *">
+<part name="L303" library="muccc" deviceset="L_0603" device="1206" value="3300n">
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </part>
@@ -20973,7 +20973,7 @@ www.irf.com&lt;p&gt;
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="D703" library="diode" deviceset="BZX84CSMD" device=""/>
-<part name="R713" library="rcl" deviceset="R-EU_" device="R0402" value="0R *">
+<part name="R713" library="rcl" deviceset="R-EU_" device="R0402" value="0R">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="R712" library="rcl" deviceset="R-EU_" device="R0402" value="12k"/>
@@ -20990,16 +20990,16 @@ www.irf.com&lt;p&gt;
 <part name="R916" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
 <part name="L901" library="muccc" deviceset="L_0603" device="0805" value="3.3u"/>
 <part name="C908" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
-<part name="C717" library="rcl" deviceset="C-EU" device="C0805" value="10u *">
+<part name="C717" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="C716" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="C719" library="rcl" deviceset="C-EU" device="C0805" value="10u *">
+<part name="C719" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="C718" library="rcl" deviceset="C-EU" device="C0805" value="10u *">
+<part name="C718" library="rcl" deviceset="C-EU" device="C0805" value="10u">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND27" library="supply1" deviceset="AGND" device=""/>
@@ -21025,7 +21025,7 @@ www.irf.com&lt;p&gt;
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="AGND32" library="supply1" deviceset="AGND" device=""/>
-<part name="R230" library="rcl" deviceset="R-EU_" device="R0402" value="0*">
+<part name="R230" library="rcl" deviceset="R-EU_" device="R0402" value="0">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="R228" library="rcl" deviceset="R-EU_" device="R0402" value="0"/>
@@ -21072,13 +21072,13 @@ www.irf.com&lt;p&gt;
 <variant name="Stencil" populate="no"/>
 </part>
 <part name="P+17" library="supply1" deviceset="VCC" device=""/>
-<part name="R217" library="rcl" deviceset="R-EU_" device="R0201" value="0*">
+<part name="R217" library="rcl" deviceset="R-EU_" device="R0201" value="0">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="R218" library="rcl" deviceset="R-EU_" device="R0201" value="0*">
+<part name="R218" library="rcl" deviceset="R-EU_" device="R0201" value="0">
 <variant name="PRODUCTION" populate="no"/>
 </part>
-<part name="R219" library="rcl" deviceset="R-EU_" device="R0201" value="0*">
+<part name="R219" library="rcl" deviceset="R-EU_" device="R0201" value="0">
 <variant name="PRODUCTION" populate="no"/>
 </part>
 </parts>
@@ -21088,9 +21088,8 @@ www.irf.com&lt;p&gt;
 <text x="137.16" y="81.28" size="1.016" layer="97">ADC0_6 is
 used by LED4!</text>
 <wire x1="170.434" y1="82.042" x2="170.942" y2="82.042" width="0.1524" layer="94"/>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="254" y="6.35" size="3.81" layer="97">2</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o Controller</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Controller</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -22552,9 +22551,8 @@ used by LED4!</text>
 <plain>
 <text x="66.04" y="165.1" size="5.08" layer="91">CPLD</text>
 <text x="126.238" y="170.942" size="5.08" layer="91">CLK_GEN</text>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="259.08" y="7.62" size="3.81" layer="97">2</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o CPLD / Clock</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o CPLD / Clock</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -24496,9 +24494,8 @@ used by LED4!</text>
 <text x="193.04" y="170.18" size="3.81" layer="91">Filtering</text>
 <text x="210.82" y="62.738" size="2.54" layer="91" rot="R90">TEST_1</text>
 <text x="117.348" y="125.476" size="2.54" layer="91">TEST_2</text>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="259.08" y="7.62" size="3.81" layer="97">2</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o RF Frontend</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o RF Frontend</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -25435,9 +25432,8 @@ used by LED4!</text>
 <text x="146.304" y="82.296" size="1.778" layer="91">MAX2871 has the same functions and layout as MAX2870</text>
 <text x="235.458" y="176.276" size="2.54" layer="91">TEST_5</text>
 <text x="116.84" y="55.88" size="2.54" layer="91" rot="R90">TEST_6</text>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o VCO / Mixer</text>
-<text x="254.254" y="6.604" size="3.81" layer="97">2</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o VCO / Mixer</text>
+<text x="254.254" y="6.604" size="3.81" layer="97">3</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -26849,9 +26845,8 @@ used by LED4!</text>
 <text x="161.798" y="138.43" size="3.81" layer="91">TRX</text>
 <text x="47.244" y="123.698" size="2.54" layer="91">TEST_3</text>
 <text x="33.02" y="83.312" size="2.54" layer="91">TEST_4</text>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o Transceiver</text>
-<text x="256.286" y="6.604" size="3.81" layer="97">2</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Transceiver</text>
+<text x="256.286" y="6.604" size="3.81" layer="97">3</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -27612,9 +27607,8 @@ used by LED4!</text>
 <description>ADC/DAC</description>
 <plain>
 <text x="116.84" y="147.32" size="3.81" layer="91">ADC/DAC</text>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o ADC / DAC</text>
-<text x="259.08" y="7.62" size="3.81" layer="97">2</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o ADC / DAC</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -28234,9 +28228,8 @@ used by LED4!</text>
 <sheet>
 <description>LDO + USB</description>
 <plain>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o LDO / USB</text>
-<text x="259.08" y="7.62" size="3.81" layer="97">2</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o LDO / USB</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -29479,9 +29472,8 @@ used by LED4!</text>
 <sheet>
 <description>Display Taster</description>
 <plain>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="259.08" y="7.62" size="3.81" layer="97">2</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o Display / Charger</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Display / Charger</text>
 </plain>
 <instances>
 <instance part="C801" gate="G$1" x="93.98" y="134.62" smashed="yes">
@@ -30762,9 +30754,8 @@ used by LED4!</text>
 <sheet>
 <description>Audio</description>
 <plain>
-<text x="223.52" y="17.78" size="2.54" layer="97">* nicht bestückt, not fitted</text>
-<text x="259.08" y="7.62" size="3.81" layer="97">2</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">Rad1o Audio</text>
+<text x="259.08" y="7.62" size="3.81" layer="97">3</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Audio</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0"/>

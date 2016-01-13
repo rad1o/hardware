@@ -30397,7 +30397,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="110.906" y="54.229" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="110.906" y="56.769" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C401" library="rcl" package="C0402" value="0.6p *" x="112.149" y="55.499" smashed="yes" rot="R90">
+<element name="C401" library="rcl" package="C0402" value="0.6p" x="112.149" y="55.499" smashed="yes" rot="R90">
 <attribute name="NAME" x="113.214" y="55.664" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="114.054" y="54.864" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -30917,12 +30917,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="99.065" y="76.632" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="100.865" y="74.738" size="1.27" layer="27"/>
 </element>
-<element name="R412" library="resistor" package="R0402" value="1M *" x="100.862" y="78.508" smashed="yes" rot="R270">
+<element name="R412" library="resistor" package="R0402" value="1M" x="100.862" y="78.508" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.243" y="79.376" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="98.83" y="79.143" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="R414" library="resistor" package="R0402" value=" 1M *" x="102.038" y="78.508" smashed="yes" rot="R270">
+<element name="R414" library="resistor" package="R0402" value="1M" x="102.038" y="78.508" smashed="yes" rot="R270">
 <attribute name="NAME" x="102.557" y="79.7" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="100.006" y="79.143" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31079,12 +31079,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.289" y="38.461" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="51.749" y="38.461" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C103" library="rcl" package="C0402" value="22p *" x="48.226" y="34.872" smashed="yes" rot="R270">
+<element name="C103" library="rcl" package="C0402" value="22p" x="48.226" y="34.872" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.061" y="37.607" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="46.321" y="35.507" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C104" library="rcl" package="C0402" value="22p *" x="42.792" y="35.022" smashed="yes" rot="R180">
+<element name="C104" library="rcl" package="C0402" value="22p" x="42.792" y="35.022" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.427" y="34.387" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="43.427" y="36.927" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31117,12 +31117,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.918" y="19.5" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="63.818" y="17.94" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="R709" library="rcl" package="R0402" value="12k*" x="56.804" y="22.378" smashed="yes">
+<element name="R709" library="rcl" package="R0402" value="12k" x="56.804" y="22.378" smashed="yes">
 <attribute name="NAME" x="56.169" y="23.013" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="56.169" y="20.473" size="1.27" layer="27"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="R710" library="rcl" package="R0402" value="12k*" x="122.342" y="13.99" smashed="yes" rot="R90">
+<element name="R710" library="rcl" package="R0402" value="12k" x="122.342" y="13.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.707" y="13.355" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="124.247" y="13.355" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31159,67 +31159,67 @@ design rules under a new name.</description>
 <attribute name="NAME" x="104.517" y="76.043" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="104.517" y="73.503" size="1.27" layer="27"/>
 </element>
-<element name="C311" library="rcl" package="C0402" value="0.6p *" x="121.731" y="77.931" smashed="yes" rot="R270">
+<element name="C311" library="rcl" package="C0402" value="0.6p" x="121.731" y="77.931" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.766" y="78.666" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="119.826" y="78.566" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C312" library="rcl" package="C0402" value="0.6p *" x="120.386" y="75.057" smashed="yes">
+<element name="C312" library="rcl" package="C0402" value="0.6p" x="120.386" y="75.057" smashed="yes">
 <attribute name="NAME" x="119.451" y="75.692" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="119.751" y="73.152" size="1.27" layer="27"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C313" library="rcl" package="C0402" value="0.6p *" x="112.62326875" y="66.575296875" smashed="yes" rot="R90">
+<element name="C313" library="rcl" package="C0402" value="0.6p" x="112.62326875" y="66.575296875" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.98826875" y="65.940296875" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="114.52826875" y="65.940296875" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C314" library="rcl" package="C0402" value="0.6p *" x="122.30954375" y="68.716746875" smashed="yes" rot="R180">
+<element name="C314" library="rcl" package="C0402" value="0.6p" x="122.30954375" y="68.716746875" smashed="yes" rot="R180">
 <attribute name="NAME" x="123.45545625" y="68.618253125" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="122.94454375" y="70.621746875" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C315" library="rcl" package="C0402" value="0.6p *" x="122.314946875" y="65.328190625" smashed="yes" rot="R180">
+<element name="C315" library="rcl" package="C0402" value="0.6p" x="122.314946875" y="65.328190625" smashed="yes" rot="R180">
 <attribute name="NAME" x="122.650053125" y="65.906809375" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="122.949946875" y="67.233190625" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C316" library="rcl" package="C0402" value="0.6p *" x="119.78278125" y="63.29224375" smashed="yes">
+<element name="C316" library="rcl" package="C0402" value="0.6p" x="119.78278125" y="63.29224375" smashed="yes">
 <attribute name="NAME" x="119.14778125" y="63.92724375" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="119.14778125" y="61.38724375" size="1.27" layer="27"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C317" library="rcl" package="C0402" value="0.6p *" x="122.428" y="57.15" smashed="yes" rot="R180">
+<element name="C317" library="rcl" package="C0402" value="0.6p" x="122.428" y="57.15" smashed="yes" rot="R180">
 <attribute name="NAME" x="123.263" y="56.415" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="123.063" y="59.055" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C402" library="rcl" package="C0402" value="0.6p *" x="118.61" y="56.896" smashed="yes" rot="R270">
+<element name="C402" library="rcl" package="C0402" value="0.6p" x="118.61" y="56.896" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.869" y="58.045" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="116.705" y="57.531" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C429" library="rcl" package="C0402" value="0.6p *" x="115.5814625" y="55.28961875" smashed="yes" rot="R270">
+<element name="C429" library="rcl" package="C0402" value="0.6p" x="115.5814625" y="55.28961875" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.77538125" y="56.4164625" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.6764625" y="55.92461875" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C430" library="rcl" package="C0402" value="0.6p *" x="117.348" y="52.986" smashed="yes">
+<element name="C430" library="rcl" package="C0402" value="0.6p" x="117.348" y="52.986" smashed="yes">
 <attribute name="NAME" x="118.513" y="52.621" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="116.713" y="51.081" size="1.27" layer="27"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C431" library="rcl" package="C0402" value="0.6p *" x="123.136" y="53.34" smashed="yes" rot="R90">
+<element name="C431" library="rcl" package="C0402" value="0.6p" x="123.136" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.799" y="54.095" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="125.041" y="52.705" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C432" library="rcl" package="C0402" value="0.6p *" x="116.286321875" y="62.473309375" smashed="yes" rot="R90">
+<element name="C432" library="rcl" package="C0402" value="0.6p" x="116.286321875" y="62.473309375" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.451321875" y="63.638309375" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="118.191321875" y="61.838309375" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C433" library="rcl" package="C0402" value="0.6p *" x="121.92" y="49.992" smashed="yes" rot="R180">
+<element name="C433" library="rcl" package="C0402" value="0.6p" x="121.92" y="49.992" smashed="yes" rot="R180">
 <attribute name="NAME" x="122.555" y="49.357" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="122.555" y="51.897" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31318,12 +31318,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="126.045" y="31.341" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="123.505" y="31.341" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C207" library="rcl" package="C0402" value="2p2 *" x="126.008" y="27.084" smashed="yes" rot="R270">
+<element name="C207" library="rcl" package="C0402" value="2p2" x="126.008" y="27.084" smashed="yes" rot="R270">
 <attribute name="NAME" x="124.943" y="27.819" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="124.103" y="27.719" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C208" library="rcl" package="C0402" value="2p2 *" x="131.108" y="28.248" smashed="yes" rot="R270">
+<element name="C208" library="rcl" package="C0402" value="2p2" x="131.108" y="28.248" smashed="yes" rot="R270">
 <attribute name="NAME" x="131.743" y="28.883" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="129.203" y="28.883" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31417,13 +31417,13 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="S25FL204K0TMFI043" x="52.8" y="67.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="52.8" y="67.4" size="0.4064" layer="25" font="vector" rot="R270" align="center"/>
 </element>
-<element name="R314" library="resistor" package="R0402" value="0 *" x="129.3" y="73.6" smashed="yes" rot="R180">
+<element name="R314" library="resistor" package="R0402" value="0" x="129.3" y="73.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="130.035" y="74.738" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="129.935" y="75.632" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </element>
-<element name="Q101" library="abracon" package="3.2X1.5MM" value="32 KHz *" x="45.8" y="34.6" smashed="yes">
+<element name="Q101" library="abracon" package="3.2X1.5MM" value="32 KHz" x="45.8" y="34.6" smashed="yes">
 <attribute name="NAME" x="45.05" y="32.9" size="0.4064" layer="25" font="vector"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
@@ -31462,7 +31462,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.465" y="23.235" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.665" y="21.595" size="1.27" layer="27"/>
 </element>
-<element name="R828" library="rcl" package="R0402" value="1M *" x="39.3" y="24.9" smashed="yes" rot="R180">
+<element name="R828" library="rcl" package="R0402" value="1M" x="39.3" y="24.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.035" y="25.065" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="39.935" y="26.805" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31522,7 +31522,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.035" y="64.895" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="61.105" y="65.565" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RGB801" library="adafruit" package="WS2812B" value="WS2812B *" x="46.6" y="18.9" smashed="yes">
+<element name="RGB801" library="adafruit" package="WS2812B" value="WS2812B" x="46.6" y="18.9" smashed="yes">
 <attribute name="NAME" x="45.6125" y="18.6925" size="0.4064" layer="25" font="vector"/>
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
@@ -31550,7 +31550,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.815" y="76.535" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="65.235" y="77.205" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R912" library="rcl" package="R0402" value="0 *" x="61.6" y="64.2" smashed="yes" rot="R90">
+<element name="R912" library="rcl" package="R0402" value="0" x="61.6" y="64.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.665" y="61.465" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="63.505" y="63.565" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31559,7 +31559,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="67.665" y="73.615" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="69.505" y="71.565" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R911" library="rcl" package="R0402" value="0 *" x="67.6" y="69.7" smashed="yes" rot="R270">
+<element name="R911" library="rcl" package="R0402" value="0" x="67.6" y="69.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.235" y="70.335" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="65.695" y="70.335" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31619,7 +31619,7 @@ design rules under a new name.</description>
 </element>
 <element name="FID5" library="SparkFun" package="FIDUCIAL-1.5X3" value="FIDUCIAL1.5X3" x="112" y="19" smashed="yes"/>
 <element name="FID6" library="SparkFun" package="FIDUCIAL-1.5X3" value="FIDUCIAL1.5X3" x="51" y="57" smashed="yes"/>
-<element name="X301" library="con-coax" package="J502-ND-142-0711-821/826" value="SMA *" x="132" y="80.9" smashed="yes" rot="R270">
+<element name="X301" library="con-coax" package="J502-ND-142-0711-821/826" value="SMA" x="132" y="80.9" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="16F3627" x="132" y="80.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="142-0711-821" x="132" y="80.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="JOHNSON COMPONENTS" x="132" y="80.9" size="1.778" layer="27" rot="R270" display="off"/>
@@ -31755,7 +31755,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="122.895" y="27.735" size="1.27" layer="27" rot="R270"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="L303" library="muccc" package="L1206" value="3300n *" x="130.8" y="75.6" smashed="yes" rot="R180">
+<element name="L303" library="muccc" package="L1206" value="3300n" x="130.8" y="75.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.07" y="74.33" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="132.07" y="78.14" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31793,7 +31793,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.877" y="13.506" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="23.364" y="9.776" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R713" library="rcl" package="R0402" value="0R *" x="22.8" y="10.9" smashed="yes" rot="R90">
+<element name="R713" library="rcl" package="R0402" value="0R" x="22.8" y="10.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.165" y="10.265" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="24.705" y="10.265" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31836,7 +31836,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.585" y="70.035" size="0.4064" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="55.695" y="69.935" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C717" library="rcl" package="C0805" value="10u *" x="65.2" y="15.2" smashed="yes" rot="R90">
+<element name="C717" library="rcl" package="C0805" value="10u" x="65.2" y="15.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.93" y="13.93" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="67.74" y="13.93" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31846,12 +31846,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.04" y="15.43" size="1.27" layer="27" rot="R90"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C719" library="rcl" package="C0805" value="10u *" x="127.8" y="20.7" smashed="yes" rot="R180">
+<element name="C719" library="rcl" package="C0805" value="10u" x="127.8" y="20.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.07" y="19.43" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="129.07" y="23.24" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="C718" library="rcl" package="C0805" value="10u *" x="126.3" y="7.7" smashed="yes" rot="R180">
+<element name="C718" library="rcl" package="C0805" value="10u" x="126.3" y="7.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="127.57" y="6.43" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="127.57" y="10.24" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31875,7 +31875,7 @@ design rules under a new name.</description>
 <element name="U$1" library="muccc" package="MASSEFU" value="MASSEFU" x="114.9" y="23.9" smashed="yes" rot="R90">
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="R230" library="rcl" package="R0402" value="0*" x="123.3" y="31.2" smashed="yes" rot="R180">
+<element name="R230" library="rcl" package="R0402" value="0" x="123.3" y="31.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="123.935" y="30.565" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="123.935" y="33.105" size="1.27" layer="27" rot="R180"/>
 <variant name="PRODUCTION" populate="no"/>
@@ -31954,13 +31954,13 @@ design rules under a new name.</description>
 <variant name="PRODUCTION" populate="no"/>
 <variant name="Stencil" populate="no"/>
 </element>
-<element name="R217" library="rcl" package="R0201" value="0*" x="47.1" y="59.2" rot="MR90">
+<element name="R217" library="rcl" package="R0201" value="0" x="47.1" y="59.2" rot="MR90">
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="R218" library="rcl" package="R0201" value="0*" x="47.4" y="52.6" rot="MR0">
+<element name="R218" library="rcl" package="R0201" value="0" x="47.4" y="52.6" rot="MR0">
 <variant name="PRODUCTION" populate="no"/>
 </element>
-<element name="R219" library="rcl" package="R0201" value="0*" x="47.4" y="51.2" rot="MR0">
+<element name="R219" library="rcl" package="R0201" value="0" x="47.4" y="51.2" rot="MR0">
 <variant name="PRODUCTION" populate="no"/>
 </element>
 </elements>
