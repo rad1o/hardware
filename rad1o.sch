@@ -21088,7 +21088,7 @@ www.irf.com&lt;p&gt;
 <text x="137.16" y="81.28" size="1.016" layer="97">ADC0_6 is
 used by LED4!</text>
 <wire x1="170.434" y1="82.042" x2="170.942" y2="82.042" width="0.1524" layer="94"/>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Controller</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">Controller</text>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
 </plain>
 <instances>
@@ -22552,7 +22552,7 @@ used by LED4!</text>
 <text x="66.04" y="165.1" size="5.08" layer="91">CPLD</text>
 <text x="126.238" y="170.942" size="5.08" layer="91">CLK_GEN</text>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o CPLD / Clock</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">CPLD / Clock</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -24495,7 +24495,7 @@ used by LED4!</text>
 <text x="210.82" y="62.738" size="2.54" layer="91" rot="R90">TEST_1</text>
 <text x="117.348" y="125.476" size="2.54" layer="91">TEST_2</text>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o RF Frontend</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">RF Frontend</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -25432,7 +25432,7 @@ used by LED4!</text>
 <text x="146.304" y="82.296" size="1.778" layer="91">MAX2871 has the same functions and layout as MAX2870</text>
 <text x="235.458" y="176.276" size="2.54" layer="91">TEST_5</text>
 <text x="116.84" y="55.88" size="2.54" layer="91" rot="R90">TEST_6</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o VCO / Mixer</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">VCO / Mixer</text>
 <text x="254.254" y="6.604" size="3.81" layer="97">3</text>
 </plain>
 <instances>
@@ -26845,7 +26845,7 @@ used by LED4!</text>
 <text x="161.798" y="138.43" size="3.81" layer="91">TRX</text>
 <text x="47.244" y="123.698" size="2.54" layer="91">TEST_3</text>
 <text x="33.02" y="83.312" size="2.54" layer="91">TEST_4</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Transceiver</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">Transceiver</text>
 <text x="256.286" y="6.604" size="3.81" layer="97">3</text>
 </plain>
 <instances>
@@ -27607,7 +27607,7 @@ used by LED4!</text>
 <description>ADC/DAC</description>
 <plain>
 <text x="116.84" y="147.32" size="3.81" layer="91">ADC/DAC</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o ADC / DAC</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">ADC / DAC</text>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
 </plain>
 <instances>
@@ -28228,7 +28228,7 @@ used by LED4!</text>
 <sheet>
 <description>LDO + USB</description>
 <plain>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o LDO / USB</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">LDO / USB</text>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
 </plain>
 <instances>
@@ -29473,7 +29473,7 @@ used by LED4!</text>
 <description>Display Taster</description>
 <plain>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Display / Charger</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">Display / Charger</text>
 </plain>
 <instances>
 <instance part="C801" gate="G$1" x="93.98" y="134.62" smashed="yes">
@@ -30755,7 +30755,7 @@ used by LED4!</text>
 <description>Audio</description>
 <plain>
 <text x="259.08" y="7.62" size="3.81" layer="97">3</text>
-<text x="165.1" y="27.94" size="3.81" layer="97">rad1o Audio</text>
+<text x="165.1" y="27.94" size="3.81" layer="97">Audio</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0"/>
